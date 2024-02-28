@@ -172,12 +172,29 @@
 \begin{multicols}{2}
     \chapter{Theoretical Background}
     \section{Nuclear Fusion}
-    \lettrine[lines=2, lhang=.3, nindent=0pt]{\color{black} T}{he} sh
+    \lettrine[lines=2, lhang=.3, nindent=0pt]{\color{black} T}{he} nuclear fusion reaction is the process by which two light atomic nuclei combine to form a heavier nucleus. It is accompanied by the release or absorption of energy depending on the masses of the nuclei involved. Indeed, the more the nuclei are light, the  more  energy is released due to the overcoming short-range nuclear force for light nuclei.
+    However, to overcome the Coulomb barrier the reactant must be sufficiently close for a long enough time to allow the quantum tunnel effect between both particles. To do so, we must heat up the reactant to huge temperatures such that these latter are starting ionizing and turning into plasma.
 
     \subsection{Reaction}
+    \begin{figure}[H]
+        \includegraphics[width=1\linewidth]{./figures/potential_barrier2.pdf}
+        \caption{Here we plot the residual Coulomb potential barrier between two proton considering the strong nuclear force as the Reid potential [cite]. On the right, the residual Reid potential.}
+        \label{fig:barrier}
+    \end{figure}
+    Here it appears that the thermal energy needed to overcome the coulomb barrier is about : $$E_{\text{thermal}} \approx 0.2 \text{MeV}.$$This corresponds to a temperature of $2.5e^9$ K,  This is the reason why we need to heat up the plasma to such high temperatures. Note that the quick considerations are for proton-proton interaction, in fact the thermal energy needed is much smaller around $1e^8$ K for the deuterium-tritium reaction, due to quantum tunneling effect, and screening of coulomb potential by other nucleons:
+
     \subsubsection{D-T reaction}
-    \subsubsection{Cross-section}
-    $\sigma \approx \sigma _{\text{geometry}}\times T\times R,$
+    At the TCV the studied reaction is the deuterium-tritium reaction, which is the most promising reaction for fusion power, Indeed the energy barrier for the reaction to happen is about $70$ keV, whereas for deuterium-deuterium reaction it's $0.$1MeV,and for the deuterium-Helium it's about $0.2$MeV. The reaction is the following:
+    \begin{align*}
+        \text{D}^2 + \text{T}^3 & \rightarrow \text{He}^4 + \text{n(17.6 MeV)}
+    \end{align*}
+    The liberated energy is big enough to sustain the reaction, but it has a given probability to happen, and a positive energy yield is necessary to use the nuclear fusion reaction.
+    A possible measure of this probability is the fusion cross-sectional area, which is much more that just a geometrical cross-section.
+    \subsubsection{Fusion Cross-section}
+    The fusion cross section is enhanced by the tunneling effect transparency ($T$) and by the reaction characteristics$R$. It is given by the following formula :
+    $$\sigma \approx \sigma _{\text{geometry}}\times T\times R,$$
+
+    where $\sigma _{\text{geometry}}$ is the geometrical cross-section, $T$ is the tunneling effect transparency, and $R$ is the reaction characteristics. The tunneling effect transparency is given by the Gamow factor, and the reaction characteristics given by the astrophysical S-factor.
     \subsubsection{Energy balance and Lawson criterion}
     $ \tau _{E}={\frac {W}{P_{\mathrm {loss} }}}$
 
