@@ -1,0 +1,52 @@
+{
+    "physics_constant": {
+        "fs": 51,
+        "amp": 0.02,
+        "L": 0.1,
+        "lcx": 0.01,
+        "lcy": 0.02,
+        "teta": 0,
+        "ro": 0.05,
+        "ldn": 0.6,
+        "ymin": 0.05,
+        "ycut": 0
+    },
+    "outputs": {
+        "output_dir": "./output",
+        "output_variable": [
+            "E",
+            "IQ",
+            "time"
+        ],
+        "output_zero_field": true
+    },
+    "diff_shemes_constant": {
+        "vac_resolution": 24,
+        "origin": [
+            0,
+            0,
+            0
+        ],
+        "e_x": [
+            1,
+            0,
+            0
+        ],
+        "e_y": [
+            0,
+            1,
+            0
+        ],
+        "x_range": [
+            -0.15,
+            0.15
+        ],
+        "y_range": [
+            0,
+            0.21
+        ],
+        "z_thick": 0.0,
+        "nPML": 24,
+        "Courant": 0.5
+    }
+}
