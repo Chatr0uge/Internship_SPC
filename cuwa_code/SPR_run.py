@@ -87,8 +87,8 @@ class SPR_Analysis:
         dn[n0==0]=0
         
         
-        
-        w_p = sc.e * np.sqrt((n0 + dn) /(sc.m_e * sc.epsilon_0))
+        n_total = n0 + dn * Y/L # for reducing the impact of the turbulence on the edges
+        w_p = sc.e * np.sqrt((n_total) /(sc.m_e * sc.epsilon_0))
         w_p_extr2 = np.copy(w_p)
         w_p_extr2[w_p_extr2 > 0] = 1
         blure_image = gaussian_filter(w_p,10)

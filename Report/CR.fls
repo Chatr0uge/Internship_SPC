@@ -1,9 +1,9 @@
-PWD /home/andrea/Documents/stage/Report
+PWD /media/andrea/Crucial X6/scholar/Master/stage/Report
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/andrea/Documents/stage/Report/CR.tex
+INPUT /media/andrea/Crucial X6/scholar/Master/stage/Report/CR.tex
 OUTPUT CR.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
@@ -1591,6 +1591,11 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr7.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr5.tfm
+INPUT ./figures/delay_amp_4.png
+INPUT ./figures/delay_amp_4.png
+INPUT ./figures/delay_amp_4.png
+INPUT ./figures/delay_amp_4.png
+INPUT ./figures/delay_amp_4.png
 INPUT CR.aux
 INPUT CR.run.xml
 OUTPUT CR.run.xml
