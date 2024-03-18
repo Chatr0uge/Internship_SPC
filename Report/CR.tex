@@ -240,15 +240,23 @@
 
     \subsection{Perturbation Density Profile}
     \subsubsection{Step-like perturbation}
+    \paragraph{Model}
+
     The apparent divergence of the integral can be tackled using a simple step-like perturbation density profile.
     With a step-size perturbation characterized by $l_{cx}$ length. This allows to get an analytical expression of the integral for different density profile. However, to get this simplification, we need to assume that the perturbation is small enough such that the WKB approximation can be applied.
-    This is the case for the linear regime, where the perturbation is small enough such that the cut-off layer is not too much perturbed (i.e $\delta_x \ll l_{cx}$). In the case of a large perturbation, an other step perturbation localized far from the cut-off layer can be used to get the same result, which breaks the main assumption of this approach.
+    This is the case for the linear regime, where the perturbation is small enough such that the cut-off layer is not too much perturbed (i.e $\delta_x \ll l_{cx}$). In the case of a large perturbation, an other step perturbation localized far from the cut-off layer can be used to get the same result, which breaks the main assumption of this approach (see fig.1).
     It's relatively trivial to obtain the following expression for the delay [cite Krutkin] :
     $$\tau_d = \frac{4L}{c} - \frac{2L}{c}\sqrt{\frac{L}{l_{cx}}}\frac{\delta n}{n_c} $$
+    To test this assumption we can compare the analytical expression with the numerical integration of the wave equation, for numerous gaussian perturbations with characteristics length $l_{cx}$ and amplitude $\delta n$. The results are shown in the figure \ref{fig:delay_amp_norm_2}. Some discrepancies are observed for large perturbations, but the analytical expression seems to be a good approximation for small perturbations, except for tiny one [cite]. However, One have to introduce a correction
+    factor to the analytical expression to get a better agreement with the numerical integration. This $l_{cx}$ dependant factor is given has not been studied yep but it highllights the linitations of current 1D model.
+    One way to solve this issue, is to introduce Gaussian perturbation density profile.
+    \paragraph{statistical approach}
+    The statistical approach is to consider the perturbation as a random variable, and to compute the statistical properties of delay of the probing wave. This approach is relevant for the linear regime, where the perturbation is small enough such that the cut-off layer is not too much perturbed (i.e $\delta_x \ll l_{cx}$). Foe example we can compute the standard deviation of the delay depending on the standard deviation of perturbations.
+    This gives us the following :
+    $$\sigma_{\tau_d} = \frac{2L}{c}\sqrt{\frac{L}{l_{cx}}}\frac{\sigma_{\delta n}}{n_c}$$
     \subsubsection{Gaussian-like perturbation}
     The gaussian perturbation should be a more realistic approach to the perturbation density profile. However, the integral seems to be more difficult to solve. Indeed, it takes the following form :
-
-    $$\frac{2}{c} \int_0^L \frac{dx}{\sqrt{1 - \frac{x}{L} - \frac{\delta n\exp(-\frac{(x - L)^2}{8l_{cx}^2})}{n_c}}}$$
+    $$\tau_d = \frac{2}{c} \int_0^L \frac{dx}{\sqrt{1 - \frac{x}{L} - \frac{\delta n\exp(-\frac{(x - L)^2}{8l_{cx}^2})}{n_c}}}$$
     First let's note that the main criterion $\delta n_c = n_c \frac{l_{cx}}{L}$ is the same as the previous approach.  One way to tackle this integral is to expand the gaussian perturbation profile to the first order in order to obtain a hyperbolic integral. The computation are done in the appendix, and leads to the following expression of the delay :
 
 \end{multicols}
@@ -256,7 +264,8 @@
 \begin{figure}[H]
     \centering
     \includegraphics[width = 1\linewidth]{./figures/density_profile.png}
-    \caption{sadasd}
+    \caption{Here we plot the density profile of the plasma for different perturbation amplitude, in grey the step-like model perturbation and in coral the gaussian one. For large value density perturbation, the model leads to a contradiction with its assumption, given by a small cut-off layer shift.
+        The gaussian perturbation seems to be a better approach for large perturbation. The blue Pb wave is the probing wave, red Rbp wave is the reflected one and blue Rbn wave is the normal reflected wave, in absence of perturbation.}
     \label{}
 \end{figure}
 
@@ -264,7 +273,7 @@
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{./figures/delay_amp_norm_2.png}
-    \caption{Here we plot the residual Coulomb potential barrier between two proton considering the strong nuclear force as the Reid potential [cite]. On the right, the residual Reid potential.}
+    \caption{}
     \label{fig:barrier}
 \end{figure}
 \begin{multicols}{2}
@@ -276,5 +285,40 @@
     \section{Nonlinear Regime Study}
 
 \end{multicols}
+\newpage
+\chapter{Mathematical appendix}
+\begin{multicols*}{2}
+
+    \begin{enumerate}
+        \item Gaussian perturbation integral
+              $$\tau_d = \frac{2}{c} \int_0^L \frac{dx}{\sqrt{1 - \frac{x}{L} - \frac{\delta n\exp(-\frac{(x - L)^2}{8l_{cx}^2})}{n_c}}}$$
+              The first assumption that we can made is that away from $L - l_{cx}$ the perturbation is negligible, thanks to that we can expand the integral to the following :
+              \begin{multline*}
+                  \tau_d = \frac{2}{c} \int_{L - l_{cx}}^L \frac{dx}{\sqrt{1 - \frac{x}{L} - \frac{\delta n\exp(-\frac{(x - L)^2}{8l_{cx}^2})}{n_c}}} \\
+                  + \frac{2}{c} \int_{0}^{L - l_{cx}} \frac{dx}{\sqrt{1 - \frac{x}{L}}}
+              \end{multline*}
+              Let's focus on the first integral, we can expand the exponential to the first order, and we obtain the following :
+
+              \begin{align*}
+                   & \frac{2}{c} \int_{L - l_{cx}}^L \frac{dx}{\sqrt{1 - \frac{x}{L} - \frac{\delta n\exp(-\frac{(x - L)^2}{8l_{cx}^2})}{n_c}}}        \\
+                   & \approx \frac{2}{c} \int_{L - l_{cx}}^L \frac{dx}{\sqrt{1 - \frac{x}{L} - \frac{\delta n}{n_c}(1 - \frac{(x - L)^2}{8l_{cx}^2})}} \\
+                   & \approx \frac{2}{c} \int_{0}^{l_{cx}} \frac{dx}{\sqrt{\frac{x}{L} - \frac{\delta n}{n_c}(1 - \frac{x^2}{8l_{cx}^2})}}             \\
+              \end{align*}
+              Now we can introduce the $x_0$ and $K_1$ constants defined by : $$x_0 = \sqrt{8\frac{n_c}{\delta n}l_{cx}^2}
+                  \text{ and } K_1 = \sqrt{\left(\frac{x_0}{2L}\right)^2 - 8 \left(\frac{l_{cx}}{x_0} \right)^2}$$
+              which leads to the following canonical form of the integral :
+              \begin{align*}
+                   & \frac{2}{c} \int_{0}^{l_{cx}} \frac{dx}{\sqrt{(\frac{x}{x_0} - \frac{x_0}{2L})^2 - K_1^2}}                                                  \\
+                   & = \frac{2}{c} x_0 \int_{-\tfrac{x_0}{2LK_1}}^{(\tfrac{l_{cx}}{x_0} - \tfrac{x_0}{2L}) / K_1} \frac{dx}{\sqrt{x^2 - K_1^2}}                  \\
+                   & = \frac{2}{c} x_0 \int_{-\tfrac{x_0}{2LK_1}}^{(\tfrac{l_{cx}}{x_0} - \tfrac{x_0}{2L}) / K_1} \frac{dx}{\sqrt{x^2 - 1}}                      \\
+                   & = \frac{2}{c} x_0 \left[ \log \left( \sqrt{x^2 - 1} + x\right)\right]_{-\tfrac{x_0}{2LK_1}}^{(\tfrac{l_{cx}}{x_0} - \tfrac{x_0}{2L}) / K_1} \\
+                   & = \frac{2}{c} x_0 ( \log \left( \sqrt{(\frac{K_2}{K_1})^2 - 1} + \frac{K_2}{K_1}\right)                                                     \\
+                   & - \log \left( \sqrt{(\frac{K_2^*}{K_1})^2 - 1} + \frac{K_2^*}{K_1}\right) )                                                                 \\
+              \end{align*}
+
+              With $K_2 = \left(\tfrac{l_{cx}}{x_0} - \tfrac{x_0}{2L}\right)$ and $K_2^* = -\tfrac{x_0}{2L}$.
+    \end{enumerate}
+\end{multicols*}
+
 \printbibliography
 \end{document}

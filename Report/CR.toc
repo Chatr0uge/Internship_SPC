@@ -26,6 +26,9 @@
 \contentsline {section}{\numberline {II}1 dimensional study}{4}{}%
 \contentsline {subsection}{\numberline {1}Perturbation Density Profile}{4}{}%
 \contentsline {subsubsection}{\numberline {a}Step-like perturbation}{4}{}%
+\contentsline {paragraph}{\numberline {a.1}Model}{4}{}%
+\contentsline {paragraph}{\numberline {a.2}statistical approach}{5}{}%
 \contentsline {subsubsection}{\numberline {b}Gaussian-like perturbation}{5}{}%
-\contentsline {section}{\numberline {III}2 dimensional study}{5}{}%
-\contentsline {section}{\numberline {IV}Nonlinear Regime Study}{5}{}%
+\contentsline {section}{\numberline {III}2 dimensional study}{6}{}%
+\contentsline {section}{\numberline {IV}Nonlinear Regime Study}{6}{}%
+\contentsline {chapter}{\numberline {4}Mathematical appendix}{7}{}%
