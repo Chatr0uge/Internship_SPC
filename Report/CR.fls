@@ -1602,6 +1602,11 @@ INPUT ./figures/delay_amp_norm_2.png
 INPUT ./figures/delay_amp_norm_2.png
 INPUT ./figures/delay_amp_norm_2.png
 INPUT ./figures/delay_amp_norm_2.png
+INPUT ./figures/pulse_overview.png
+INPUT ./figures/pulse_overview.png
+INPUT ./figures/pulse_overview.png
+INPUT ./figures/pulse_overview.png
+INPUT ./figures/pulse_overview.png
 INPUT CR.aux
 INPUT CR.run.xml
 OUTPUT CR.run.xml

@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber CR"] 1710770595 "CR.bcf" "CR.bbl" "CR" 1710770623
-  "CR.bcf" 1710770623 106985 c3146e9450de16249746226bc1075905 "pdflatex"
+["biber CR"] 1710777187 "CR.bcf" "CR.bbl" "CR" 1710777202
+  "CR.bcf" 1710777201 106985 c3146e9450de16249746226bc1075905 "pdflatex"
   (generated)
   "CR.bbl"
   "CR.blg"
-["pdflatex"] 1710770619 "/media/andrea/Crucial X6/scholar/Master/stage/Report/CR.tex" "CR.pdf" "CR" 1710770623
+["pdflatex"] 1710777195 "/media/andrea/Crucial X6/scholar/Master/stage/Report/CR.tex" "CR.pdf" "CR" 1710777202
   "/etc/texmf/web2c/texmf.cnf" 1695138096 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/media/andrea/Crucial X6/scholar/Master/stage/Report/CR.tex" 1710770619 19032 dc407858006a89b5b9effb941fbf3874 ""
+  "/media/andrea/Crucial X6/scholar/Master/stage/Report/CR.tex" 1710777186 22479 833077547ad9ff4d64796a941e12aef0 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -341,14 +341,15 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1695138125 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1710488715 2799612 280c6197005a2c705b2f508a08a788b7 ""
-  "CR.aux" 1710770623 5227 a6448e95756617950568c298f4ebd41e "pdflatex"
-  "CR.bbl" 1710770596 466 ee04f40f768daeed26442158e95aba61 "biber CR"
-  "CR.run.xml" 1710770623 2291 d3ed1c63932a617e9c7cc5df74738603 "pdflatex"
-  "CR.tex" 1710770619 19032 dc407858006a89b5b9effb941fbf3874 ""
-  "CR.toc" 1710770623 2299 e8386359657d326893e35e65564c8866 "pdflatex"
+  "CR.aux" 1710777201 6958 131eaab5df6d6f6d46936e691f9a868a "pdflatex"
+  "CR.bbl" 1710777188 466 ee04f40f768daeed26442158e95aba61 "biber CR"
+  "CR.run.xml" 1710777201 2291 d3ed1c63932a617e9c7cc5df74738603 "pdflatex"
+  "CR.tex" 1710777186 22479 833077547ad9ff4d64796a941e12aef0 ""
+  "CR.toc" 1710777201 2390 39381917ed0bf6308809eb983bf26ba9 "pdflatex"
   "figures/delay_amp_norm_2.png" 1710758409 292194 0d4d21de1838cd32972ed50b2dc44c8f ""
-  "figures/density_profile.png" 1710756531 218038 08cad180da9ac5caa2df9d9883e9d5d8 ""
+  "figures/density_profile.png" 1710776701 218038 08cad180da9ac5caa2df9d9883e9d5d8 ""
   "figures/potential_barrier2.pdf" 1709114626 344362 bbcc9f1be6c9ff1826fdcd53602030cc ""
+  "figures/pulse_overview.png" 1710777134 277385 d19795a98e4daff46c2b07443c4b2471 ""
   (generated)
   "CR.aux"
   "CR.bcf"

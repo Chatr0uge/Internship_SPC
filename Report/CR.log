@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  18 MAR 2024 15:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  18 MAR 2024 16:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1200,6 +1200,9 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 LaTeX Warning: Label `fig:barrier' multiply defined.
 
+
+LaTeX Warning: Label `fig:barrier' multiply defined.
+
 )
 \openout1 = `CR.aux'.
 
@@ -1406,13 +1409,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
 [3 <./figures/potential_barrier2.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 226--226
-|[]\T1/lmr/bx/n/14.4 Numerical In-te-gra-tion for
- []
 
-Chapter 3.
-
-LaTeX Warning: Reference `fig:delay_amp_norm_2' on page 4 undefined on input line 250.
+LaTeX Warning: Reference `fig:delay_amp_norm_2' on page 4 undefined on input line 243.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1425,12 +1423,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <./figures/density_profile.png, id=104, 419.166pt x 167.6664pt>
 File: ./figures/density_profile.png Graphic file (type png)
 <use ./figures/density_profile.png>
-Package pdftex.def Info: ./figures/density_profile.png  used on input line 266.
+Package pdftex.def Info: ./figures/density_profile.png  used on input line 264.
 (pdftex.def)             Requested size: 483.69687pt x 193.48257pt.
 <./figures/delay_amp_norm_2.png, id=106, 419.166pt x 209.583pt>
 File: ./figures/delay_amp_norm_2.png Graphic file (type png)
 <use ./figures/delay_amp_norm_2.png>
-Package pdftex.def Info: ./figures/delay_amp_norm_2.png  used on input line 275.
+Package pdftex.def Info: ./figures/delay_amp_norm_2.png  used on input line 286.
 (pdftex.def)             Requested size: 483.69687pt x 241.85323pt.
 
 
@@ -1441,6 +1439,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
 [5 <./figures/density_profile.png>]
+<./figures/pulse_overview.png, id=113, 419.166pt x 314.3745pt>
+File: ./figures/pulse_overview.png Graphic file (type png)
+<use ./figures/pulse_overview.png>
+Package pdftex.def Info: ./figures/pulse_overview.png  used on input line 297.
+(pdftex.def)             Requested size: 483.69687pt x 362.77986pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 29.11996pt, for example:
@@ -1449,6 +1453,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
 [6 <./figures/delay_amp_norm_2.png>]
+Chapter 3.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 29.11996pt, for example:
+(fancyhdr)                \setlength{\headheight}{29.11996pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
+
+[7 <./figures/pulse_overview.png>]
 Chapter 4.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1457,9 +1470,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
-[7]
+[8]
 
-LaTeX Warning: Empty bibliography on input line 323.
+LaTeX Warning: Empty bibliography on input line 341.
 
 (./CR.aux)
 
@@ -1477,18 +1490,18 @@ Package logreq Info: Writing requests to 'CR.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50468 strings out of 478287
- 1209310 string characters out of 5849289
+ 50475 strings out of 478287
+ 1209527 string characters out of 5849289
  2143439 words of memory out of 5000000
- 67844 multiletter control sequences out of 15000+600000
+ 67850 multiletter control sequences out of 15000+600000
  584744 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,15n,92p,790b,1799s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 94i,15n,92p,924b,1799s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-orns.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on CR.pdf (8 pages, 1092729 bytes).
+Output written on CR.pdf (9 pages, 1379333 bytes).
 PDF statistics:
- 214 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
+ 219 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 172 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
 
