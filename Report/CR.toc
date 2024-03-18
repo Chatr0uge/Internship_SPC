@@ -6,12 +6,26 @@
 \contentsline {subsubsection}{\numberline {b}Fusion Cross-section}{3}{}%
 \contentsline {subsubsection}{\numberline {c}Energy balance and Lawson criterion}{3}{}%
 \contentsline {subsection}{\numberline {2}Tokamak}{3}{}%
-\contentsline {section}{\numberline {II}{Plasma Turbulence}}{3}{}%
-\contentsline {subsection}{\numberline {1}Characterization}{3}{}%
-\contentsline {subsection}{\numberline {2}Diagnostics}{3}{}%
-\contentsline {subsubsection}{\numberline {a}Doppler Reflectometry}{3}{}%
+\contentsline {section}{\numberline {II}Wave propagation in plasma}{4}{}%
+\contentsline {subsection}{\numberline {1}Plasma as a medium}{4}{}%
+\contentsline {subsection}{\numberline {2}Wave equation}{4}{}%
+\contentsline {subsection}{\numberline {3}Dispersion relation}{4}{}%
+\contentsline {subsubsection}{\numberline {a}Ordinary mode}{4}{}%
+\contentsline {subsubsection}{\numberline {b}Extraordinary mode}{4}{}%
+\contentsline {section}{\numberline {III}{Plasma Turbulence}}{4}{}%
+\contentsline {subsection}{\numberline {1}Characterization}{4}{}%
+\contentsline {subsection}{\numberline {2}Diagnostics}{4}{}%
+\contentsline {subsubsection}{\numberline {a}Doppler Reflectometry}{4}{}%
 \contentsline {subsubsection}{\numberline {b}RCDR}{4}{}%
 \contentsline {subsubsection}{\numberline {c}Short Pulse Reflectometry}{4}{}%
 \contentsline {chapter}{\numberline {2}Numerical Modeling}{4}{}%
 \contentsline {section}{\numberline {I}Numerical Integration for plasma density}{4}{}%
 \contentsline {section}{\numberline {II}Full wave Modelling}{4}{}%
+\contentsline {chapter}{\numberline {3}Simulations Results}{4}{}%
+\contentsline {section}{\numberline {I}Linear Regime Study}{4}{}%
+\contentsline {section}{\numberline {II}1 dimensional study}{4}{}%
+\contentsline {subsection}{\numberline {1}Perturbation Density Profile}{4}{}%
+\contentsline {subsubsection}{\numberline {a}Step-like perturbation}{4}{}%
+\contentsline {subsubsection}{\numberline {b}Gaussian-like perturbation}{5}{}%
+\contentsline {section}{\numberline {III}2 dimensional study}{5}{}%
+\contentsline {section}{\numberline {IV}Nonlinear Regime Study}{5}{}%

@@ -22,6 +22,10 @@ class SPR_Analysis:
         self.CONSTANTS['diff_shemes_constant']['e_x'] = np.array(self.CONSTANTS['diff_shemes_constant']['e_x'])
         self.CONSTANTS['diff_shemes_constant']['e_y'] = np.array(self.CONSTANTS['diff_shemes_constant']['e_y'])
         
+        ##TODO : resize the x-domain consistent with the beam size
+
+        self.CONSTANTS['diff_shemes_constant']['x_range'] = [-3 * self.CONSTANTS['physics_constant']['ro'], 3 * self.CONSTANTS['physics_constant']['ro']]
+        
     def generate_Gaussian_turb(self, seed = None) -> np.ndarray : 
         """
         generate_Gaussian_turb generate a 2D Gaussian turbulence field

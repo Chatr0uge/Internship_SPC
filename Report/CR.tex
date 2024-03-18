@@ -133,7 +133,7 @@
             \small{\textbf{Supervisors:}}
             \vspace{.5cm}
 
-            \small{\textbf{Mr. Oleg Krutkin \null\hfill Pr. Jean François Allemand}}
+            \small{\textbf{Dr Mr. Oleg Krutkin \null\hfill Pr. Jean François Allemand}}
 
         \end{minipage}
         \vspace{2cm}
@@ -204,29 +204,76 @@
     Different regimes of confinement : Magnetic, Inertial, \dots
     \subsection{Tokamak}
     Magnetic confinement, plasma physics, \dots
+    \section{Wave propagation in plasma}
+    \subsection{Plasma as a medium}
+    \subsection{Wave equation}
+    \subsection{Dispersion relation}
+    \subsubsection{Ordinary mode}
+    \subsubsection{Extraordinary mode}
 
     \section{{Plasma Turbulence}}
     \subsection{Characterization}
     instabilities grow due to inverse cascade of energy (2D geometry) --> scale
     \subsection{Diagnostics}
     \subsubsection{Doppler Reflectometry}
-    Doppler reflectometry is a radar technique that measures the density fluctuations in a plasma. It is based on the interaction between probing microwave  and the turbulence, indeed the back-scattered wave by the plasma, is amplitude and phase dependent of many turbulence parameters. The Doppler shift is proportional to the velocity of the plasma fluctuations along the direction of the probing wave. The technique is used to measure the density fluctuations in the edge of the plasma, where the turbulence is strongest. The technique is also used to measure the radial electric field in the edge of the plasma, which is important for understanding the transport of particles and heat in the plasma. Doppler reflectometry is used in the TCV tokamak to measure the turbulence parameters (amplitude, mode number ... ).
 
     \subsubsection{RCDR}
-    RCDR is a advanced Doppler Reflectometry technique it allows to measure the radial correlation length of the turbulences, using CCF. The principle is the following, we vary the probing wave frequency and we measure the correlation of the back-scattered wave. The correlation length is then deduced from the CCF function analysis.
 
     \subsubsection{Short Pulse Reflectometry}
-    SPR is a radar technique that measures the density fluctuations in a plasma. It is based on the interaction between probing microwave  and the turbulence, indeed the back-scattered wave by the plasma, is amplitude and phase dependent of many turbulence parameters. The technique is used to measure the density fluctuations in the edge of the plasma, where the turbulence is strongest. The technique is also used to measure the radial electric field in the edge of the plasma, which is important for understanding the transport of particles and heat in the plasma. SPR is used in the TCV tokamak to measure the turbulence parameters (amplitude, mode number ... ).
-    \chapter{Numerical Modeling}
-    \section{Numerical Integration for plasma density}
-    \section{Full wave Modelling}
 
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=1\linewidth]{./figures/delay_amp_4.png}
-        \caption{Here we plot the residual Coulomb potential barrier between two proton considering the strong nuclear force as the Reid potential [cite]. On the right, the residual Reid potential.}
-        \label{fig:barrier}
-    \end{figure}
+    \chapter{Numerical Modeling}
+
+    \section{Numerical Integration for plasma density}
+    Kinetic model for plasma, equations \dots
+    \section{Full wave Modelling}
+    CUWA CODE : Finite difference method, wave equation, plasma density, \dots
+
+    \chapter{Simulations Results}
+    \section{Linear Regime Study}
+    \section{1 dimensional study}
+    Assuming a simple plasma density profile $n(x)$, we can study the wave propagation in the plasma. The goal of this approach is to find a way to link the plasma density perturbations to the reflected pulse delay. To retrieve some information about the pulse delay we will
+    use a statistical approach to get rid of the randomness implies by the perturbations considerations.
+    The delay of the probing wave is given by the following formula  : $$\tau_c = 2 \int_0^L \frac{dx}{v_g}$$ Where $v_g$ is the group velocity of the wave, $L$ is the position of the cut-off.
+    From the simple assumption $\langle \delta n \rangle = 0 $ for an Ordinary mode the  $v_g$ expression obtained [] can be used to expand the integral to the following :
+    $$\frac{2}{c} \int_0^L \frac{dx}{\sqrt{1 - \frac{x}{L} - \frac{\delta n }{n_c}}}$$ The main contribution of this integral comes from the vicinity of the cut-off layer, Where the group velocity is the smallest.
+    We can discuss the relevance of this expansion this the main contribution of the integral comes from the cut-off region where the WKB approximation cannot be applied.
+
+    \subsection{Perturbation Density Profile}
+    \subsubsection{Step-like perturbation}
+    The apparent divergence of the integral can be tackled using a simple step-like perturbation density profile.
+    With a step-size perturbation characterized by $l_{cx}$ length. This allows to get an analytical expression of the integral for different density profile. However, to get this simplification, we need to assume that the perturbation is small enough such that the WKB approximation can be applied.
+    This is the case for the linear regime, where the perturbation is small enough such that the cut-off layer is not too much perturbed (i.e $\delta_x \ll l_{cx}$). In the case of a large perturbation, an other step perturbation localized far from the cut-off layer can be used to get the same result, which breaks the main assumption of this approach.
+    It's relatively trivial to obtain the following expression for the delay [cite Krutkin] :
+    $$\tau_d = \frac{4L}{c} - \frac{2L}{c}\sqrt{\frac{L}{l_{cx}}}\frac{\delta n}{n_c} $$
+    \subsubsection{Gaussian-like perturbation}
+    The gaussian perturbation should be a more realistic approach to the perturbation density profile. However, the integral seems to be more difficult to solve. Indeed, it takes the following form :
+
+    $$\frac{2}{c} \int_0^L \frac{dx}{\sqrt{1 - \frac{x}{L} - \frac{\delta n\exp(-\frac{(x - L)^2}{8l_{cx}^2})}{n_c}}}$$
+    First let's note that the main criterion $\delta n_c = n_c \frac{l_{cx}}{L}$ is the same as the previous approach.  One way to tackle this integral is to expand the gaussian perturbation profile to the first order in order to obtain a hyperbolic integral. The computation are done in the appendix, and leads to the following expression of the delay :
+
+\end{multicols}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 1\linewidth]{./figures/density_profile.png}
+    \caption{sadasd}
+    \label{}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{./figures/delay_amp_norm_2.png}
+    \caption{Here we plot the residual Coulomb potential barrier between two proton considering the strong nuclear force as the Reid potential [cite]. On the right, the residual Reid potential.}
+    \label{fig:barrier}
+\end{figure}
+\begin{multicols}{2}
+
+
+
+    \section{2 dimensional study}
+
+    \section{Nonlinear Regime Study}
 
 \end{multicols}
 \printbibliography

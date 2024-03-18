@@ -13,10 +13,15 @@ class DataBase:
                         lcx real,
                         lcy real,
                         bm real,
-                        time_list real,
+                        dt real,
                         pulse_list array,
                         delay_list array, 
-                        pulse_width array)""")
+                        pulse_width array, 
+                        skewness array,
+                        kurtosis array,
+                        mean_signal array,
+                        variance array)
+                        """)
         
         self.conn.commit()
         self.compressor = compressor
@@ -41,7 +46,8 @@ class DataBase:
         return np.load(out)
     
     def insert(self, data : dict) : 
-        self.c.execute("""INSERT INTO data VALUES (?,?,?,?,?,?,?,?,?)""", (data['id'], data['amplitude'], data['lcx'], data['lcy'], data['bm'], data['time_list'], data['pulse_list'], data['delay_list'], data['pulse_width']))
+        self.c.execute("""INSERT INTO data VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)""", (data['id'], data['amplitude'], data['lcx'], data['lcy'], data['bm'], data['dt'], data['pulse_list'],
+                                                                           data['delay_list'], data['pulse_width'], data['skewness'], data['kurtosis'], data['mean_signal'], data['variance']))
         self.conn.commit()
 
     
