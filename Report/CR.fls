@@ -1597,11 +1597,6 @@ INPUT ./figures/density_profile.png
 INPUT ./figures/density_profile.png
 INPUT ./figures/density_profile.png
 INPUT ./figures/density_profile.png
-INPUT ./figures/delay_amp_norm_2.png
-INPUT ./figures/delay_amp_norm_2.png
-INPUT ./figures/delay_amp_norm_2.png
-INPUT ./figures/delay_amp_norm_2.png
-INPUT ./figures/delay_amp_norm_2.png
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ts1-lmr10.tfm
 INPUT ./figures/background_density.png
 INPUT ./figures/background_density.png
@@ -1609,6 +1604,11 @@ INPUT ./figures/background_density.png
 INPUT ./figures/background_density.png
 INPUT ./figures/background_density.png
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx9.tfm
+INPUT ./figures/delay_amp_norm_2.png
+INPUT ./figures/delay_amp_norm_2.png
+INPUT ./figures/delay_amp_norm_2.png
+INPUT ./figures/delay_amp_norm_2.png
+INPUT ./figures/delay_amp_norm_2.png
 INPUT ./figures/pulse_shape.png
 INPUT ./figures/pulse_shape.png
 INPUT ./figures/pulse_shape.png

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  19 MAR 2024 11:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  20 MAR 2024 16:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1431,11 +1431,11 @@ File: ./figures/density_profile.png Graphic file (type png)
 <use ./figures/density_profile.png>
 Package pdftex.def Info: ./figures/density_profile.png  used on input line 264.
 (pdftex.def)             Requested size: 483.69687pt x 193.48257pt.
-<./figures/delay_amp_norm_2.png, id=106, 419.166pt x 209.583pt>
-File: ./figures/delay_amp_norm_2.png Graphic file (type png)
-<use ./figures/delay_amp_norm_2.png>
-Package pdftex.def Info: ./figures/delay_amp_norm_2.png  used on input line 286.
-(pdftex.def)             Requested size: 483.69687pt x 241.85323pt.
+<./figures/background_density.png, id=106, 209.583pt x 157.11497pt>
+File: ./figures/background_density.png Graphic file (type png)
+<use ./figures/background_density.png>
+Package pdftex.def Info: ./figures/background_density.png  used on input line 289.
+(pdftex.def)             Requested size: 234.73524pt x 175.97235pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1445,18 +1445,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
 [5 <./figures/density_profile.png>]
-<./figures/background_density.png, id=113, 209.583pt x 157.11497pt>
-File: ./figures/background_density.png Graphic file (type png)
-<use ./figures/background_density.png>
-Package pdftex.def Info: ./figures/background_density.png  used on input line 308.
-(pdftex.def)             Requested size: 234.73524pt x 175.97235pt.
+<./figures/delay_amp_norm_2.png, id=113, 419.166pt x 209.583pt>
+File: ./figures/delay_amp_norm_2.png Graphic file (type png)
+<use ./figures/delay_amp_norm_2.png>
+Package pdftex.def Info: ./figures/delay_amp_norm_2.png  used on input line 302.
+(pdftex.def)             Requested size: 483.69687pt x 241.85323pt.
 <./figures/pulse_shape.png, id=114, 247.1634pt x 165.4983pt>
 File: ./figures/pulse_shape.png Graphic file (type png)
 <use ./figures/pulse_shape.png>
-Package pdftex.def Info: ./figures/pulse_shape.png  used on input line 315.
+Package pdftex.def Info: ./figures/pulse_shape.png  used on input line 318.
 (pdftex.def)             Requested size: 258.21019pt x 172.89952pt.
 
-Overfull \hbox (23.47495pt too wide) in paragraph at lines 315--316
+Overfull \hbox (23.47495pt too wide) in paragraph at lines 318--319
  [][] 
  []
 
@@ -1467,7 +1467,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
-[6 <./figures/delay_amp_norm_2.png> <./figures/background_density.png>]
+[6 <./figures/background_density.png> <./figures/delay_amp_norm_2.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 29.11996pt, for example:
@@ -1501,7 +1501,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [9]
 
-LaTeX Warning: Empty bibliography on input line 369.
+LaTeX Warning: Empty bibliography on input line 366.
 
 (./CR.aux)
 
@@ -1527,7 +1527,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  94i,15n,92p,925b,1799s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-orns.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on CR.pdf (10 pages, 1592464 bytes).
+Output written on CR.pdf (10 pages, 1592381 bytes).
 PDF statistics:
  231 PDF objects out of 1000 (max. 8388607)
  136 compressed objects within 2 object streams
