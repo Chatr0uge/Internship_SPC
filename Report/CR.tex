@@ -274,6 +274,22 @@
     Kinetic model for plasma, equations \dots
     \subsection{Full wave Modelling}
     CUWA CODE : Finite difference method, wave equation, plasma density, \dots
+    \subsection{Background profiles}
+    \begin{itemize}
+        \item For the linear background profile, the global density profile will be the following :
+              $$n(x,y) = n_c \frac{x}{L} + \delta n(x,y).$$ WIth $\delta n $ the 2D gaussian turbulence profile
+        \item For the quadratic background profile L, stands for the gradient scale at the cut-off. Here we choose the following formula to get the value of 1 of the gradient at L, which gives us :
+              $$n(x,y) = n_c \left[1.25 - \frac{(1.5L_0 - x)^2}{L_0^2} \right] + \delta n (x,y)$$
+        \item One can remark that for small $x$ the turbulence profile is getting preponderant, especially for high amplitudes turbulences, this non realistic behaviour can be
+              tackled using a linear dependence in the amplitude of the turbulences. $$n(x,y) = \frac{x}{L}\left( n_c  + \delta n \right)$$
+    \end{itemize}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\linewidth]{./figures/background_density.png}
+        \caption{Here we plot the three density profile with filled deviation range, in order to see the effect of the linear amplitude dependence of turbulences. \textbf{LD} stands for the linear density profile in the following, \textbf{QD} for the quadratic one, and \textbf{ND} for the linearized turbulence profile}
+        \label{fig:barrier}
+    \end{figure}
     \section{Numerical Integration}
     For both 1D and 2D model we can compare the delay rms obtained by integrations, and see if a simple analytical integration of the 1D model can be realistic, which should help releasing some computations time. For the other statistical properties of the delay and the pulse shape, we should limit ourselves to the 2D approach.
     Which is computationally more expensive, but more realistic. The integration has been done for several background profiles to see if they have strong influence on the probing wave propgation.
@@ -284,23 +300,32 @@
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{./figures/delay_amp_norm_2.png}
-    \caption{Respectvely standard deviation of the delay and mean delay evolution. The red vertical line stands for the first critical value unearthed by [], the black one is the second critical value. For both parameter,
+    \caption{Respectively standard deviation of the delay and mean delay evolution. The red vertical line stands for the first critical value unearthed by [], the black one is the second critical value. For both parameter,
         the analytical expression seems to be a good approximation for small perturbations. For perturbations larger than the first critical value the model collapses has intended, and this for every background profile. We can also note that even if the deviation of the delay has an erratic behavior after the first critical value, the mean delay decrease smooothly.
         This is strongly related to the displacement of the cut-off layer, indeed the wave is reflected much more quickly due to the presence of strong perturbations.}
     \label{fig:barrier}
 \end{figure}
+\begin{multicols*}{2}
+    \subsection{Pulse shape Study}
+    The pulse shape is also an interesting parameter to study, indeed it can give us some information about the plasma density profile, since the pulse shape can be modified by the presence of perturbations due to multiple scattering effects and dispersive effects [see O mode dispersion relation].
+    The dependance of the pulse shape over the background density profile will be also studied with linear, quadratic and linear modified perturbation profile.
 
-\subsection{Pulse shape Study}
 
+    One can expect to have a much larger and randomness dependent pulse, at high turbulence amplitude due to multiple scattering.
+    Indeed the reflected pulse will be a superposition of all scattered pulse, which should be characterized by a growing tail of the pulse distribution in delay and in width. This can be seen in the figure \ref{fig:barrier}.This will be observed on the mean pulse shape, and on the mean statistical parameters of the pulse shape.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1.1\linewidth]{./figures/pulse_shape.png}
+        \caption{For all density profile, the pulse shape is getting broader and broader for large perturbations, and the delay is getting larger and larger. This is due to the presence of multiple scattering, and dispersive effects. This will be characterized further by the study of the mean skewness of the pulse shape.}
+        \label{fig:barrier}
+    \end{figure}
+\end{multicols*}
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{./figures/pulse_overview.png}
-    \caption{Respectvely standard deviation of the delay and mean delay evolution. The red vertical line stands for the first critical value unearthed by [], the black one is the second critical value. For both parameter,
-        the analytical expression seems to be a good approximation for small perturbations. For perturbations larger than the first critical value the model collapses has intended, and this for every background profile. We can also note that even if the deviation of the delay has an erratic behavior after the first critical value, the mean delay decrease smooothly.
-        This is strongly related to the displacement of the cut-off layer, indeed the wave is reflected much more quickly due to the presence of strong perturbations.}
+    \caption{}
     \label{fig:barrier}
 \end{figure}
-
 \chapter{Non linear regime study}
 
 \newpage

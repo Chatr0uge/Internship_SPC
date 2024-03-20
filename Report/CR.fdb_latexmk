@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber CR"] 1710777187 "CR.bcf" "CR.bbl" "CR" 1710777202
-  "CR.bcf" 1710777201 106985 c3146e9450de16249746226bc1075905 "pdflatex"
+["biber CR"] 1710845820 "CR.bcf" "CR.bbl" "CR" 1710845882
+  "CR.bcf" 1710845881 106985 c3146e9450de16249746226bc1075905 "pdflatex"
   (generated)
   "CR.bbl"
   "CR.blg"
-["pdflatex"] 1710777195 "/media/andrea/Crucial X6/scholar/Master/stage/Report/CR.tex" "CR.pdf" "CR" 1710777202
+["pdflatex"] 1710845877 "/media/andrea/Crucial X6/scholar/Master/stage/Report/CR.tex" "CR.pdf" "CR" 1710845882
   "/etc/texmf/web2c/texmf.cnf" 1695138096 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/media/andrea/Crucial X6/scholar/Master/stage/Report/CR.tex" 1710777186 22479 833077547ad9ff4d64796a941e12aef0 ""
+  "/media/andrea/Crucial X6/scholar/Master/stage/Report/CR.tex" 1710845872 24511 e561af4a7da742106a30846a678cbdea ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -282,6 +282,7 @@
   "/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc" 1254938640 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmbx10.tfm" 1254938640 12076 b54175e02101bea1addf6b2d0197ed12 ""
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm" 1254938640 12088 d750ac78274fa7c9f73ba09914c04f8a ""
+  "/usr/share/texmf/fonts/tfm/public/lm/ec-lmbx9.tfm" 1254938640 12080 8da3d5e88196e4de175949ad7749b42f ""
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmcsc10.tfm" 1254938640 11276 116dd5bea6621ce4a1999f96d876084c ""
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmr10.tfm" 1254938640 12056 7e13df7fe4cbce21b072ba7c4f4deb6e ""
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmr12.tfm" 1254938640 12092 7b1546e2d096cfd5dcbd4049b0b1ec2e ""
@@ -312,6 +313,7 @@
   "/usr/share/texmf/fonts/tfm/public/lm/ts1-lmr10.tfm" 1254938640 1556 b86d923e6b2f9aab2e313098a95cb0b8 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb" 1254938640 121021 1bf809ce4a594679006bd72263eba59b ""
   "/usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb" 1254938640 116908 1fca96723793882c2e0160350c192fc8 ""
+  "/usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb" 1254938640 126646 439622e6fd57f388c9979d39c4fce535 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb" 1254938640 116427 4a5b1ccaa7cce719091920a86b58608d ""
   "/usr/share/texmf/fonts/type1/public/lm/lmex10.pfb" 1254938640 23055 2e5b42921de910eaa97b85df04ca4891 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb" 1254938640 30388 702fae6a5f0e6e9c48a1d872b442ffcf ""
@@ -341,15 +343,17 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1695138125 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1710488715 2799612 280c6197005a2c705b2f508a08a788b7 ""
-  "CR.aux" 1710777201 6958 131eaab5df6d6f6d46936e691f9a868a "pdflatex"
-  "CR.bbl" 1710777188 466 ee04f40f768daeed26442158e95aba61 "biber CR"
-  "CR.run.xml" 1710777201 2291 d3ed1c63932a617e9c7cc5df74738603 "pdflatex"
-  "CR.tex" 1710777186 22479 833077547ad9ff4d64796a941e12aef0 ""
-  "CR.toc" 1710777201 2390 39381917ed0bf6308809eb983bf26ba9 "pdflatex"
+  "CR.aux" 1710845881 7558 16b07e74267545156f43b58bb11ed273 "pdflatex"
+  "CR.bbl" 1710845820 466 ee04f40f768daeed26442158e95aba61 "biber CR"
+  "CR.run.xml" 1710845881 2291 d3ed1c63932a617e9c7cc5df74738603 "pdflatex"
+  "CR.tex" 1710845872 24511 e561af4a7da742106a30846a678cbdea ""
+  "CR.toc" 1710845881 2390 42a0a9aa9e36407b3bf5880e65fe4230 "pdflatex"
+  "figures/background_density.png" 1710845427 149506 d49db8566de598b2148a940e1af88b45 ""
   "figures/delay_amp_norm_2.png" 1710758409 292194 0d4d21de1838cd32972ed50b2dc44c8f ""
-  "figures/density_profile.png" 1710776701 218038 08cad180da9ac5caa2df9d9883e9d5d8 ""
+  "figures/density_profile.png" 1710835899 218038 08cad180da9ac5caa2df9d9883e9d5d8 ""
   "figures/potential_barrier2.pdf" 1709114626 344362 bbcc9f1be6c9ff1826fdcd53602030cc ""
   "figures/pulse_overview.png" 1710777134 277385 d19795a98e4daff46c2b07443c4b2471 ""
+  "figures/pulse_shape.png" 1710840582 80964 b5ba272a8a69d21a9ba874e516efe177 ""
   (generated)
   "CR.aux"
   "CR.bcf"

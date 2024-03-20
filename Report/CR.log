@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  18 MAR 2024 16:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  19 MAR 2024 11:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1203,6 +1203,12 @@ LaTeX Warning: Label `fig:barrier' multiply defined.
 
 LaTeX Warning: Label `fig:barrier' multiply defined.
 
+
+LaTeX Warning: Label `fig:barrier' multiply defined.
+
+
+LaTeX Warning: Label `fig:barrier' multiply defined.
+
 )
 \openout1 = `CR.aux'.
 
@@ -1439,11 +1445,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
 [5 <./figures/density_profile.png>]
-<./figures/pulse_overview.png, id=113, 419.166pt x 314.3745pt>
-File: ./figures/pulse_overview.png Graphic file (type png)
-<use ./figures/pulse_overview.png>
-Package pdftex.def Info: ./figures/pulse_overview.png  used on input line 297.
-(pdftex.def)             Requested size: 483.69687pt x 362.77986pt.
+<./figures/background_density.png, id=113, 209.583pt x 157.11497pt>
+File: ./figures/background_density.png Graphic file (type png)
+<use ./figures/background_density.png>
+Package pdftex.def Info: ./figures/background_density.png  used on input line 308.
+(pdftex.def)             Requested size: 234.73524pt x 175.97235pt.
+<./figures/pulse_shape.png, id=114, 247.1634pt x 165.4983pt>
+File: ./figures/pulse_shape.png Graphic file (type png)
+<use ./figures/pulse_shape.png>
+Package pdftex.def Info: ./figures/pulse_shape.png  used on input line 315.
+(pdftex.def)             Requested size: 258.21019pt x 172.89952pt.
+
+Overfull \hbox (23.47495pt too wide) in paragraph at lines 315--316
+ [][] 
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1452,7 +1467,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
-[6 <./figures/delay_amp_norm_2.png>]
+[6 <./figures/delay_amp_norm_2.png> <./figures/background_density.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 29.11996pt, for example:
+(fancyhdr)                \setlength{\headheight}{29.11996pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
+
+[7 <./figures/pulse_shape.png>]
+<./figures/pulse_overview.png, id=126, 419.166pt x 314.3745pt>
+File: ./figures/pulse_overview.png Graphic file (type png)
+<use ./figures/pulse_overview.png>
+Package pdftex.def Info: ./figures/pulse_overview.png  used on input line 325.
+(pdftex.def)             Requested size: 483.69687pt x 362.77986pt.
+
 Chapter 3.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1461,7 +1490,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
-[7 <./figures/pulse_overview.png>]
+[8 <./figures/pulse_overview.png>]
 Chapter 4.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1470,9 +1499,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
-[8]
+[9]
 
-LaTeX Warning: Empty bibliography on input line 341.
+LaTeX Warning: Empty bibliography on input line 369.
 
 (./CR.aux)
 
@@ -1490,18 +1519,18 @@ Package logreq Info: Writing requests to 'CR.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50475 strings out of 478287
- 1209527 string characters out of 5849289
- 2143439 words of memory out of 5000000
- 67850 multiletter control sequences out of 15000+600000
- 584744 words of font info for 120 fonts, out of 8000000 for 9000
+ 50494 strings out of 478287
+ 1210039 string characters out of 5849289
+ 2143441 words of memory out of 5000000
+ 67866 multiletter control sequences out of 15000+600000
+ 588105 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,15n,92p,924b,1799s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-orns.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on CR.pdf (9 pages, 1379333 bytes).
+ 94i,15n,92p,925b,1799s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-orns.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on CR.pdf (10 pages, 1592464 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 131 compressed objects within 2 object streams
+ 231 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
 

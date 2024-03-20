@@ -1,9 +1,9 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'CR.blg'
-[103] biber:340> INFO - === lun. mars 18, 2024, 16:53:08
-[124] Biber.pm:418> INFO - Reading 'CR.bcf'
-[214] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[232] bbl.pm:654> INFO - Writing 'CR.bbl' with encoding 'UTF-8'
-[232] bbl.pm:757> INFO - Output to CR.bbl
-[233] Biber.pm:130> WARN - The file 'CR.bcf' does not contain any citations!
-[233] Biber.pm:132> INFO - WARNINGS: 1
+[87] biber:340> INFO - === mar. mars 19, 2024, 11:57:00
+[104] Biber.pm:418> INFO - Reading 'CR.bcf'
+[172] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[186] bbl.pm:654> INFO - Writing 'CR.bbl' with encoding 'UTF-8'
+[186] bbl.pm:757> INFO - Output to CR.bbl
+[186] Biber.pm:130> WARN - The file 'CR.bcf' does not contain any citations!
+[186] Biber.pm:132> INFO - WARNINGS: 1
