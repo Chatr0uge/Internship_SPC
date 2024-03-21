@@ -134,8 +134,8 @@
             \vspace{.5cm}
 
             \small{\textbf{Dr Mr. Oleg Krutkin \null\hfill Pr. Jean François Allemand}}
-
-        \end{minipage}
+            z
+        \end{minipage}s
         \vspace{2cm}
 
 
@@ -305,7 +305,7 @@
         This is strongly related to the displacement of the cut-off layer, indeed the wave is reflected much more quickly due to the presence of strong perturbations.}
     \label{fig:barrier}
 \end{figure}
-\begin{multicols*}{2}
+\begin{multicols}{2}
     \subsection{Pulse shape Study}
     The pulse shape is also an interesting parameter to study, indeed it can give us some information about the plasma density profile, since the pulse shape can be modified by the presence of perturbations due to multiple scattering effects and dispersive effects [see O mode dispersion relation].
     The dependance of the pulse shape over the background density profile will be also studied with linear, quadratic and linear modified perturbation profile.
@@ -315,20 +315,98 @@
     Indeed the reflected pulse will be a superposition of all scattered pulse, which should be characterized by a growing tail of the pulse distribution in delay and in width. This can be seen in the figure \ref{fig:barrier}.This will be observed on the mean pulse shape, and on the mean statistical parameters of the pulse shape.
     \begin{figure}[H]
         \centering
-        \includegraphics[width=1.1\linewidth]{./figures/pulse_shape.png}
-        \caption{For all density profile, the pulse shape is getting broader and broader for large perturbations, and the delay is getting larger and larger. This is due to the presence of multiple scattering, and dispersive effects. This will be characterized further by the study of the mean skewness of the pulse shape.}
+        \includegraphics[width=1\linewidth]{./figures/pulse_shape.png}
         \label{fig:barrier}
     \end{figure}
-\end{multicols*}
+    \captionof{figure}{For all density profile, the pulse shape is getting broader and broader for large perturbations, and the delay is getting larger and larger. This is due to the presence of multiple scattering, and dispersive effects. This will be characterized further by the study of the mean skewness of the pulse shape.}
+    One way to vizualize that is plotting the distribution of some parameters of the pulse shape for different perturbation amplitude.
+    Here we choose to study the rms and the amplitude of the pulse, Indeed, it allows to the beahavior of the pulse width and height during the linear-non linear transition.
+    This is showm in the following figure. This type of plots are called violins plot, where filled zone stands for the distribution of the random variable, calculate over every samples.
+
+\end{multicols}
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{./figures/pulse_overview.png}
-    \caption{}
+    \caption{Here we plot the distribution of the pulse rms and amplitude for different perturbation amplitude, for the linear profile background profile \textbf{LD}. The distribution of the pulse rms  and amplutude is getting broader and broader during the transition regime, this is due to randomness introduced by the perturbations, which seems to remains at large amplitudes, even if the distribution is getting quite constant.
+        Lets also note that the mean of both distribution is getting smaller due to presence of multiple scattering, reaching a plateau at high turbulence ampliude.}
     \label{fig:barrier}
 \end{figure}
-\chapter{Non linear regime study}
+\begin{multicols*}{2}
+    The characteristic turbulence amplitude scale for the pulse shape transition seems to be the first critical value with $\delta n \approx 1e^{-3}$. Thanks to this study, we can unearth a way of characterizing the transition regime, using the pulse shape for multiple background profiles. For deeper insights about the pulse transition regime, we can study the skewness of the pulse shape, which should give us more information about the "broader and broader" distrubution of the pulse shape.
+    Note that we are talking about the transition regime of the pulse shape, since the transition regime regarding the delay seems to appear at much larger amplitude at the second critical value $\delta n \approx 1e^3$ ax shown in Fig.2.3.
 
-\newpage
+    One important question we have to solve is the following, which metrics is the most relevant to characterize the transition regime. This will help us, to build a relevant datasets to tackle the non linear regime.
+
+\end{multicols*}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{./figures/pulse_params.png} %TODO : STD OF PULSE WIDTH WHY INCREASING
+    \caption{Here we plot three differents metrics to characterize the pulse shape, the std of the pulse width, which is increasing (WHY), the average pulse width is increasing as intended due to the superposition of multiple scattered pulse, for the mean pulse amplitude, it's decreasing for the same causes, however let's note that after the transition regime the mean pulse amplitude seems to increase again reaching a maximum at the amplitude value $5$, the linearized turbulence turbulence density profile is also decayed from the simple linear background profile. This is easily understandable since we decrease the mean density turbulence amplitude in the plasma by linearizing the perturbation profile.
+        One final thing to remark is the decay between the quadratic and the linear delays, indeed the quadratic profile has a little advance over the linear one. This is pssibly due to the concace shape of the background quadratic profile. Indeed, thanks to the concavity, it's much easier to turbulence to reach the cut-off layer, and to perturb it.}
+    \label{}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{./figures/skew_Hyst.png}
+    \caption{skewness of the delay shape, for different background profile, and perturbation amplitude. The skewness is getting larger and larger for large perturbations, this is due to the presence of multiple scattering, and dispersive effects. The hysteresis of the pulse is calculating using the ratio of the right area over the left area of the pulse, this allows to see the asymmetry of the pulse shape which is a measurement of the skewness of the pulse.
+        The true Skewness of the pulse does not unearth smoothly the transition regime, this is why it is not tackled here. }
+    \label{}
+\end{figure}
+
+\begin{multicols}{2}
+    \subsection{Gaussian fitting of the pulse}
+    On way to see the deformation of the gaussian pulse is to track the relative error of the gaussian pulse with a gaussian fit. Furthemore, it allows to study the true gaussian standard deviation, mean and amplitude.
+    This is shown in the following figure, where we plot the relative error of the gaussian fit, and the gaussian fit
+\end{multicols}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{./figures/gaussian_fit.png}
+    \caption{The relative error of the Gaussian fit (residuals ponderated by the size of the respective pulse amplitude) is getting large for the transition zone of the pulse shape, and seems to decline for very large turbulence. However we have to find smooth metrics to characterize the transition, and not a pseudo-random one to have better predictions in the next part.
+        The gaussian parameters are also good quandidates and are plotted in the next figure }
+    \label{}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{./figures/gaussian_Params.png}
+    \caption{Gaussian pulse delay and standard deviation have chaotic behavior during the transition regime, this made them not relevant candidate for the next study. However lets note that the gaussian pulse ampliutde,
+        have quite a smooth behavior, but unearth a plateau during the non linear linear transition, which might not ne a good option, even if at large amplitude we capture the same behavior as for the non gaussian amplitude.
+        In a much cleaner way, indeed it's clearly increasing, this might be interesting to study the highly non linear regime.}
+    \label{}
+\end{figure}
+
+\begin{multicols*}{2}
+
+    \section{Model collapses}
+
+    As shown previously, the 1D model collapses for large perturbations. The goal of this chapter is to facilitate the deduction of the perturbations properties just from the typical study of the delayed pulse.
+    Our goal will be to predict the perturbation amplitude, their typical correlation length and the original delay of the probing wave $\tau_0$ without any perturbation. Using previous results, it might be quite simple to isolate the original delay and the turbulence amplitude, but the correlation length is a more difficult parameter to isolate, and seems to play a great role in the pulse properties.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\linewidth]{example-image}
+        \caption{Explanation of $\tau_0$}
+        \label{}
+    \end{figure}
+
+    To deal with these multiple parameters, we will use a machine learning approach, trained on a datasets of simulated pulse shape, and delay for multiple ranges of value of $\delta n$, $l_{cx}$, $l_{cy}$ and beam size $ro$.
+    To build this datasets we will based our apporach on the previous results, where we extracted the best hyperparameters candidate for both computations speed and accuracy. The datasets will be built using the linear normalized perturbation profile, and a number of sample $N_s = 500$, the $\tau_0$ will be compute for each combination of parameters, even if it should not depend on correlation lengths and ampitudes.
+    And this for 100 samples.
+    \section{Datasets building}
+    \begin{center}
+        \begin{tabular}{cccc}
+            \toprule
+            \multicolumn{4}{c}{Parameters range}                            \\
+            \cmidrule{1 -4}
+            $\delta n$     & $l_{cx}$-[cm] & $l_{cy}$-[cm]   & $ro$-[cm]    \\
+            \midrule
+            $[1e^{-3}, 1]$ & $\{1, 0.5 \}$ & $\{0.5,2,30 \}$ & $\{1,4,10\}$ \\
+            \bottomrule
+        \end{tabular}
+    \end{center}
+    This makes a combination of 216 points in a 4D space, which is a reasonable number of points to train a machine learning model.
+    However lets note that this multidimensional output space, brings some subtitlities to the problem. First what's the best pulse metrics to use for the training as input data.
+\end{multicols*}
 \chapter{Mathematical appendix}
 \begin{multicols*}{2}
 
