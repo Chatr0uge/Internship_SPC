@@ -34,5 +34,12 @@
 \contentsline {subsection}{\numberline {2}Pulse shape Study}{7}{}%
 \contentsline {subsection}{\numberline {3}Gaussian fitting of the pulse}{10}{}%
 \contentsline {section}{\numberline {IV}Model collapses}{10}{}%
-\contentsline {section}{\numberline {V}Datasets building}{11}{}%
-\contentsline {chapter}{\numberline {3}Mathematical appendix}{12}{}%
+\contentsline {chapter}{\numberline {3}Non linear regime study}{11}{}%
+\contentsline {section}{\numberline {I}1 dimensional study}{11}{}%
+\contentsline {subsection}{\numberline {1}Density profiles}{11}{}%
+\contentsline {subsection}{\numberline {2}Datasets building}{11}{}%
+\contentsline {subsection}{\numberline {3}Regression model}{12}{}%
+\contentsline {subsection}{\numberline {4}Results}{12}{}%
+\contentsline {section}{\numberline {II}2 dimensional study}{14}{}%
+\contentsline {subsection}{\numberline {1}Datasets building}{14}{}%
+\contentsline {chapter}{\numberline {4}Mathematical appendix}{15}{}%
