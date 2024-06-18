@@ -1,0 +1,43 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {I}Introduction}{1}{section.0.1}%
+\contentsline {subsection}{\numberline {1}Nuclear fusion and TCV}{1}{subsection.0.1.1}%
+\contentsline {paragraph}{}{1}{paragraph*.1}%
+\contentsline {subsubsection}{What is Nuclear Fusion ?}{1}{subsubsection*.2}%
+\contentsline {paragraph}{}{1}{paragraph*.3}%
+\contentsline {paragraph}{}{1}{paragraph*.4}%
+\contentsline {subsubsection}{Magnetic confinement and tokamak}{1}{subsubsection*.5}%
+\contentsline {paragraph}{}{1}{paragraph*.6}%
+\contentsline {paragraph}{}{1}{paragraph*.7}%
+\contentsline {subsubsection}{TCV presentation}{1}{subsubsection*.9}%
+\contentsline {paragraph}{}{1}{paragraph*.10}%
+\contentsline {subsection}{\numberline {2}Magnetic probes in TCV}{2}{subsection.0.1.2}%
+\contentsline {subsubsection}{Mirnov probes}{2}{subsubsection*.11}%
+\contentsline {paragraph}{}{2}{paragraph*.12}%
+\contentsline {subsubsection}{LTCC - 3D probes}{2}{subsubsection*.14}%
+\contentsline {paragraph}{}{2}{paragraph*.15}%
+\contentsline {paragraph}{}{2}{paragraph*.16}%
+\contentsline {subsection}{\numberline {3}How to produce energy with nuclear fusion ?}{3}{subsection.0.1.3}%
+\contentsline {subsubsection}{Conditions}{3}{subsubsection*.17}%
+\contentsline {subsubsection}{Magnetic confinment}{3}{subsubsection*.18}%
+\contentsline {subsubsection}{Issues encountered}{3}{subsubsection*.19}%
+\contentsline {paragraph}{}{3}{paragraph*.20}%
+\contentsline {paragraph}{TEMPS DE CONFINEMENT}{3}{paragraph*.21}%
+\contentsline {subsection}{\numberline {4}Flux surfaces and plasma shape}{3}{subsection.0.1.4}%
+\contentsline {paragraph}{FLUX SURFACES}{3}{paragraph*.22}%
+\contentsline {paragraph}{}{3}{paragraph*.23}%
+\contentsline {paragraph}{}{3}{paragraph*.25}%
+\contentsline {subsection}{\numberline {5}Consequences of negative triangularity on transport and confinement time}{4}{subsection.0.1.5}%
+\contentsline {paragraph}{}{4}{paragraph*.26}%
+\contentsline {paragraph}{}{4}{paragraph*.27}%
+\contentsline {section}{\numberline {II}Methods}{4}{section.0.2}%
+\contentsline {subsection}{\numberline {1}MDB database}{4}{subsection.0.2.1}%
+\contentsline {paragraph}{}{4}{paragraph*.28}%
+\contentsline {paragraph}{}{4}{paragraph*.30}%
+\contentsline {paragraph}{}{4}{paragraph*.31}%
+\contentsline {paragraph}{}{4}{paragraph*.32}%
+\contentsline {subsection}{\numberline {2}Sample selection}{5}{subsection.0.2.2}%
+\contentsline {paragraph}{}{5}{paragraph*.34}%
+\contentsline {paragraph}{}{5}{paragraph*.36}%
+\contentsline {subsection}{\numberline {3}Variables selection}{5}{subsection.0.2.3}%
+\contentsline {paragraph}{}{5}{paragraph*.37}%
+\contentsline {paragraph}{PYTHON PROGRAM, méthode pearson}{6}{paragraph*.38}%

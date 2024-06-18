@@ -1,36 +1,42 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{\numberline {1}Theoretical Background}{4}{}%
-\contentsline {section}{\numberline {I}Nuclear Fusion}{4}{}%
-\contentsline {subsection}{\numberline {1}Reaction}{4}{}%
-\contentsline {subsubsection}{\numberline {a}D-T reaction}{4}{}%
-\contentsline {subsubsection}{\numberline {b}Fusion Cross-section}{4}{}%
-\contentsline {subsubsection}{\numberline {c}Energy balance and Lawson criterion}{4}{}%
-\contentsline {subsection}{\numberline {2}Tokamak}{4}{}%
-\contentsline {section}{\numberline {II}Wave propagation in plasma}{5}{}%
-\contentsline {subsection}{\numberline {1}Plasma as a medium}{5}{}%
-\contentsline {subsection}{\numberline {2}Wave equation}{5}{}%
-\contentsline {subsection}{\numberline {3}Dispersion relation}{5}{}%
-\contentsline {subsubsection}{\numberline {a}Ordinary mode}{5}{}%
-\contentsline {subsubsection}{\numberline {b}Extraordinary mode}{5}{}%
-\contentsline {section}{\numberline {III}{Plasma Turbulence}}{5}{}%
-\contentsline {subsection}{\numberline {1}Characterization}{5}{}%
-\contentsline {subsection}{\numberline {2}Diagnostics}{5}{}%
-\contentsline {subsubsection}{\numberline {a}Doppler Reflectometry}{5}{}%
-\contentsline {subsubsection}{\numberline {b}RCDR}{5}{}%
-\contentsline {subsubsection}{\numberline {c}Short Pulse Reflectometry}{5}{}%
+\contentsline {chapter}{\numberline {1}Theoretical Background}{2}{}%
+\contentsline {section}{\numberline {I}Nuclear Fusion}{2}{}%
+\contentsline {subsection}{\numberline {1}Fusion Reaction}{2}{}%
+\contentsline {subsection}{\numberline {2}Tokamak confinement}{2}{}%
+\contentsline {section}{\numberline {II}Transports in Tokamak}{3}{}%
+\contentsline {subsection}{\numberline {1}Trapped particles and drifts}{3}{}%
+\contentsline {subsubsection}{\numberline {a)}Drift waves}{3}{}%
+\contentsline {section}{\numberline {III}Wave propagation in plasma}{4}{}%
+\contentsline {subsection}{\numberline {1}Plasma as a medium}{4}{}%
+\contentsline {subsection}{\numberline {2}Wave equation}{4}{}%
+\contentsline {subsection}{\numberline {3}Dispersion relation}{4}{}%
+\contentsline {subsubsection}{\numberline {a)}Ordinary mode}{4}{}%
+\contentsline {subsubsection}{\numberline {b)}Extraordinary mode}{4}{}%
+\contentsline {section}{\numberline {IV}{Plasma Turbulence}}{4}{}%
+\contentsline {subsection}{\numberline {1}Drift wave instabilities}{4}{}%
+\contentsline {subsubsection}{\numberline {a)}Drift-Wave eigenmodes in toroidal geometry}{4}{}%
+\contentsline {subsubsection}{\numberline {b)}Breaking in gyroscale turbulence}{4}{}%
+\contentsline {paragraph}{\numberline {b).1}Shear Flow}{4}{}%
+\contentsline {paragraph}{\numberline {b).2}Secondary instabilities}{4}{}%
+\contentsline {subsubsection}{\numberline {c)}Effects on the probing signal}{4}{}%
+\contentsline {subsection}{\numberline {2}Characterization}{4}{}%
+\contentsline {subsection}{\numberline {3}Diagnostics}{4}{}%
+\contentsline {subsubsection}{\numberline {a)}Doppler Reflectometry}{4}{}%
+\contentsline {subsubsection}{\numberline {b)}RCDR}{4}{}%
+\contentsline {subsubsection}{\numberline {c)}Short Pulse Reflectometry}{4}{}%
 \contentsline {chapter}{\numberline {2}Linear Regime Study}{5}{}%
 \contentsline {section}{\numberline {I}1 dimensional study}{5}{}%
 \contentsline {subsection}{\numberline {1}Perturbed Density Profile}{5}{}%
-\contentsline {subsubsection}{\numberline {a}Step-like perturbation}{5}{}%
-\contentsline {paragraph}{\numberline {a.1}Model}{5}{}%
-\contentsline {paragraph}{\numberline {a.2}statistical approach}{5}{}%
-\contentsline {subsubsection}{\numberline {b}Gaussian-like perturbation}{5}{}%
+\contentsline {subsubsection}{\numberline {a)}Step-like perturbation}{5}{}%
+\contentsline {paragraph}{\numberline {a).1}Model}{5}{}%
+\contentsline {paragraph}{\numberline {a).2}statistical approach}{5}{}%
+\contentsline {subsubsection}{\numberline {b)}Gaussian-like perturbation}{5}{}%
 \contentsline {section}{\numberline {II}2 dimensional study}{6}{}%
 \contentsline {subsection}{\numberline {1}Numerical Integration for plasma density}{6}{}%
 \contentsline {subsection}{\numberline {2}Full wave Modelling}{6}{}%
 \contentsline {subsection}{\numberline {3}Background profiles}{6}{}%
-\contentsline {section}{\numberline {III}Numerical Integration}{7}{}%
-\contentsline {subsection}{\numberline {1}statistical Properties of the delay}{7}{}%
+\contentsline {section}{\numberline {III}Numerical Integration}{6}{}%
+\contentsline {subsection}{\numberline {1}statistical Properties of the delay}{6}{}%
 \contentsline {subsection}{\numberline {2}Pulse shape Study}{7}{}%
 \contentsline {subsection}{\numberline {3}Gaussian fitting of the pulse}{10}{}%
 \contentsline {section}{\numberline {IV}Model collapses}{10}{}%
@@ -42,4 +48,7 @@
 \contentsline {subsection}{\numberline {4}Results}{12}{}%
 \contentsline {section}{\numberline {II}2 dimensional study}{14}{}%
 \contentsline {subsection}{\numberline {1}Datasets building}{14}{}%
+\contentsline {subsection}{\numberline {2}Gaussian spectrum of the turbulences}{14}{}%
+\contentsline {subsection}{\numberline {3}Power Spectrum of the turbulences}{14}{}%
+\contentsline {subsubsection}{\numberline {a)}COrrelation length dependancy study}{14}{}%
 \contentsline {chapter}{\numberline {4}Mathematical appendix}{15}{}%
