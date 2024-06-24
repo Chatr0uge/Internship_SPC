@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  18 JUN 2024 15:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  24 JUN 2024 15:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1193,10 +1193,13 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count522
 \@quotereset=\count523
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 107.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 110.
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (./CR.aux
+
+LaTeX Warning: Label `' multiply defined.
+
 
 LaTeX Warning: Label `' multiply defined.
 
@@ -1242,24 +1245,24 @@ LaTeX Warning: Label `' multiply defined.
 )
 \openout1 = `CR.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count524
@@ -1281,7 +1284,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 107.
+ on input line 110.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1338,43 +1341,43 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'CR.bbl' found.
  (./CR.bbl)
-Package biblatex Info: Reference section=0 on input line 107.
-Package biblatex Info: Reference segment=0 on input line 107.
-LaTeX Font Info:    Trying to load font information for U+futs on input line 147.
+Package biblatex Info: Reference section=0 on input line 110.
+Package biblatex Info: Reference segment=0 on input line 110.
+LaTeX Font Info:    Trying to load font information for U+futs on input line 150.
  (/usr/share/texlive/texmf-dist/tex/latex/fourier/ufuts.fd
 File: ufuts.fd 2004/03/02 Fontinst v1.926 font definitions for U/futs.
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 158.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 161.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 158.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 161.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 158.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 161.
  (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 158.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 161.
  (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 158.
+(Font)              <14.4> on input line 161.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 158.
+(Font)              <10> on input line 161.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 158.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 158.
+(Font)              <7> on input line 161.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 161.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 158.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 161.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 158.
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 161.
  (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./CR.toc
@@ -1385,37 +1388,17 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 3.
 
-Overfull \hbox (6.43857pt too wide) in paragraph at lines 20--20
- [][] []\T1/lmr/m/n/10.95 Secondary 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
- \T1/lmr/m/n/10.95 in-sta-bil-i- 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
- [][] []\T1/lmr/m/n/10.95 Effects on the 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
- [][] []\T1/lmr/m/n/10.95 Doppler Re-flec- 
- []
-
-
-Overfull \hbox (3.79265pt too wide) in paragraph at lines 32--32
+Overfull \hbox (3.79265pt too wide) in paragraph at lines 20--20
  [][] []\T1/lmr/m/n/10.95 statistical 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
  [][] []\T1/lmr/m/n/10.95 COrrelation 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
  \T1/lmr/m/n/10.95 length de-pen- 
  []
 
@@ -1427,34 +1410,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--53
 Package lettrine.sty Info: Targeted height = 14.74254pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 19.16542pt (\color {black} O) loversize=.30;
-(lettrine.sty)             reported on input line 185.
+(lettrine.sty)             reported on input line 188.
 
 Chapter 1.
 Package lettrine.sty Info: Targeted height = 15.26949pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 15.26955pt (\color {black} T);
-(lettrine.sty)             reported on input line 197.
+(lettrine.sty)             reported on input line 200.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 200.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 211.
+(Font)              <5> on input line 203.
 <./figures/tokamak.png, id=55, 494.20634pt x 395.3169pt>
 File: ./figures/tokamak.png Graphic file (type png)
 <use ./figures/tokamak.png>
-Package pdftex.def Info: ./figures/tokamak.png  used on input line 217.
+Package pdftex.def Info: ./figures/tokamak.png  used on input line 213.
 (pdftex.def)             Requested size: 234.73524pt x 187.7654pt.
-[2]
-<./figures/banana.png, id=69, 958.58125pt x 814.04124pt>
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 220.
+[2 <./figures/tokamak.png>]
+<./figures/banana.png, id=71, 958.58125pt x 814.04124pt>
 File: ./figures/banana.png Graphic file (type png)
 <use ./figures/banana.png>
-Package pdftex.def Info: ./figures/banana.png  used on input line 239.
+Package pdftex.def Info: ./figures/banana.png  used on input line 241.
 (pdftex.def)             Requested size: 234.73524pt x 199.33626pt.
 
-Overfull \hbox (0.13542pt too wide) detected at line 252
+Overfull \hbox (0.13542pt too wide) detected at line 254
 [][]  \OML/lmm/m/it/10 :
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 254.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 264.
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1465,11 +1448,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
-[3 <./figures/tokamak.png> <./figures/banana.png>]
-<./figures/balloning_TEM.png, id=81, 573.1011pt x 252.2223pt>
+[3 <./figures/banana.png>]
+<./figures/balloning_TEM.png, id=83, 573.1011pt x 252.2223pt>
 File: ./figures/balloning_TEM.png Graphic file (type png)
 <use ./figures/balloning_TEM.png>
-Package pdftex.def Info: ./figures/balloning_TEM.png  used on input line 258.
+Package pdftex.def Info: ./figures/balloning_TEM.png  used on input line 273.
 (pdftex.def)             Requested size: 483.69687pt x 212.87746pt.
 
 
@@ -1480,21 +1463,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
 [4 <./figures/balloning_TEM.png>]
-Chapter 2.
+<./figures/field_SPR.pdf, id=91, 405.91438pt x 123.6456pt>
+File: ./figures/field_SPR.pdf Graphic file (type pdf)
+<use ./figures/field_SPR.pdf>
+Package pdftex.def Info: ./figures/field_SPR.pdf  used on input line 350.
+(pdftex.def)             Requested size: 483.69687pt x 147.34006pt.
 
-LaTeX Warning: Reference `fig:delay_amp_norm_2' on page 5 undefined on input line 307.
 
-<./figures/density_profile.png, id=88, 419.166pt x 167.6664pt>
-File: ./figures/density_profile.png Graphic file (type png)
-<use ./figures/density_profile.png>
-Package pdftex.def Info: ./figures/density_profile.png  used on input line 328.
-(pdftex.def)             Requested size: 483.69687pt x 193.48257pt.
-[5]
-<./figures/background_density.png, id=93, 209.583pt x 157.11497pt>
-File: ./figures/background_density.png Graphic file (type png)
-<use ./figures/background_density.png>
-Package pdftex.def Info: ./figures/background_density.png  used on input line 353.
-(pdftex.def)             Requested size: 234.73524pt x 175.97235pt.
+Package caption Warning: \captionsetup{type*=...} or \captionof
+(caption)                outside box or environment on input line 353.
+See the caption package documentation for explanation.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1503,21 +1481,51 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
-[6 <./figures/density_profile.png> <./figures/background_density.png>]
-<./figures/delay_amp_norm_2.png, id=101, 419.166pt x 209.583pt>
+[5 <./figures/field_SPR.pdf>]
+Chapter 2.
+
+LaTeX Warning: Reference `fig:delay_amp_norm_2' on page 6 undefined on input line 380.
+
+
+Overfull \vbox (17.49486pt too high) has occurred while \output is active []
+
+ [6]
+<./figures/density_profile.png, id=324, 419.166pt x 167.6664pt>
+File: ./figures/density_profile.png Graphic file (type png)
+<use ./figures/density_profile.png>
+Package pdftex.def Info: ./figures/density_profile.png  used on input line 391.
+(pdftex.def)             Requested size: 483.69687pt x 193.48257pt.
+<./figures/background_density.png, id=325, 209.583pt x 157.11497pt>
+File: ./figures/background_density.png Graphic file (type png)
+<use ./figures/background_density.png>
+Package pdftex.def Info: ./figures/background_density.png  used on input line 416.
+(pdftex.def)             Requested size: 234.73524pt x 175.97235pt.
+
+Overfull \vbox (3.1664pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 29.11996pt, for example:
+(fancyhdr)                \setlength{\headheight}{29.11996pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
+
+[7 <./figures/density_profile.png> <./figures/background_density.png>]
+<./figures/delay_amp_norm_2.png, id=331, 419.166pt x 209.583pt>
 File: ./figures/delay_amp_norm_2.png Graphic file (type png)
 <use ./figures/delay_amp_norm_2.png>
-Package pdftex.def Info: ./figures/delay_amp_norm_2.png  used on input line 366.
+Package pdftex.def Info: ./figures/delay_amp_norm_2.png  used on input line 429.
 (pdftex.def)             Requested size: 483.69687pt x 241.85323pt.
-<./figures/pulse_shape.png, id=102, 247.1634pt x 165.4983pt>
+<./figures/pulse_shape.png, id=332, 247.1634pt x 165.4983pt>
 File: ./figures/pulse_shape.png Graphic file (type png)
 <use ./figures/pulse_shape.png>
-Package pdftex.def Info: ./figures/pulse_shape.png  used on input line 382.
+Package pdftex.def Info: ./figures/pulse_shape.png  used on input line 445.
 (pdftex.def)             Requested size: 234.73524pt x 157.17953pt.
-<./figures/pulse_overview.png, id=103, 419.166pt x 251.35506pt>
+<./figures/pulse_overview.png, id=333, 419.166pt x 251.35506pt>
 File: ./figures/pulse_overview.png Graphic file (type png)
 <use ./figures/pulse_overview.png>
-Package pdftex.def Info: ./figures/pulse_overview.png  used on input line 393.
+Package pdftex.def Info: ./figures/pulse_overview.png  used on input line 456.
 (pdftex.def)             Requested size: 483.69687pt x 290.0571pt.
 
 
@@ -1527,7 +1535,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
-[7 <./figures/delay_amp_norm_2.png> <./figures/pulse_shape.png>]
+[8 <./figures/delay_amp_norm_2.png> <./figures/pulse_shape.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 29.11996pt, for example:
@@ -1535,16 +1543,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
-[8 <./figures/pulse_overview.png>]
-<./figures/pulse_params.png, id=113, 427.54932pt x 284.0211pt>
+[9 <./figures/pulse_overview.png>]
+<./figures/pulse_params.png, id=343, 427.54932pt x 284.0211pt>
 File: ./figures/pulse_params.png Graphic file (type png)
 <use ./figures/pulse_params.png>
-Package pdftex.def Info: ./figures/pulse_params.png  used on input line 407.
+Package pdftex.def Info: ./figures/pulse_params.png  used on input line 470.
 (pdftex.def)             Requested size: 483.69687pt x 321.33014pt.
-<./figures/skew_Hyst.png, id=114, 427.54932pt x 165.4983pt>
+<./figures/skew_Hyst.png, id=344, 427.54932pt x 165.4983pt>
 File: ./figures/skew_Hyst.png Graphic file (type png)
 <use ./figures/skew_Hyst.png>
-Package pdftex.def Info: ./figures/skew_Hyst.png  used on input line 415.
+Package pdftex.def Info: ./figures/skew_Hyst.png  used on input line 478.
 (pdftex.def)             Requested size: 483.69687pt x 187.23816pt.
 
 
@@ -1554,16 +1562,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
-[9 <./figures/pulse_params.png> <./figures/skew_Hyst.png>]
-<./figures/gaussian_fit.png, id=120, 427.54932pt x 165.4983pt>
+[10 <./figures/pulse_params.png> <./figures/skew_Hyst.png>]
+<./figures/gaussian_fit.png, id=350, 427.54932pt x 165.4983pt>
 File: ./figures/gaussian_fit.png Graphic file (type png)
 <use ./figures/gaussian_fit.png>
-Package pdftex.def Info: ./figures/gaussian_fit.png  used on input line 428.
+Package pdftex.def Info: ./figures/gaussian_fit.png  used on input line 491.
 (pdftex.def)             Requested size: 483.69687pt x 187.23816pt.
-<./figures/gaussian_Params.png, id=121, 428.99472pt x 188.19109pt>
+<./figures/gaussian_Params.png, id=351, 428.99472pt x 188.19109pt>
 File: ./figures/gaussian_Params.png Graphic file (type png)
 <use ./figures/gaussian_Params.png>
-Package pdftex.def Info: ./figures/gaussian_Params.png  used on input line 436.
+Package pdftex.def Info: ./figures/gaussian_Params.png  used on input line 499.
 (pdftex.def)             Requested size: 483.69687pt x 212.19972pt.
 
 
@@ -1573,112 +1581,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
-[10 <./figures/gaussian_fit.png> <./figures/gaussian_Params.png>]
+[11 <./figures/gaussian_fit.png> <./figures/gaussian_Params.png>]
 Chapter 3.
-NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (0Y0.0e0],5Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
-
-Overfull \hbox (5.80011pt too wide) in paragraph at lines 528--531
-[][]
- []
-
-<./figures/chord.png, id=127, 1025.8325pt x 1025.8325pt>
+<./figures/chord.png, id=357, 1025.8325pt x 1025.8325pt>
 File: ./figures/chord.png Graphic file (type png)
-<use ./figures/chord.png>
-Package pdftex.def Info: ./figures/chord.png  used on input line 547.
-(pdftex.def)             Requested size: 234.73524pt x 234.73123pt.
-[11 <./figures/chord.png>]
-<./figures/amp_amp_final.png, id=133, 419.166pt x 314.3745pt>
-File: ./figures/amp_amp_final.png Graphic file (type png)
-<use ./figures/amp_amp_final.png>
-Package pdftex.def Info: ./figures/amp_amp_final.png  used on input line 572.
-(pdftex.def)             Requested size: 483.69687pt x 362.77986pt.
-
-
-Package caption Warning: \captionsetup{type*=...} or \captionof
-(caption)                outside box or environment on input line 574.
-See the caption package documentation for explanation.
-
-<./figures/delay_amp_final.png, id=134, 419.166pt x 314.3745pt>
-File: ./figures/delay_amp_final.png Graphic file (type png)
-<use ./figures/delay_amp_final.png>
-Package pdftex.def Info: ./figures/delay_amp_final.png  used on input line 585.
-(pdftex.def)             Requested size: 483.69687pt x 362.77986pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 29.11996pt, for example:
-(fancyhdr)                \setlength{\headheight}{29.11996pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
-
-[12 <./figures/amp_amp_final.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 29.11996pt, for example:
-(fancyhdr)                \setlength{\headheight}{29.11996pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
-
-[13 <./figures/delay_amp_final.png>]
-<example-image.pdf, id=145, 321.2pt x 240.9pt>
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 641.
-(pdftex.def)             Requested size: 164.31395pt x 123.23965pt.
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 653.
-(pdftex.def)             Requested size: 164.31395pt x 123.23965pt.
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 669.
-(pdftex.def)             Requested size: 164.31395pt x 123.23965pt.
-
-
-Package multicol Warning: Floats and marginpars not allowed inside `multicols' environment!.
-
-
-Package multicol Warning: Floats and marginpars not allowed inside `multicols' environment!.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 29.11996pt, for example:
-(fancyhdr)                \setlength{\headheight}{29.11996pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
-
-[14 </usr/share/texlive/texmf-dist/tex/latex/mwe/example-image.pdf>]
-Chapter 4.
-[15
-
-]
-
-LaTeX Warning: Empty bibliography on input line 729.
-
-(./CR.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package logreq Info: Writing requests to 'CR.run.xml'.
-\openout1 = `CR.run.xml'.
-
- ) 
-Here is how much of TeX's memory you used:
- 51152 strings out of 478287
- 1228290 string characters out of 5849289
- 2153285 words of memory out of 5000000
- 68502 multiletter control sequences out of 15000+600000
- 574253 words of font info for 111 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 94i,17n,92p,1238b,2248s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-orns.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb>
-Output written on CR.pdf (16 pages, 13769047 bytes).
-PDF statistics:
- 271 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 237 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+<use ./figures/chord.p
