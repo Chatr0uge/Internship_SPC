@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  24 JUN 2024 15:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  24 JUN 2024 15:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1507,82 +1507,4 @@ Overfull \vbox (3.1664pt too high) has occurred while \output is active []
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 29.11996pt, for example:
-(fancyhdr)                \setlength{\headheight}{29.11996pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
-
-[7 <./figures/density_profile.png> <./figures/background_density.png>]
-<./figures/delay_amp_norm_2.png, id=331, 419.166pt x 209.583pt>
-File: ./figures/delay_amp_norm_2.png Graphic file (type png)
-<use ./figures/delay_amp_norm_2.png>
-Package pdftex.def Info: ./figures/delay_amp_norm_2.png  used on input line 429.
-(pdftex.def)             Requested size: 483.69687pt x 241.85323pt.
-<./figures/pulse_shape.png, id=332, 247.1634pt x 165.4983pt>
-File: ./figures/pulse_shape.png Graphic file (type png)
-<use ./figures/pulse_shape.png>
-Package pdftex.def Info: ./figures/pulse_shape.png  used on input line 445.
-(pdftex.def)             Requested size: 234.73524pt x 157.17953pt.
-<./figures/pulse_overview.png, id=333, 419.166pt x 251.35506pt>
-File: ./figures/pulse_overview.png Graphic file (type png)
-<use ./figures/pulse_overview.png>
-Package pdftex.def Info: ./figures/pulse_overview.png  used on input line 456.
-(pdftex.def)             Requested size: 483.69687pt x 290.0571pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 29.11996pt, for example:
-(fancyhdr)                \setlength{\headheight}{29.11996pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
-
-[8 <./figures/delay_amp_norm_2.png> <./figures/pulse_shape.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 29.11996pt, for example:
-(fancyhdr)                \setlength{\headheight}{29.11996pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
-
-[9 <./figures/pulse_overview.png>]
-<./figures/pulse_params.png, id=343, 427.54932pt x 284.0211pt>
-File: ./figures/pulse_params.png Graphic file (type png)
-<use ./figures/pulse_params.png>
-Package pdftex.def Info: ./figures/pulse_params.png  used on input line 470.
-(pdftex.def)             Requested size: 483.69687pt x 321.33014pt.
-<./figures/skew_Hyst.png, id=344, 427.54932pt x 165.4983pt>
-File: ./figures/skew_Hyst.png Graphic file (type png)
-<use ./figures/skew_Hyst.png>
-Package pdftex.def Info: ./figures/skew_Hyst.png  used on input line 478.
-(pdftex.def)             Requested size: 483.69687pt x 187.23816pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 29.11996pt, for example:
-(fancyhdr)                \setlength{\headheight}{29.11996pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
-
-[10 <./figures/pulse_params.png> <./figures/skew_Hyst.png>]
-<./figures/gaussian_fit.png, id=350, 427.54932pt x 165.4983pt>
-File: ./figures/gaussian_fit.png Graphic file (type png)
-<use ./figures/gaussian_fit.png>
-Package pdftex.def Info: ./figures/gaussian_fit.png  used on input line 491.
-(pdftex.def)             Requested size: 483.69687pt x 187.23816pt.
-<./figures/gaussian_Params.png, id=351, 428.99472pt x 188.19109pt>
-File: ./figures/gaussian_Params.png Graphic file (type png)
-<use ./figures/gaussian_Params.png>
-Package pdftex.def Info: ./figures/gaussian_Params.png  used on input line 499.
-(pdftex.def)             Requested size: 483.69687pt x 212.19972pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 29.11996pt, for example:
-(fancyhdr)                \setlength{\headheight}{29.11996pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
-
-[11 <./figures/gaussian_fit.png> <./figures/gaussian_Params.png>]
-Chapter 3.
-<./figures/chord.png, id=357, 1025.8325pt x 1025.8325pt>
-File: ./figures/chord.png Graphic file (type png)
-<use ./figures/chord.p
+(fancyhdr)    
