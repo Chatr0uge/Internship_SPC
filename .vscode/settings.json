@@ -1,0 +1,6 @@
+{
+  "editor.inlineSuggest.showToolbar": "always",
+  "editor.quickSuggestionsDelay": 5,
+  "editor.snippetSuggestions": "top",
+  "editor.suggest.preview": true
+}

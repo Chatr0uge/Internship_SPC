@@ -16,5 +16,1170 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Heating}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=3489348bc66fdc4428239bbfb3226de1}{%
+           family={Dolan},
+           familyi={D\bibinitperiod},
+           given={Thomas\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=3489348bc66fdc4428239bbfb3226de1}{%
+           family={Dolan},
+           familyi={D\bibinitperiod},
+           given={Thomas\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Springer London}%
+      }
+      \strng{namehash}{3489348bc66fdc4428239bbfb3226de1}
+      \strng{fullhash}{3489348bc66fdc4428239bbfb3226de1}
+      \strng{bibnamehash}{3489348bc66fdc4428239bbfb3226de1}
+      \strng{authorbibnamehash}{3489348bc66fdc4428239bbfb3226de1}
+      \strng{authornamehash}{3489348bc66fdc4428239bbfb3226de1}
+      \strng{authorfullhash}{3489348bc66fdc4428239bbfb3226de1}
+      \strng{editorbibnamehash}{3489348bc66fdc4428239bbfb3226de1}
+      \strng{editornamehash}{3489348bc66fdc4428239bbfb3226de1}
+      \strng{editorfullhash}{3489348bc66fdc4428239bbfb3226de1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We must heat the plasma to about 10keV to initiate fusion reactions, and, in a tokamak, provide a means to sustain the plasma current. Heating is done by the plasma current (ohmic heating) and with auxiliary heating using radio waves, microwaves, and high-energy neutral beam injection. Fusion product alpha particles also heat the plasma as they slow down. If alpha heating is powerful enough, the external auxiliary sources may be turned off (except if required for current drive in tokamaks). This chapter describes these heating and current drive systems, the hardware that they require, the current achievements, and plans for ITER.}
+      \field{booktitle}{Magnetic Fusion Technology}
+      \field{isbn}{978-1-4471-5556-0}
+      \field{title}{Plasma Heating and Current Drive}
+      \field{year}{2013}
+      \field{pages}{175\bibrangedash 232}
+      \range{pages}{58}
+      \verb{doi}
+      \verb 10.1007/978-1-4471-5556-0_5
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-1-4471-5556-0_5
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-1-4471-5556-0_5
+      \endverb
+    \endentry
+    \entry{piel2018plasma}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4fdda577889536a19a4a9a90bab4755d}{%
+           family={Piel},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{4fdda577889536a19a4a9a90bab4755d}
+      \strng{fullhash}{4fdda577889536a19a4a9a90bab4755d}
+      \strng{bibnamehash}{4fdda577889536a19a4a9a90bab4755d}
+      \strng{authorbibnamehash}{4fdda577889536a19a4a9a90bab4755d}
+      \strng{authornamehash}{4fdda577889536a19a4a9a90bab4755d}
+      \strng{authorfullhash}{4fdda577889536a19a4a9a90bab4755d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783319875538}
+      \field{series}{Graduate Texts in Physics}
+      \field{title}{Plasma Physics: An Introduction to Laboratory, Space, and Fusion Plasmas}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://books.google.ch/books?id=3wmWvgEACAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.ch/books?id=3wmWvgEACAAJ
+      \endverb
+    \endentry
+    \entry{TEM_landau_rational}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a66befecbee13bd5f55b07cc8f3d370f}{%
+           family={Qi},
+           familyi={Q\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{a66befecbee13bd5f55b07cc8f3d370f}
+      \strng{fullhash}{a66befecbee13bd5f55b07cc8f3d370f}
+      \strng{bibnamehash}{a66befecbee13bd5f55b07cc8f3d370f}
+      \strng{authorbibnamehash}{a66befecbee13bd5f55b07cc8f3d370f}
+      \strng{authornamehash}{a66befecbee13bd5f55b07cc8f3d370f}
+      \strng{authorfullhash}{a66befecbee13bd5f55b07cc8f3d370f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The first principle gyrokinetic simulations of trapped electron turbulence in tokamak fusion plasmas demonstrate the energy transfers from the most linearly unstable modes at high [Formula: see text] to intermediate [Formula: see text] via parametric decay process in a short period of linear-nonlinear transition phase. Dominant nonlinear wave-wave interactions occur near the mode rational surface [Formula: see text]. In fully nonlinear turbulence, inverse energy cascade occurs between a cutoff wave number [Formula: see text] and [Formula: see text] with a power law scaling [Formula: see text], while modes with [Formula: see text] are suppressed. The numerical findings show fair agreement with both the weak turbulence theory and realistic experiments on Tore Supra tokamak.}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Scientific reports}
+      \field{number}{1}
+      \field{title}{Energy transfer of trapped electron turbulence in tokamak fusion plasmas}
+      \field{volume}{12}
+      \field{year}{2022}
+      \field{pages}{5042}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-022-08932-4
+      \endverb
+      \verb{urlraw}
+      \verb https://europepmc.org/articles/PMC8942984
+      \endverb
+      \verb{url}
+      \verb https://europepmc.org/articles/PMC8942984
+      \endverb
+    \endentry
+    \entry{Scaling_TEM}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4d9fb37e1a30167977eea6097b4a7fa0}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ced9ba1d31c5fc0d105139332f7d71d0}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Zhihong},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{6fa79f0c1b7bb39a635a40b6878d4bc9}
+      \strng{fullhash}{6fa79f0c1b7bb39a635a40b6878d4bc9}
+      \strng{bibnamehash}{6fa79f0c1b7bb39a635a40b6878d4bc9}
+      \strng{authorbibnamehash}{6fa79f0c1b7bb39a635a40b6878d4bc9}
+      \strng{authornamehash}{6fa79f0c1b7bb39a635a40b6878d4bc9}
+      \strng{authorfullhash}{6fa79f0c1b7bb39a635a40b6878d4bc9}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{8}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{Turbulent Transport of Trapped-Electron Modes in Collisionless Plasmas}
+      \field{volume}{103}
+      \field{year}{2009}
+      \field{pages}{085004}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.103.085004
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.103.085004
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.103.085004
+      \endverb
+    \endentry
+    \entry{TEM_ballooning}{article}{}
+      \name{author}{6}{}{%
+        {{hash=0398664984b01ebd5531d822db6f4629}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0bebb792354fedeefdfec859bca2f33f}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Y.\bibnamedelimi Z.},
+           giveni={Y\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=636ee3f0112d49b328fd3f5ab9dc62a0}{%
+           family={Mahajan},
+           familyi={M\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=396a70acb7f0d7006059d960e6f62a51}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a3b4134e7f6cd29cc882f2f35a5cd11a}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Hongda},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4e1aa65f0850e40ce6290baa8d462e41}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Z.\bibnamedelimi Y.},
+           giveni={Z\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{fdaee366b7c9e855b8a147d294712118}
+      \strng{fullhash}{4e955811dc6c1fcb4f4acda8980cb629}
+      \strng{bibnamehash}{4e955811dc6c1fcb4f4acda8980cb629}
+      \strng{authorbibnamehash}{4e955811dc6c1fcb4f4acda8980cb629}
+      \strng{authornamehash}{fdaee366b7c9e855b8a147d294712118}
+      \strng{authorfullhash}{4e955811dc6c1fcb4f4acda8980cb629}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{The two-dimensional (2D) kinetic theory for a collisionless trapped electron mode is developed based on the Fourier-ballooning transform in an up-down symmetric equilibrium (illustrated via concentric circular magnetic surfaces). The system consists of two equations: the ballooning (integral) equation with a parameterized Floquet phase and a second order differential equation for the distribution of the Floquet phase. The coupled equations are, then, numerically solved as an eigenvalue problem yielding the 2D mode structure (in real space) as well as the global (phase-independent) eigenvalue for an L-mode parameter set. The 2D mode structure exhibits apparent radial-poloidal asymmetry; due to the poloidal coupling, the radial correlation length is found to be, at least, twice as large as the poloidal one. The global (phase-independent) eigenvalue of the mode differs considerably from the conventional local (phase-dependent) estimate. This paper shares many technical aspects with a published paper that works out the 2D kinetic theory for the ion temperature gradient mode [Xie et al., Phys. Plasmas 24, 102506 (2017)].}}
+      \field{issn}{1070-664X}
+      \field{journaltitle}{Physics of Plasmas}
+      \field{month}{02}
+      \field{number}{2}
+      \field{title}{{The two-dimensional kinetic ballooning theory for trapped electron mode in tokamak}}
+      \field{volume}{26}
+      \field{year}{2019}
+      \field{pages}{022503}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.5048538
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.aip.org/aip/pop/article-pdf/doi/10.1063/1.5048538/14936102/022503\_1\_online.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.5048538
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.5048538
+      \endverb
+    \endentry
+    \entry{DW_transport}{article}{}
+      \name{author}{1}{}{%
+        {{hash=695685cd41f28873bfdef3625aa5edb3}{%
+           family={Horton},
+           familyi={H\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{695685cd41f28873bfdef3625aa5edb3}
+      \strng{fullhash}{695685cd41f28873bfdef3625aa5edb3}
+      \strng{bibnamehash}{695685cd41f28873bfdef3625aa5edb3}
+      \strng{authorbibnamehash}{695685cd41f28873bfdef3625aa5edb3}
+      \strng{authornamehash}{695685cd41f28873bfdef3625aa5edb3}
+      \strng{authorfullhash}{695685cd41f28873bfdef3625aa5edb3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{title}{Drift waves and transport}
+      \field{volume}{71}
+      \field{year}{1999}
+      \field{pages}{735\bibrangedash 778}
+      \range{pages}{44}
+      \verb{doi}
+      \verb 10.1103/RevModPhys.71.735
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.71.735
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.71.735
+      \endverb
+    \endentry
+    \entry{Krutkin_thesis}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=4404399cf4b58b3af6d6663dd34a7759}{%
+           family={Krutkin},
+           familyi={K\bibinitperiod},
+           given={Oleg},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{4404399cf4b58b3af6d6663dd34a7759}
+      \strng{fullhash}{4404399cf4b58b3af6d6663dd34a7759}
+      \strng{bibnamehash}{4404399cf4b58b3af6d6663dd34a7759}
+      \strng{authorbibnamehash}{4404399cf4b58b3af6d6663dd34a7759}
+      \strng{authornamehash}{4404399cf4b58b3af6d6663dd34a7759}
+      \strng{authorfullhash}{4404399cf4b58b3af6d6663dd34a7759}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{06}
+      \field{title}{Theoretical analysis and full-wave simulations combined in the development of the synthetic Doppler reflectometry diagnostics for tokamaks}
+      \field{type}{phdthesis}
+      \field{year}{2020}
+    \endentry
+    \entry{TEM_slow}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5bd3d141dbba181b1eae19c0844f54c6}{%
+           family={Mitsuru\bibnamedelima Kikuchi},
+           familyi={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Masafumi\bibnamedelima Azumi},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=c79e6794d92b660604601937a9b1c766}{%
+           family={Springer},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Naka, Ibaraki, Japan, Setagaya, Tokyo, Japan}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{5bd3d141dbba181b1eae19c0844f54c6}
+      \strng{fullhash}{5bd3d141dbba181b1eae19c0844f54c6}
+      \strng{bibnamehash}{5bd3d141dbba181b1eae19c0844f54c6}
+      \strng{authorbibnamehash}{5bd3d141dbba181b1eae19c0844f54c6}
+      \strng{authornamehash}{5bd3d141dbba181b1eae19c0844f54c6}
+      \strng{authorfullhash}{5bd3d141dbba181b1eae19c0844f54c6}
+      \strng{editorbibnamehash}{c79e6794d92b660604601937a9b1c766}
+      \strng{editornamehash}{c79e6794d92b660604601937a9b1c766}
+      \strng{editorfullhash}{c79e6794d92b660604601937a9b1c766}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-319-18904-8}
+      \field{title}{Frontiers in Fusion Research II, Introduction to Modern Tokamak Physics}
+      \field{year}{2015}
+      \verb{doi}
+      \verb DOI 10.1007/978-3-319-18905-5
+      \endverb
+    \endentry
+    \entry{book_banana}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c1a7c36ddfbe968710de0541091bdd74}{%
+           family={Miyamoto},
+           familyi={M\bibinitperiod},
+           given={Kenro},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1a7c36ddfbe968710de0541091bdd74}
+      \strng{fullhash}{c1a7c36ddfbe968710de0541091bdd74}
+      \strng{bibnamehash}{c1a7c36ddfbe968710de0541091bdd74}
+      \strng{authorbibnamehash}{c1a7c36ddfbe968710de0541091bdd74}
+      \strng{authornamehash}{c1a7c36ddfbe968710de0541091bdd74}
+      \strng{authorfullhash}{c1a7c36ddfbe968710de0541091bdd74}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{01}
+      \field{title}{Plasma Physics and Controlled Nuclear Fusion}
+      \field{year}{2004}
+    \endentry
+    \entry{Banana_distr_runaway}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5af22f72249a17166ff6948b3aa99807}{%
+           family={Rozhansky},
+           familyi={R\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {St. Petersburg, Russia}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{5af22f72249a17166ff6948b3aa99807}
+      \strng{fullhash}{5af22f72249a17166ff6948b3aa99807}
+      \strng{bibnamehash}{5af22f72249a17166ff6948b3aa99807}
+      \strng{authorbibnamehash}{5af22f72249a17166ff6948b3aa99807}
+      \strng{authornamehash}{5af22f72249a17166ff6948b3aa99807}
+      \strng{authorfullhash}{5af22f72249a17166ff6948b3aa99807}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{ISBN 978-3-031-44485-2}
+      \field{title}{Plasma Theory An Advanced Guide for Graduate Students}
+      \field{year}{2023}
+      \verb{doi}
+      \verb https://doi.org/10.1007/978-3-031-44486-9
+      \endverb
+    \endentry
+    \entry{TEM_mirror_localization}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8778d8ec789c4c27860fe272242529fc}{%
+           family={Prager},
+           familyi={P\bibinitperiod},
+           given={S.\bibnamedelimi C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=70405a493b89b28d9b4fdac539763bed}{%
+           family={Sen},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=c2aa73c76978abe23e2b69a877c32cb3}{%
+           family={Marshall},
+           familyi={M\bibinitperiod},
+           given={T.\bibnamedelimi C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{a40588d46f37b43f89639b28a2b297b6}
+      \strng{fullhash}{15388b20714f1fa69cc5ceceac726821}
+      \strng{bibnamehash}{15388b20714f1fa69cc5ceceac726821}
+      \strng{authorbibnamehash}{15388b20714f1fa69cc5ceceac726821}
+      \strng{authornamehash}{a40588d46f37b43f89639b28a2b297b6}
+      \strng{authorfullhash}{15388b20714f1fa69cc5ceceac726821}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{12}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{Dissipative Trapped-Electron Instability in Cylindrical Geometry}
+      \field{volume}{33}
+      \field{year}{1974}
+      \field{pages}{692\bibrangedash 695}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.33.692
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.33.692
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.33.692
+      \endverb
+    \endentry
+    \entry{Hasegawa}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0896a36639afa3c45eca51f02959b657}{%
+           family={Hasegawa},
+           familyi={H\bibinitperiod},
+           given={Akira},
+           giveni={A\bibinitperiod}}}%
+        {{hash=47bf9d61a44d4714c16cf7e6bfed5fee}{%
+           family={Wakatani},
+           familyi={W\bibinitperiod},
+           given={Masahiro},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{402e692044ced754f7694f1786d92f22}
+      \strng{fullhash}{402e692044ced754f7694f1786d92f22}
+      \strng{bibnamehash}{402e692044ced754f7694f1786d92f22}
+      \strng{authorbibnamehash}{402e692044ced754f7694f1786d92f22}
+      \strng{authornamehash}{402e692044ced754f7694f1786d92f22}
+      \strng{authorfullhash}{402e692044ced754f7694f1786d92f22}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{14}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{Self-organization of electrostatic turbulence in a cylindrical plasma}
+      \field{volume}{59}
+      \field{year}{1987}
+      \field{pages}{1581\bibrangedash 1584}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.59.1581
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.59.1581
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.59.1581
+      \endverb
+    \endentry
+    \entry{Wakatani}{article}{}
+      \name{author}{2}{}{%
+        {{hash=47bf9d61a44d4714c16cf7e6bfed5fee}{%
+           family={Wakatani},
+           familyi={W\bibinitperiod},
+           given={Masahiro},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0896a36639afa3c45eca51f02959b657}{%
+           family={Hasegawa},
+           familyi={H\bibinitperiod},
+           given={Akira},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a994f9c0e66afa8b69ec04e733f6a45a}
+      \strng{fullhash}{a994f9c0e66afa8b69ec04e733f6a45a}
+      \strng{bibnamehash}{a994f9c0e66afa8b69ec04e733f6a45a}
+      \strng{authorbibnamehash}{a994f9c0e66afa8b69ec04e733f6a45a}
+      \strng{authornamehash}{a994f9c0e66afa8b69ec04e733f6a45a}
+      \strng{authorfullhash}{a994f9c0e66afa8b69ec04e733f6a45a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{Model mode‐coupling equations for the resistive drift wave instability are numerically solved for realistic parameters found in tokamak edge plasmas. The Bohm diffusion is found to result if the parallel wavenumber is chosen to maximize the growth rate for a given value of the perpendicular wavenumber. The saturated turbulence energy has a broad frequency spectrum with a large fluctuation level proportional to κ̄ (=ρs/Ln, the normalized inverse scale length of the density gradient) and a wavenumber spectrum of the two‐dimensional Kolmogorov–Kraichnan type, ∼k−3.}}
+      \field{issn}{0031-9171}
+      \field{journaltitle}{The Physics of Fluids}
+      \field{month}{03}
+      \field{number}{3}
+      \field{title}{{A collisional drift wave description of plasma edge turbulence}}
+      \field{volume}{27}
+      \field{year}{1984}
+      \field{pages}{611\bibrangedash 618}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1063/1.864660
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.aip.org/aip/pfl/article-pdf/27/3/611/12476138/611\_1\_online.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.864660
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.864660
+      \endverb
+    \endentry
+    \entry{Trapped_Particle_Mode}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d3b2ab4b8505f94a35b9d20f33d764ad}{%
+           family={Kadomtsev},
+           familyi={K\bibinitperiod},
+           given={B.B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=cd2e50a490e60eae9a58e0d154fb36d5}{%
+           family={Pogutse},
+           familyi={P\bibinitperiod},
+           given={O.P.},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e12e9bc8dda126b64f6e2c25dec866a}
+      \strng{fullhash}{4e12e9bc8dda126b64f6e2c25dec866a}
+      \strng{bibnamehash}{4e12e9bc8dda126b64f6e2c25dec866a}
+      \strng{authorbibnamehash}{4e12e9bc8dda126b64f6e2c25dec866a}
+      \strng{authornamehash}{4e12e9bc8dda126b64f6e2c25dec866a}
+      \strng{authorfullhash}{4e12e9bc8dda126b64f6e2c25dec866a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The review is devoted to the discussion of the role of trapped particles for equilibrium, diffusion and stability of plamas in toroidal magnetic devices. The motion of single particles in a toroidal magnetic field, the neoclassical transport processes due to the trapping of particles and trapped-particle instabilities in toroidal geometry are discussed. The correspondence between the neoclassical theory of diffusion, the turbulent transport processes due to the instabilities and the existing experimental Tokamak data is discussed.}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{number}{1}
+      \field{title}{Trapped particles in toroidal magnetic systems}
+      \field{volume}{11}
+      \field{year}{1971}
+      \field{pages}{67}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0029-5515/11/1/010
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/0029-5515/11/1/010
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/0029-5515/11/1/010
+      \endverb
+    \endentry
+    \entry{Mima}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0896a36639afa3c45eca51f02959b657}{%
+           family={Hasegawa},
+           familyi={H\bibinitperiod},
+           given={Akira},
+           giveni={A\bibinitperiod}}}%
+        {{hash=27bdf051c5598648bd03d22629675b1e}{%
+           family={Mima},
+           familyi={M\bibinitperiod},
+           given={Kunioki},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{1aaff8b6b8c26b5bb3ac24790b9bc51b}
+      \strng{fullhash}{1aaff8b6b8c26b5bb3ac24790b9bc51b}
+      \strng{bibnamehash}{1aaff8b6b8c26b5bb3ac24790b9bc51b}
+      \strng{authorbibnamehash}{1aaff8b6b8c26b5bb3ac24790b9bc51b}
+      \strng{authornamehash}{1aaff8b6b8c26b5bb3ac24790b9bc51b}
+      \strng{authorfullhash}{1aaff8b6b8c26b5bb3ac24790b9bc51b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{A simple nonlinear equation is derived to describe the pseudo‐three‐dimensional dynamics of a nonuniform magnetized plasma with Te≫Ti by taking into account the three‐dimensional electron, but two‐dimensional ion dynamics in the direction perpendicular to B0. The equation bears a close resemblance to the two‐dimensional Navier–Stokes equation. A stationary spectrum in the frequency range of drift waves is obtained using this equation by assuming a coexisting large amplitude long wavelength mode. The ω‐integrated k spectrum is given by k1.8(1+k2)−2.2, while the width of the frequency spectrum is proportional to k3(1+k2)−1, where k is normalized by cs/ωci. The result compares well with the recently observed spectrum in the ATC tokamak.}}
+      \field{issn}{0031-9171}
+      \field{journaltitle}{The Physics of Fluids}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{{Pseudo‐three‐dimensional turbulence in magnetized nonuniform plasma}}
+      \field{volume}{21}
+      \field{year}{1978}
+      \field{pages}{87\bibrangedash 92}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1063/1.862083
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.aip.org/aip/pfl/article-pdf/21/1/87/12384514/87\_1\_online.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.862083
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.862083
+      \endverb
+    \endentry
+    \entry{San_diego}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9a0d3f3efd4c614cc467cfcba450f655}{%
+           family={Diamond},
+           familyi={D\bibinitperiod},
+           given={Patrick\bibnamedelima H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a0d3f3efd4c614cc467cfcba450f655}
+      \strng{fullhash}{9a0d3f3efd4c614cc467cfcba450f655}
+      \strng{bibnamehash}{9a0d3f3efd4c614cc467cfcba450f655}
+      \strng{authorbibnamehash}{9a0d3f3efd4c614cc467cfcba450f655}
+      \strng{authornamehash}{9a0d3f3efd4c614cc467cfcba450f655}
+      \strng{authorfullhash}{9a0d3f3efd4c614cc467cfcba450f655}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://courses.physics.ucsd.edu/2021/Spring/physics218c/handouts.html}}
+      \field{title}{Theory of Magnetically Confined Plasma}
+      \field{year}{2021}
+    \endentry
+    \entry{TEM_simulation}{article}{}
+      \name{author}{8}{}{%
+        {{hash=b07e08d389bfad6c22931b7cb072ed36}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Z},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=e1bc61de7ab814a0911a2cd893482ac9}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Yongbo},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0596c43516a43d995d17e5b8f1b22cfa}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Wenjun},
+           giveni={W\bibinitperiod}}}%
+        {{hash=05a96da2a25ac7edaf286a3a5d7c6015}{%
+           family={Holod},
+           familyi={H\bibinitperiod},
+           given={Ihor},
+           giveni={I\bibinitperiod}}}%
+        {{hash=33e8dced35f3631dd320836f9ef528b9}{%
+           family={Kamath},
+           familyi={K\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e16afae39ac152430fbda57340935708}{%
+           family={Klasky},
+           familyi={K\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=cc4aadc875d7abdbaf96dfa4a83d8b77}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Z},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=32e563370422457790db030ab2c13183}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{f75bd0c87256b492998e1ae6fa0c72a6}
+      \strng{fullhash}{e70ca2e7be1d581d18e74489153157c8}
+      \strng{bibnamehash}{e70ca2e7be1d581d18e74489153157c8}
+      \strng{authorbibnamehash}{e70ca2e7be1d581d18e74489153157c8}
+      \strng{authornamehash}{f75bd0c87256b492998e1ae6fa0c72a6}
+      \strng{authorfullhash}{e70ca2e7be1d581d18e74489153157c8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Size Scaling and Nondiffusive Features of Electron Heat Transport in Multi-Scale Turbulence}
+    \endentry
+    \entry{Ballooning_transform}{article}{}
+      \name{author}{5}{}{%
+        {{hash=18883199a08b5d7a9f779dfe66fbb20c}{%
+           family={Falchetto},
+           familyi={F\bibinitperiod},
+           given={Gloria},
+           giveni={G\bibinitperiod}}}%
+        {{hash=736ecade6effc8bc5e3cb73f2f8ebf14}{%
+           family={Vaclavik},
+           familyi={V\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d85ecca595656228e4e22a12ba088761}{%
+           family={Maccio},
+           familyi={M\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=026eefd51e49ca9151aa364a142e4079}{%
+           family={Brunner},
+           familyi={B\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f8977e0653dcf2f052afb0042f69798c}{%
+           family={Villard},
+           familyi={V\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{008106dbf313a2c7b3bd441ae382d065}
+      \strng{fullhash}{5c1aeac35fe3a482113cd5328e0e329a}
+      \strng{bibnamehash}{5c1aeac35fe3a482113cd5328e0e329a}
+      \strng{authorbibnamehash}{5c1aeac35fe3a482113cd5328e0e329a}
+      \strng{authornamehash}{008106dbf313a2c7b3bd441ae382d065}
+      \strng{authorfullhash}{5c1aeac35fe3a482113cd5328e0e329a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics of Plasmas}
+      \field{month}{04}
+      \field{title}{Applicability of the ballooning transform to trapped ion modes}
+      \field{volume}{7}
+      \field{year}{2000}
+      \field{pages}{1196}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.873930
+      \endverb
+    \endentry
+    \entry{CUWA}{article}{}
+      \name{author}{2}{}{%
+        {{hash=643c9d1e9c01d117c08773064916ecbc}{%
+           family={Aleynikov},
+           familyi={A\bibinitperiod},
+           given={Pavel},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7c4412531fb783ed45a6a1b8094df5f8}{%
+           family={Marushchenko},
+           familyi={M\bibinitperiod},
+           given={Nikolai\bibnamedelima B.},
+           giveni={N\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{3fef98925cd96363d0adc748178266e6}
+      \strng{fullhash}{3fef98925cd96363d0adc748178266e6}
+      \strng{bibnamehash}{3fef98925cd96363d0adc748178266e6}
+      \strng{authorbibnamehash}{3fef98925cd96363d0adc748178266e6}
+      \strng{authornamehash}{3fef98925cd96363d0adc748178266e6}
+      \strng{authorfullhash}{3fef98925cd96363d0adc748178266e6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A new 3D full-wave code, named CUWA, is developed to investigate the physics of RF wave propagation in the electron cyclotron frequency range in magnetised plasmas. The code utilises the Finite Difference Time Domain (FDTD) technique and takes advantage of massive parallel computations with Graphics Processing Units (GPU), which allows for a significant acceleration of the computations. As examples of code application we show 3D calculations of the linear transformation of ordinary to extraordinary electron-cyclotron waves and mode coupling in a sheared magnetic field. Thanks to its speed, the GPU-capable code allows for efficient and large parametric scans over a broad range of parameters.}
+      \field{issn}{0010-4655}
+      \field{journaltitle}{Computer Physics Communications}
+      \field{title}{3D full-wave computation of RF modes in magnetised plasmas}
+      \field{volume}{241}
+      \field{year}{2019}
+      \field{pages}{40\bibrangedash 47}
+      \range{pages}{8}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.cpc.2019.03.017
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0010465519300980
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0010465519300980
+      \endverb
+      \keyw{FDTD,Full-wave,Mode conversion,Stellarator,OXB}
+    \endentry
+    \entry{SPR_Krutkin}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4404399cf4b58b3af6d6663dd34a7759}{%
+           family={Krutkin},
+           familyi={K\bibinitperiod},
+           given={Oleg},
+           giveni={O\bibinitperiod}}}%
+        {{hash=026eefd51e49ca9151aa364a142e4079}{%
+           family={Brunner},
+           familyi={B\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7bef6715e241920df5b1461581a11fb4}{%
+           family={Coda},
+           familyi={C\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{11a4f39b61a5f28eaf1de0330d7cb42c}
+      \strng{fullhash}{3d51e4cfd6679deab593cd0678007ad3}
+      \strng{bibnamehash}{3d51e4cfd6679deab593cd0678007ad3}
+      \strng{authorbibnamehash}{3d51e4cfd6679deab593cd0678007ad3}
+      \strng{authornamehash}{11a4f39b61a5f28eaf1de0330d7cb42c}
+      \strng{authorfullhash}{3d51e4cfd6679deab593cd0678007ad3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{month}{05}
+      \field{title}{A method for density fluctuation measurements using pulse reflectometry}
+      \field{volume}{63}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1088/1741-4326/acd5e0
+      \endverb
+    \endentry
+    \entry{Unseparable_Turbulence_Spectra}{article}{}
+      \name{author}{15}{}{%
+        {{hash=fd5defdd13691a3f33ee4572409c5ab8}{%
+           family={Ruiz},
+           familyi={R\bibinitperiod},
+           given={J\bibnamedelima Ruiz},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=c926ee8fd0f07fdc5319fac1da6e4373}{%
+           family={Parra},
+           familyi={P\bibinitperiod},
+           given={F\bibnamedelima I},
+           giveni={F\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=fd32cbca6b292ea88b5a5cc58b4f2bae}{%
+           family={Hall-Chen},
+           familyi={H\bibinithyphendelim C\bibinitperiod},
+           given={V\bibnamedelima H},
+           giveni={V\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=ae2da635865c122bb469db0da2e48381}{%
+           family={Christen},
+           familyi={C\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ddbaed21a4d10c41ce21c9dc592702ad}{%
+           family={Barnes},
+           familyi={B\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=11d0d760b543df6fd2f1ef9a3facbe71}{%
+           family={Candy},
+           familyi={C\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9c3b08a26c2ba3ca982c1fbe7724dc15}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0fd2bd4c1a1b3bea8da8e54e09dd5a39}{%
+           family={Giroud},
+           familyi={G\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b9b1a38a0b145e2403950886e3d654cd}{%
+           family={Guttenfelder},
+           familyi={G\bibinitperiod},
+           given={W},
+           giveni={W\bibinitperiod}}}%
+        {{hash=890df668238a86a1707b9ca3537e0a38}{%
+           family={Hillesheim},
+           familyi={H\bibinitperiod},
+           given={J\bibnamedelima C},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=70580d8e9021c7bda614d2b27fc3e65a}{%
+           family={Holland},
+           familyi={H\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7a4ecc438ed7cdd67d1612ed31510485}{%
+           family={Howard},
+           familyi={H\bibinitperiod},
+           given={N\bibnamedelima T},
+           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=61b963b1fe9d5094d315541aef025365}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5737b8819d6ac96a5885bb1b1f2e78cb}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={A\bibnamedelima E},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=8d7f6facbfcc0cb5f3157f7a69da8abb}{%
+           family={contributors},
+           familyi={c\bibinitperiod},
+           given={JET},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{953a7b796cec4200249f73c46487fd5a}
+      \strng{fullhash}{47b9156aa5135a0aa8789608cba1a7b4}
+      \strng{bibnamehash}{47b9156aa5135a0aa8789608cba1a7b4}
+      \strng{authorbibnamehash}{47b9156aa5135a0aa8789608cba1a7b4}
+      \strng{authornamehash}{953a7b796cec4200249f73c46487fd5a}
+      \strng{authorfullhash}{47b9156aa5135a0aa8789608cba1a7b4}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A linear response, local model for the DBS amplitude applied to gyrokinetic simulations shows that radial correlation Doppler reflectometry measurements (RCDR, Schirmer et al 2007 Plasma Phys. Control. Fusion 49 1019) are not sensitive to the average turbulence radial correlation length, but to a correlation length that depends on the binormal wavenumber selected by the Doppler backscattering (DBS) signal. Nonlinear gyrokinetic simulations show that the turbulence naturally exhibits a nonseparable power law spectrum in wavenumber space, leading to a power law dependence of the radial correlation length with binormal wavenumber which agrees with the inverse proportionality relationship between the measured and observed in experiments (Fernández-Marina et al 2014 Nucl. Fusion 54 072001). This new insight indicates that RCDR characterizes the eddy aspect ratio in the perpendicular plane to the magnetic field. It also motivates future use of a nonseparable turbulent spectrum to quantitatively interpret RCDR and potentially other turbulence diagnostics. The radial correlation length is only measurable when the radial resolution at the cutoff location satisfies , while the measurement becomes dominated by for . This suggests that is likely to be inaccessible for electron-scale DBS measurements (). The effect of on ion-scale radial correlation lengths could be nonnegligible.}
+      \field{journaltitle}{Plasma Physics and Controlled Fusion}
+      \field{number}{5}
+      \field{title}{Interpreting radial correlation Doppler reflectometry using gyrokinetic simulations}
+      \field{volume}{64}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{055019}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1361-6587/ac5916
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1361-6587/ac5916
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1361-6587/ac5916
+      \endverb
+    \endentry
+    \entry{WF_turb}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a328d163f605b985e14f25341c7116f3}{%
+           family={Biglari},
+           familyi={B\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4604e9c4a986704f0dddb31b0afccb31}{%
+           family={Diamond},
+           familyi={D\bibinitperiod},
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=3ee0a40198e456edeb45dfe77a4aace2}{%
+           family={Terry},
+           familyi={T\bibinitperiod},
+           given={P.\bibnamedelimi W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{d8c6b01013b0f2eb506b1bdb2c9661b0}
+      \strng{fullhash}{56932e410ea8ec1485a2d88b51bf1339}
+      \strng{bibnamehash}{56932e410ea8ec1485a2d88b51bf1339}
+      \strng{authorbibnamehash}{56932e410ea8ec1485a2d88b51bf1339}
+      \strng{authornamehash}{d8c6b01013b0f2eb506b1bdb2c9661b0}
+      \strng{authorfullhash}{56932e410ea8ec1485a2d88b51bf1339}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{The impact of radially sheared poloidal flows on ambient edge turbulence in tokamaks is investigated analytically. In the regime where poloidal shearing exceeds turbulent radial scattering, a hybrid time scale weighted toward the former is found to govern the decorrelation process. The coupling between radial and poloidal decorrelation results in a suppression of the turbulence below its ambient value. The turbulence quench mechanism is found to be insensitive to the sign of either the radial electric field or its shear.}}
+      \field{issn}{0899-8221}
+      \field{journaltitle}{Physics of Fluids B: Plasma Physics}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{{Influence of sheared poloidal rotation on edge turbulence}}
+      \field{volume}{2}
+      \field{year}{1990}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1063/1.859529
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.aip.org/aip/pfb/article-pdf/2/1/1/12784369/1\_1\_online.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.859529
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.859529
+      \endverb
+    \endentry
+    \entry{Power_spectrum_coupled}{article}{}
+      \name{author}{8}{}{%
+        {{hash=214a4f642198851f9aa3c120295725c1}{%
+           family={Vermare},
+           familyi={V\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b01f9dd11e8fa7db8df844cee8b88758}{%
+           family={Hennequin},
+           familyi={H\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9c1a2e3009028b2d3c0ed288402ca913}{%
+           family={Gürcan},
+           familyi={G\bibinitperiod},
+           given={Ö.\bibnamedelimi D.},
+           giveni={Ö\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=76b1b33e5b0ee2f3e6be84d7e6002b10}{%
+           family={Bourdelle},
+           familyi={B\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9863130357a041237eec9ffd49f5801c}{%
+           family={Clairet},
+           familyi={C\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=58967928c1a73688fdcdc1cabbfd5d0b}{%
+           family={Garbet},
+           familyi={G\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=623eedf34be175a336623703fd354c2b}{%
+           family={Sabot},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5cfaced056b2865c7893939037ad8441}{%
+           family={Tore\bibnamedelimb Supra\bibnamedelima Team},
+           familyi={T\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           prefix={the},
+           prefixi={t\bibinitperiod}}}%
+      }
+      \strng{namehash}{e81f63b06562d07c7c6002a39d3ff1cf}
+      \strng{fullhash}{b3d38760c0e3b6ab7214273c667e4df3}
+      \strng{bibnamehash}{b3d38760c0e3b6ab7214273c667e4df3}
+      \strng{authorbibnamehash}{b3d38760c0e3b6ab7214273c667e4df3}
+      \strng{authornamehash}{e81f63b06562d07c7c6002a39d3ff1cf}
+      \strng{authorfullhash}{b3d38760c0e3b6ab7214273c667e4df3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{The influence of changing collisionality on density fluctuation characteristics is studied during dedicated ν∗ scaling experiments, using Doppler backscattering system. First, the repartition of fluctuation energy over different spatial scales, as represented by the wavenumber spectrum, is investigated and a modification of the shape of the perpendicular wavenumber spectrum in the low wavenumber part of the spectrum is observed when changing collisionality. In addition, a new procedure to evaluate the dispersion relation of micro-turbulence is presented. From the behavior of the perpendicular mean velocity of density fluctuations with the perpendicular wavenumber, different dispersion relations are obtained between low and high collisionality cases.}}
+      \field{issn}{1070-664X}
+      \field{journaltitle}{Physics of Plasmas}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{{Impact of collisionality on fluctuation characteristics of micro-turbulence}}
+      \field{volume}{18}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{012306}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3536648
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.aip.org/aip/pop/article-pdf/doi/10.1063/1.3536648/14688904/012306\_1\_online.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3536648
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3536648
+      \endverb
+    \endentry
+    \entry{Shear_ballooning}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a859fa7bcbbe4461ffea7ea947de1aa8}{%
+           family={Connor},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=9f599c94c82c3227cae000c26d83bb08}{%
+           family={Hastie},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=290ab0e9d696f29c46a2932f6826dda6}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={J.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{bbf08d8b81263a93a628f30806ee8c97}
+      \strng{fullhash}{5909ee02f537dd7c2f2185980c8b27f7}
+      \strng{bibnamehash}{5909ee02f537dd7c2f2185980c8b27f7}
+      \strng{authorbibnamehash}{5909ee02f537dd7c2f2185980c8b27f7}
+      \strng{authornamehash}{bbf08d8b81263a93a628f30806ee8c97}
+      \strng{authorfullhash}{5909ee02f537dd7c2f2185980c8b27f7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{Shear, Periodicity, and Plasma Ballooning Modes}
+      \field{volume}{40}
+      \field{year}{1978}
+      \true{nocite}
+      \field{pages}{396\bibrangedash 399}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.40.396
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.40.396
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.40.396
+      \endverb
+    \endentry
+    \entry{SPR_SPC}{article}{}
+      \name{author}{5}{}{%
+        {{hash=86caca1d9621224bdc72e6f3bbdab1f1}{%
+           family={Molina\bibnamedelima Cabrera},
+           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=81b34ed1aa4ba9ecff2c1d4a3abef695}{%
+           family={Coda},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c2b1c105df597741e6e9f4e4dc92d0ab}{%
+           family={Porte},
+           familyi={P\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c2ed378bf89c59cda5c2c68b18ebab3c}{%
+           family={Smolders},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=131811356e0878614b70318bd849e2ad}{%
+           family={Team},
+           familyi={T\bibinitperiod},
+           given={TCV},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{51067c7dc7b6b4d12735544eb7d258e0}
+      \strng{fullhash}{d80893fbb76eefd54933470385c94e67}
+      \strng{bibnamehash}{d80893fbb76eefd54933470385c94e67}
+      \strng{authorbibnamehash}{d80893fbb76eefd54933470385c94e67}
+      \strng{authornamehash}{51067c7dc7b6b4d12735544eb7d258e0}
+      \strng{authorfullhash}{d80893fbb76eefd54933470385c94e67}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0034-6748}
+      \field{journaltitle}{Review of Scientific Instruments}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{V-band nanosecond-scale pulse reflectometer diagnostic in the TCV tokamak}
+      \field{volume}{90}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{123501}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.5094850
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.aip.org/aip/rsi/article-pdf/doi/10.1063/1.5094850/15702571/123501\_1\_online.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.5094850
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.5094850
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
