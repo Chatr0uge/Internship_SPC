@@ -639,8 +639,8 @@
       \strng{authorbibnamehash}{9a0d3f3efd4c614cc467cfcba450f655}
       \strng{authornamehash}{9a0d3f3efd4c614cc467cfcba450f655}
       \strng{authorfullhash}{9a0d3f3efd4c614cc467cfcba450f655}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://courses.physics.ucsd.edu/2021/Spring/physics218c/handouts.html}}
@@ -793,6 +793,43 @@
       \endverb
       \keyw{FDTD,Full-wave,Mode conversion,Stellarator,OXB}
     \endentry
+    \entry{SPR_Krutkin}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4404399cf4b58b3af6d6663dd34a7759}{%
+           family={Krutkin},
+           familyi={K\bibinitperiod},
+           given={Oleg},
+           giveni={O\bibinitperiod}}}%
+        {{hash=026eefd51e49ca9151aa364a142e4079}{%
+           family={Brunner},
+           familyi={B\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7bef6715e241920df5b1461581a11fb4}{%
+           family={Coda},
+           familyi={C\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{11a4f39b61a5f28eaf1de0330d7cb42c}
+      \strng{fullhash}{3d51e4cfd6679deab593cd0678007ad3}
+      \strng{bibnamehash}{3d51e4cfd6679deab593cd0678007ad3}
+      \strng{authorbibnamehash}{3d51e4cfd6679deab593cd0678007ad3}
+      \strng{authornamehash}{11a4f39b61a5f28eaf1de0330d7cb42c}
+      \strng{authorfullhash}{3d51e4cfd6679deab593cd0678007ad3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{month}{05}
+      \field{title}{A method for density fluctuation measurements using pulse reflectometry}
+      \field{volume}{63}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1088/1741-4326/acd5e0
+      \endverb
+    \endentry
     \entry{Unseparable_Turbulence_Spectra}{article}{}
       \name{author}{15}{}{%
         {{hash=fd5defdd13691a3f33ee4572409c5ab8}{%
@@ -880,8 +917,8 @@
       \strng{authorbibnamehash}{47b9156aa5135a0aa8789608cba1a7b4}
       \strng{authornamehash}{953a7b796cec4200249f73c46487fd5a}
       \strng{authorfullhash}{47b9156aa5135a0aa8789608cba1a7b4}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A linear response, local model for the DBS amplitude applied to gyrokinetic simulations shows that radial correlation Doppler reflectometry measurements (RCDR, Schirmer et al 2007 Plasma Phys. Control. Fusion 49 1019) are not sensitive to the average turbulence radial correlation length, but to a correlation length that depends on the binormal wavenumber selected by the Doppler backscattering (DBS) signal. Nonlinear gyrokinetic simulations show that the turbulence naturally exhibits a nonseparable power law spectrum in wavenumber space, leading to a power law dependence of the radial correlation length with binormal wavenumber which agrees with the inverse proportionality relationship between the measured and observed in experiments (Fernández-Marina et al 2014 Nucl. Fusion 54 072001). This new insight indicates that RCDR characterizes the eddy aspect ratio in the perpendicular plane to the magnetic field. It also motivates future use of a nonseparable turbulent spectrum to quantitatively interpret RCDR and potentially other turbulence diagnostics. The radial correlation length is only measurable when the radial resolution at the cutoff location satisfies , while the measurement becomes dominated by for . This suggests that is likely to be inaccessible for electron-scale DBS measurements (). The effect of on ion-scale radial correlation lengths could be nonnegligible.}
@@ -1059,8 +1096,8 @@
       \strng{authorbibnamehash}{5909ee02f537dd7c2f2185980c8b27f7}
       \strng{authornamehash}{bbf08d8b81263a93a628f30806ee8c97}
       \strng{authorfullhash}{5909ee02f537dd7c2f2185980c8b27f7}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{6}
@@ -1079,44 +1116,6 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.40.396
-      \endverb
-    \endentry
-    \entry{SPR_Krutkin}{article}{}
-      \name{author}{3}{}{%
-        {{hash=4404399cf4b58b3af6d6663dd34a7759}{%
-           family={Krutkin},
-           familyi={K\bibinitperiod},
-           given={Oleg},
-           giveni={O\bibinitperiod}}}%
-        {{hash=026eefd51e49ca9151aa364a142e4079}{%
-           family={Brunner},
-           familyi={B\bibinitperiod},
-           given={Stephan},
-           giveni={S\bibinitperiod}}}%
-        {{hash=7bef6715e241920df5b1461581a11fb4}{%
-           family={Coda},
-           familyi={C\bibinitperiod},
-           given={Stefano},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{11a4f39b61a5f28eaf1de0330d7cb42c}
-      \strng{fullhash}{3d51e4cfd6679deab593cd0678007ad3}
-      \strng{bibnamehash}{3d51e4cfd6679deab593cd0678007ad3}
-      \strng{authorbibnamehash}{3d51e4cfd6679deab593cd0678007ad3}
-      \strng{authornamehash}{11a4f39b61a5f28eaf1de0330d7cb42c}
-      \strng{authorfullhash}{3d51e4cfd6679deab593cd0678007ad3}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Nuclear Fusion}
-      \field{month}{05}
-      \field{title}{A method for density fluctuation measurements using pulse reflectometry}
-      \field{volume}{63}
-      \field{year}{2023}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1088/1741-4326/acd5e0
       \endverb
     \endentry
     \entry{SPR_SPC}{article}{}
@@ -1153,8 +1152,8 @@
       \strng{authorbibnamehash}{d80893fbb76eefd54933470385c94e67}
       \strng{authornamehash}{51067c7dc7b6b4d12735544eb7d258e0}
       \strng{authorfullhash}{d80893fbb76eefd54933470385c94e67}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0034-6748}

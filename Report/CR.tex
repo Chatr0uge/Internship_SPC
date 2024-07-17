@@ -71,7 +71,7 @@
 {\Large\bfseries\filcenter}
 
 \titlespacing*{\chapter}{0pt}{10pt}{10pt}
-\titlespacing{\section}{0pt}{*4}{*4}
+\titlespacing{\section}{0pt}{*3}{*3}
 \titlespacing{\subsection}{0pt}{*1.5}{*1.5}
 \titlespacing{\subsubsection}{0pt}{*4}{*1.5}
 
@@ -296,7 +296,7 @@
 
     \section{Wave propagation in plasma}
     \subsection{Plasma as a medium}
-    To study the density profile, many diagnostics methods exists ,like Doppler Reflectometry, RCDR, Short pulse reflectometry \dots The study here will be based on the Short Pulse Reflectometry (\textbf{SPR}), this methdod consists in probing the magnetized plasma with short Pulse (<ns) microwaves operating in the time domain at a fixed frequency under normal incidence with respect to the cut-off surface and the variation of the delay of the reflected pulses. The probing signal, is sensitive to density variation since it will change the cut-off position, this is why it can
+    To study the density profile, many diagnostics methods exists ,like Doppler Reflectometry, RCDR, Short pulse reflectometry \dots The study here will be based on the Short Pulse Reflectometry (\textbf{SPR}), this methdod consists in probing the magnetized plasma with a short gaussian Pulse (<ns) microwaves operating in the time domain at a fixed frequency under normal incidence with respect to the cut-off surface and the variation of the delay of the reflected pulses. The probing signal, is sensitive to density variation since it will change the cut-off position, this is why it can
     be used to have deeper insights of the turbulences characteristics
     \subsection{Wave equation}
     Assuming a monochromatic electromagnetic-wave and using the Maxwell equations, we can derive the local complex dieletric tensor, and the considerated wave wave equation :
@@ -399,9 +399,9 @@
     \subsubsection{General perturbation profile}
     First let's consider to simplify a gaussian perturbation density profile (we will see later that the spectrum of the vector number is not a gaussian but a non trivial power spectrum due to the two type of energy cascade). From this, the considered integral can be writen in the following way :
 
-    $$\tau_d = \frac{2}{c} \int_0^L \frac{dx}{\sqrt{1 - \frac{x}{L} - \frac{a \exp(-\frac{(x - L)^2}{8l_{cx}^2})}{n_c}}}$$
+    $$\tau_d = \frac{2}{c} \int_0^L \frac{dx}{\sqrt{1 - \frac{x}{L} - \frac{\delta n_0  \exp(-\frac{(x - L)^2}{8l_{cx}^2})}{n_c}}}$$
 
-    This integral is not trivial to solve in from an anlytical way, which is necessary to exhibit the possible statistical features of the dealay. This is why we can suggest developing a first order perturbation profile which leads to step like perturbations.
+    With $l_{cx}$ the correlation length of the turbulence field and $\delta n_0$ the amplitude of the turbulence field.This integral is not trivial to solve in from an anlytical way, which is necessary to exhibit the possible statistical features of the dealay. This is why we can suggest developing a first order perturbation profile which leads to step like perturbations.
 
     \subsubsection{Step-like perturbation}
     \paragraph{Model}
@@ -454,7 +454,7 @@
         \caption{Violins plot of the delay distribution over $\delta n_0$, Here we choose for a simple first apporach a simple linear profile with $\delta n_0$ independant of the radial position. The left side of each violins stands for the 2d distribution of the delay for comparison.}
         \label{fig:Violins_delay}
     \end{figure}
-    The first thing that we can unearth is that the delay distribution is well disturbed by an amplitude increasing, the mean delay decrease (which is quite obvious see \ref{fig:Density_profile}), the standard deviation of the delay increases and when we reached the non-linear regime it starts decreasing. The distribution seems also to be more more skewed until we reach the non linear regime, this indicates that the study of the momemt of the delay distribution can also be a good way to predict the amplitude level. The two-simulation sets present quite the same behaviour, however at high amplitude the 1d simulation set present some discrepancies with the 2d one, indeed the distribution is more eratic, this can question the good convergence of the 1D integration (see : \ref{eq:Dispersion_relation}). Still, the delay study should lead to a good estimation for both simulation sets, even without pulse shapes study allow with the 2D model.
+    The first thing that we can unearth is that the delay distribution is well disturbed by an amplitude increasing, the mean delay decrease (which is quite obvious see \ref{fig:Density_profile}), the standard deviation of the delay increases and when we reached the non-linear regime it starts decreasing. The distribution seems also to be more more skewed until we reach the non linear regime, this indicates that the study of the momemt of the delay distribution can also be a good way to predict the amplitude level. The two-simulation sets present quite the same behaviour, however at high amplitude the 1d simulation set present some discrepancies with the 2d one, indeed the distribution is more eratic, this can question the good convergence of the 1D integration (see : \ref{eq:Dispersion_relation}). In addition to that, we can highlitht that the critical density unearthed by this plot is the first critical density (CITE), which is of great importance to buiiold a qualitiative dataset. Still, the delay study should lead to a good estimation for both simulation sets, even without pulse shapes study allow with the 2D model.
     Hence, let's see if the delay study can be a sufficient estimator for amplitude level prediction in both dimensionalities.
 
     \section{Machine Learning Model}
@@ -494,71 +494,85 @@
 
     \section{Input Data}
 
+
+    \section{Datasets building}
+
+
     For the 1D based trained model, we can only use the delay distribution as input variables. We tried several moment of the distribution as input (mean, variance, skewness...), combined with the discrtized delay distribution. We tested two types of discretization, the binned distribution and the quantile distribution. However, we reached better results with the quantile study of the distribution, coupled with the moments as input. This allows the model to have a direct connection between the output $\tau_0$ and the quantilized distribution. We use in both case 30 quantiles to discrtized the distribution. The 1D simulations set is then processed, splitted in a training and a testing set (80/20 ratio) and finally standardized, the amplitude parameter was used with its logarithmic value because it was find to be more efficient. Hence we arrived to a final input shape of 33 features and $\sim$ 3000 samples, including the $L$, $l_{cx}$ paraemters in the input data. For the 1D simulation, we introduced a random shift in the delay distribution for each sample, indeed if we dont do that the model will learn $\tau_0$ value from the highly coerrelated paraneter $L$ (originally $L$ is linear with $\tau_0$  ) which might be not the case in experimental data, where $L$ can stand for the gradient scale at the cut-off \cite{Krutkin_thesis}. For this study we used several density profiles to see if they have a real impact on the learning process of the model. For the 1D simulations the dependancy over $y$ is dropped.
     For the linear background profile, the global density profile will be the following :
     $$n(x,y) = n_c \frac{x}{L} + \delta n_0(x) \delta n(x,y).$$ With $\delta n $ the 2D gaussian turbulence profile
     For the quadratic background profile L, stands for the gradient scale at the cut-off, and $\delta n_0$ the turbulence amplitude profile . Here we choose the following formula to get the value of 1 of the gradient at L, which gives us :
     $$n(x,y) = n_c \left[1.25 - \frac{(1.5L_0 - x)^2}{L_0^2} \right] + \delta n_0(x)\delta n (x,y)$$
-    The dependancy of $\delta n_0$ will take severqal form, from constant to linear, quadractic or exponentially ponderated \cite{SPR_Krutkin}, this scaling of the turbulences is done to mimic the true turbulence profile (REF), and to avoid the non natural preponderance of turbulences while working with small amplitudes.
+    The negative values of the profiles are then shifted to zerosm to prevent unphysical event, which has the effet of making a bigger vaccum layer in the simulations.
+    The dependancy of $\delta n_0$ will take severqal form, from constant to linear, quadractic or exponentially ponderated \cite{SPR_Krutkin}, this scaling of the turbulences is done to mimic the true turbulence profile (REF), and to avoid the non natural preponderance of turbulences while working with small amplitudes. This exploration of the density profile is motivated by the fact that at the edge of the plasma, the relative amplitude of the turbulence profile is higher than in the core of the plasma.
 
+    For reproductibility the  parameters of the 1d simulation used to build the considerated datasets are given bellow: .
+    \setlength{\tabcolsep}{.038\linewidth}
+    \renewcommand{\arraystretch}{1.5}
+    \begin{center}
+        \begin{tabular}{ccccc}
+            \toprule
+            \multicolumn{5}{c}{Parameters range}                       \\
+            \cmidrule{1 -5}
+            $\delta n_0$   & $l_{cx}$ -[cm] & L -[cm]  & $N_x$ & n     \\
+            \midrule
+            $[1e^{-3}, 1]$ & $[0.1,1]$      & $[7,20]$ & 5000  & 10000 \\
+            \bottomrule
+        \end{tabular}
+    \end{center}
     \section{Results}
-    From this we reach a final score of 0.94 without the moment and 0.96 with the moments on the 1d test datasets. However, with  the 2d datasets the results appear to be catastrophics. The model generally predict an amplitude level one odm bellow or higher than the real one. A goos way to evaluate the model is to study the residuals of this latter for each parameters value of the testing set. It allows to have a quick overview of the performance model, and on the impact of parameter value on the model performances.
+    A goos way to evaluate the model is to study the residuals of this latter for each parameters value of the testing set. It allows to have a quick overview of the performance model, and on the impact of parameter value on the model performances.
 
     \begin{figure}[H]
         \includegraphics[width=0.98\linewidth]{./figures/polar_param_1d.pdf}
         \caption{Plot of the amplitude residuals of the model for the 1D testing set in Non linear regime, the residuals are meaned given a value of the studied simulation's parameter. The filled curved stands for the amplitude residuals exponentially rescaled to the real amplitude value, The red line in the center of the plot is the $\tau_0$ mean residuals, far bellow the mean amplitude residuals. The second smaller polar shows the comparison of the residuals for several daasetets : the plot of the mean amplitude residuals for the 2D datasets (black dashed curve), the amplitude residuals for the 1D datasets (blue curve in the center), and the plots of the residuals for the 2D datasets shifted to the 1D delay distribution (green curve).}
         \label{fig:polar_1d}
     \end{figure}
+    From this we reach a final score of 0.94 without the moment and 0.96 with the moments on the 1d test datasets. However, with  the 2d datasets the results appear to be catastrophics. The model generally predict an amplitude level one odm bellow or higher than the real one
 
     The figure \ref{fig:polar_1d} unearths quite good results regarding the 1D model prediction for the 1D testing simulation datasets, the predicted is generally of the same order of magnitude than the real one, and the residuals are quite well distributed among all the simulation parameters which is quite comforting. However, when we try to generalize the model to a higher dimension, here 2D simulations we reached very bad results with a mean amplitude residuals value of 10 for any simulations parameters. This can be explained by the fact that 1D simulations does not take into account multiple scattering effect when we reach non linear regime (see \ref{eq:Dispersion_relation}), however we can note that in non-linear regime on the 1D tetsing simulation datasets the model is far more performant than the analytic one. However, one can question the fact that the delay distribution is similar betweeen the 2D case and the 1D case. Indeed, for the same 1D parameter, we can find a shift between the mean value of the delay for the 2D simulations sets and the 1D simulations set, this is due to the layer of void added around the computation domain in the 2d simulations \cite{SPR_Krutkin}, and also because the pulse is not launched at $t=0$. Then, if we shift the 2D simulation delay datasets to the 1D simulations delay (which is of course questionable), we reach quite a good score even in non-linear regime (this observation as been done with a flat 2D geometry, and does not take into account crucial 2D simulation parameters as the probing angle or the curved profile), the residuals obtained is the order of 2 times the value of the amplitude which is relatively good kmowing the logarithmic scale of the amplitude during the training process.
 
     However, one can ask if the study of the pulse shape with different of its characterics can lead to better results. Indeed it will akkiw to take into account the multiple scattering effect, and the dispersive effect of the plasma. This will be the subject of the next chapter.
     \chapter{2 dimensinal Model}
+    Considering a 2 dimensional model allows us to take int o account several interesting effect that plays a great role in the \textbf{SPR} diagnostic. Indeed, the 1D model restricted the study to delay distribution. With the CUWA 2D simulations, in addition to the delay we can study the pulse shape and its statistical properties. Furthermore, this added dimesion support the curvature $\frac{1}{R}$ study which is implies by the tokamak geometry. We can also tweak the probing wave incidence angle $\theta$, we will study the impact of these new model's parameters on the model performances, and see if the introduction of mmore complexity in the model can lead to better results, with the 2d simulations datasets.
+    \section{Pulse shape Study}
+    The goal of the pulse shape study is to find the best metrics that carry the more informations as possible, in order to make our model lighter and more efficient.
+    \subsection{Relative Study of Pulse Shape}
 
-    \subsection{Pulse shape Study}
-    The pulse shape is also an interesting parameter to study, indeed it can give us some information about the plasma density profile, since the pulse shape can be modified by the presence of perturbations due to multiple scattering effects and dispersive effects [see O mode dispersion relation].
-    The dependance of the pulse shape over the background density profile will be also studied with linear, quadratic and linear modified perturbation profile.
-
-
-    One can expect to have a much larger and randomness dependent pulse, at high turbulence amplitude due to multiple scattering.
-    Indeed the reflected pulse will be a superposition of all scattered pulse, which should be characterized by a growing tail of the pulse distribution in delay and in width. This can be seen in the figure \ref{fig:barrier}.This will be observed on the mean pulse shape, and on the mean statistical parameters of the pulse shape.
+    For this part of the study we will limit ourselves to a simple slab geometry with normal probing, without considering any curvature and incident angleThe pulse shape can give us some information about the plasma density profile, since the pulse shape can be modified by the presence of perturbations due to multiple scattering effects and dispersive effects [see \ref{eq:Dispersion_relation}].
+    The dependance of the pulse shape over the background density profile will be also studied with linear, quadratic and linear modified perturbation profile. One can expect to have a much larger and randomness dependent pulse, at high turbulence amplitude due to multiple scattering. Indeed the reflected pulse will be a superposition of all scattered pulse, which should be characterized by a growing tail of the pulse distribution in delay and in width
     \begin{figure}[H]
         \centering
         \includegraphics[width=1\linewidth]{./figures/pulse_shape.png}
+        \caption{Nornalized Mean of reflected pulse signal, for several density profile \textbf{ND} stands for linear density profile with a linear dependancy of $\delta n_0$ over $x$  , \textbf{LD} is a simple linear density profile with a constant turbulence amplitude, \textbf{QD} is the quadratic density profile, \textbf{ND 2500} is a 2500 samples simulations (the amplitude range is no more respected for this one due to computation cost). }
+
         \label{fig:barrier}
     \end{figure}
-    \captionof{figure}{For all density profile, the pulse shape is getting broader and broader for large perturbations, and the delay is getting larger and larger. This is due to the presence of multiple scattering, and dispersive effects. This will be characterized further by the study of the mean skewness of the pulse shape.}
-    One way to vizualize that is plotting the distribution of some parameters of the pulse shape for different perturbation amplitude.
-    Here we choose to study the rms and the amplitude of the pulse, Indeed, it allows to the beahavior of the pulse width and height during the linear-non linear transition.
-    This is showm in the following figure. This type of plots are called violins plot, where filled zone stands for the distribution of the random variable, calculate over every samples.
 
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=1\linewidth]{./figures/pulse_overview.png}
-        \caption{Here we plot the distribution of the pulse rms and amplitude for different perturbation amplitude, for the linear profile background profile \textbf{LD}. The distribution of the pulse rms  and amplutude is getting broader and broader during the transition regime, this is due to randomness introduced by the perturbations, which seems to remains at large amplitudes, even if the distribution is getting quite constant.
-            Lets also note that the mean of both distribution is getting smaller due to presence of multiple scattering, reaching a plateau at high turbulence ampliude.}
-        \label{fig:barrier}
-    \end{figure}
-    The characteristic turbulence amplitude scale for the pulse shape transition seems to be the first critical value with $\delta n \approx 1e^{-3}$. Thanks to this study, we can unearth a way of characterizing the transition regime, using the pulse shape for multiple background profiles. For deeper insights about the pulse transition regime, we can study the skewness of the pulse shape, which should give us more information about the "broader and broader" distrubution of the pulse shape.
-    Note that we are talking about the transition regime of the pulse shape, since the transition regime regarding the delay seems to appear at much larger amplitude at the second critical value $\delta n \approx 1e^3$ ax shown in Fig.2.3.
-
-    One important question we have to solve is the following, which metrics is the most relevant to characterize the transition regime. This will help us, to build a relevant datasets to tackle the non linear regime.
-
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=1\linewidth]{./figures/pulse_params.png} %TODO : STD OF PULSE WIDTH WHY INCREASING
-        \caption{Here we plot three differents metrics to characterize the pulse shape, the std of the pulse width, which is increasing (WHY), the average pulse width is increasing as intended due to the superposition of multiple scattered pulse, for the mean pulse amplitude, it's decreasing for the same causes, however let's note that after the transition regime the mean pulse amplitude seems to increase again reaching a maximum at the amplitude value $5$, the linearized turbulence turbulence density profile is also decayed from the simple linear background profile. This is easily understandable since we decrease the mean density turbulence amplitude in the plasma by linearizing the perturbation profile.
-            One final thing to remark is the decay between the quadratic and the linear delays, indeed the quadratic profile has a little advance over the linear one. This is pssibly due to the concace shape of the background quadratic profile. Indeed, thanks to the concavity, it's much easier to turbulence to reach the cut-off layer, and to perturb it.}
-        \label{}
-    \end{figure}
+    For all density profile, the pulse shape is getting broader and broader for large perturbations, and the delay is getting larger and larger. This is due to the presence of multiple scattering, and dispersive effects From this overview of the normalized mean pulse shape, we can see that a interesting metrics for our model should measured how much the mean pulse is skewed. This can be characterized by the study of the mean skewness of the pulse shape. (One other intersting paramter to highlithts is the hysteresis of the normalized mean pulse(i.e the ratio of the right area over the left area of the pulse).
 
     \begin{figure}[H]
         \centering
         \includegraphics[width=1\linewidth]{./figures/skew_Hyst.png}
-        \caption{skewness of the delay shape, for different background profile, and perturbation amplitude. The skewness is getting larger and larger for large perturbations, this is due to the presence of multiple scattering, and dispersive effects. The hysteresis of the pulse is calculating using the ratio of the right area over the left area of the pulse, this allows to see the asymmetry of the pulse shape which is a measurement of the skewness of the pulse.
-            The true Skewness of the pulse does not unearth smoothly the transition regime, this is why it is not tackled here. }
         \label{}
     \end{figure}
+
+    \captionof{figure}{Here we computed the skewness $\mu^3$ and the hysteresis \textbf{H} of the mean pulse for the previous density profiles, as intended the skewness of the pulse is increasing, the hysteresis evolution is even more pronounced. One important thing to note, is that both of the metrics are governed by the second critical density value \ref{CRITICAL}, when multiple scatterings are non-negligeable.}
+
+    The two last metricss seems to be relevant input variables two described the relative pulse shape evolution over the amplitude level. After studying the evolution of the normalized mean pulse shape, we can study the statistical properties of the pulse shape, in order to find some relevant metrics to consider for our model. Furthermore, it highlights that to build our Non-Linear regime dataset, we need to include in the amplitude range both critical values, because they defined important variations respectively in the delay distribution and in the pulse shape characterics.
+    \subsection{Statistical Study of Pulse Shape}
+
+
+
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\linewidth]{./figures/pulse_overview.png}
+        \caption{Here we plot the distribution of the pulse rms, amplitude and width for different perturbation amplitude, for the linear profile background profile \textbf{LD} . The distribution of the pulse rms  and amplutude is getting broader and broader during the transition regime, this is due to randomness introduced by the perturbations, which seems to remains at large amplitudes, even if the distribution is getting quite constant. Both amplitude and rms of the pulse are highly correlated seems to catch the same dependancy over the amplitude level and characterizes the transition regime between the two criotical densities. The pulse width distribution study seems to be more relevant in the Non linear regime with a very smooth evolution of the standard deviation and the maximum of the pulse width, we can note that the mean of the pulse with seems to be quite constant, and do not catch enough information to be studied.}
+        \label{fig:barrier}
+    \end{figure}
+
+    From this study several conclusions can be drawn. First the mean of the pulse amplitude seems to catch enough information for the pulse amplitude distribution characterization. Secondly the pulse standard deviation evaluation is quite redondant with the amplitude study. And finally, the pulse wdith study throught the standard deviation of this latter can lead to interesting information, especially in full non-linear regime (after the second critical density). These conclusion have been drawn with a simple linear density profile,  we tested the two others density profiles (\textbf{ND}, \textbf{QD}), and it leads to the same tendancies. The only things we found, is a shift in the delay distribution due to the bigger vaccum layer when we use a quadratic density profile (see EQ)
 
     \subsection{Gaussian fitting of the pulse}
     On way to see the deformation of the gaussian pulse is to track the relative error of the gaussian pulse with a gaussian fit. Furthemore, it allows to study the true gaussian standard deviation, mean and amplitude.
@@ -573,7 +587,7 @@
 
     \begin{figure}[H]
         \centering
-        \includegraphics[width=1\linewidth]{./figures/gaussian_Params.png}
+        \includegraphics[width=1\linewidth]{./figures/gaussian_Params.pdf}
         \caption{Gaussian pulse delay and standard deviation have chaotic behavior during the transition regime, this made them not relevant candidate for the next study. However lets note that the gaussian pulse ampliutde,
             have quite a smooth behavior, but unearth a plateau during the non linear linear transition, which might not ne a good option, even if at large amplitude we capture the same behavior as for the non gaussian amplitude.
             In a much cleaner way, indeed it's clearly increasing, this might be interesting to study the highly non linear regime.}
@@ -581,215 +595,59 @@
     \end{figure}
 
 
-    \section{Model collapses}
+    ADD SPIKE NUMBER
 
-    As shown previously, the 1D model collapses for large perturbations. The goal of this chapter is to facilitate the deduction of the perturbations properties just from the typical study of the delayed pulse.
-    Our goal will be to predict the perturbation amplitude, their typical correlation length and the original delay of the probing wave $\tau_0$ without any perturbation. Using previous results, it might be quite simple to isolate the original delay and the turbulence amplitude, but the correlation length is a more difficult parameter to isolate, and seems to play a great role in the pulse properties.
-    The non linear regime is a much more difficult regime to study, indeed the perturbations are large enough such that the cut-off layer is strongly perturbed, and the WKB approximation cannot be applied. The main goal of this approach is to find a way to link the plasma density perturbations to the reflected pulse delay. To retrieve some information about the pulse delay we will use a statistical approach to get rid of the randomness implies by the perturbations considerations.
+    \section{Datasets building}
+    For the two dimensional datasets we select the following pulse metrics in addition to the quantilized delay distribution :  mean of pulse amplitude, standard deviation of delay, mean of Hysteresis, skewness of the mean pulse, standard deviation of pulse width.
 
-    \section{1 dimensional study}
-    To test the validity of the machine learning approach, let's try to tackle the non-linear regime using the 1D dimensional approach. The 1D study didn't give the ability to retrieve information in this regime.
-    To do so we will use the same approach as for the linear regime, but with a much larger perturbation amplitude. Different profiles will be used to see if the model succeeds in predicting the wanted features.
+    % - REDUCTION OF BM AND LCX CORR MATRIX
+    % - PLOT WITH ALL THE CORR MATRIX
+    % - USE SPIKEWIZARD
+    % - LCy PARAMS FOR 2D with 1D COMPARISON
+    % - 2D MODEL TRAINING
+    % - 2D MODEL TESTING (AMP AND TD0)
+    % - 2. Histogram of residual
+    % - LEVERAGES
+    \subsection{Gaussian spectrum of the turbulences}
+    The gaussian spectrum is the most simple way to model the turbulence, and was used as first approximation to see if the model could integrate the dependancy of the diffrent correlation length. The parameter used for the 2D simulations with the CUWA code on \textbf{LEONARDO} are the following :
+    \setlength{\tabcolsep}{.016\linewidth}
+    \begin{center}
+        \begin{tabular}{ccccc}
+            \toprule
+            \multicolumn{5}{c}{Parameters range}                                                \\
+            \cmidrule{1 -5}
+            $\delta n_0$   & $l_{cx}$ -[cm] & $l_{cy}$ -[cm]  & $\theta$ -[°] & $R$ -[m]        \\
+            \midrule
+            $[1e^{-3}, 1]$ & $\{1, 0.5 \}$  & $\{0.5,2,30 \}$ & [0-10]        & [0.2,5]\{1000\} \\
+            \bottomrule
+        \end{tabular}
+    \end{center}
+    $\theta$ stands for the incident angle of the probing beam, $R$ the geometry curvature, $l_{cx}$ the typical correlation length of the turbulence in the $x$ direction, and $l_{cy}$ the typical correlation length of the turbulence in the $y$ direction. The $R$ range is choosen to tackle flat and near TCV tokamak geometries, $\theta$ values are dependant of the $R$ range and cannot be to high, indeed if we consider a high curvature the incident angle cannot be too high, because the probing beam will not be able to reach the cut-off layer, or will be reflefed not in the direction of the antenna, this is why we limited ourselves to 10 degrees, with $R = 0.2$ m. In the gaussian case, the power spectrum of the turbulence arr given by the following formula :
+    $$\delta n(\textbf{k} ) = \delta n_0 \exp\left(-\frac{(k_x l_{cx} k_y l_{cy})^2}{8} + i\Phi(\textbf{k} )\right)$$
+    This formula will be used to create the first part of the dataset with defined correlation lengths. But one could argue that the power spectrum of \textbf{TEM} instabilities is not gauussian.
+    \subsection{Power Spectrum of the turbulences}
+    Indeed the power spectrum of the turbulences is a more realistic approach to the turbulence profile, (give the detail for each litterature measurements of the knee power spectrum). Then explain why the power spectrum is much more complicated to have a continuous one.
+    Then introduce the formula of the power spectrum used [cite], and the different parameters used .
+    $$<\delta n^2 > = \frac{1}{1 + \vert \frac{k_x}{W_x} \vert^\gamma + \vert \frac{k_y - k_y^*}{W_y}\vert^\beta}$$
+    This formula has the advantage to not be separable in $x$ and $y$, which is the case in ... [cite]
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\linewidth]{example-image}
+        \caption{Power Spectrum and correlation length measurements, compared to the gaussian spectrum}
+        \label{}
+    \end{figure}
 
-    % \subsection{Density profiles}
-    % Through this study multiple density profiles have been used, to see if the model can generalize the results, and to see if the background profile has a strong influence on the model results. Multiple combinations of background and turbulence profile have been used through linear to quadratic background profile with linearly normalized or exponential normalized perturbation profile.
-    % The most complex case studied was the quadratic background profile combined with am exponential linearized turbulence profile.
-    % The normalization follows : $$\delta n = a\tilde{\delta n}\frac{n(x)}{n_c} \exp(\frac{L-x}{L}) $$
+    \subsubsection{COrrelation length dependancy study}
+    As it is not determied by the power spectrum formula we have to shift to measured lc as an input for the model. This is why its conveninent to have a relationship between all the parameters and the correlation length. The expression of lcx can be found using the Wiener-Khinchin theorem [], supposing $k_y$ constant fore the integration ::
+    $$r_{x x}(\tau) = \int_{-\infty}^{\infty} <\delta n(k_x, k_y)^2> e^{2 \pi k_x \tau} \, dk_x$$
+    With $r_{x x}$ the autocorellation function. The correlation length is then defined when the $r_{x x}$ reaches the $e^{-1}$ level, then developing the expression of the power spectrum, we have :
 
-    % \begin{tikzpicture}
-    %     \begin{axis}[
-    %             legend pos=north east,
-    %             title=Turbulence profile,
-    %             axis lines = box,
-    %             xlabel = $\frac{x}{L}$,
-    %             ylabel = $\frac{\delta n}{n(x)}$,
-    %             variable = t,
-    %             trig format plots = rad,
-    %             ymin=-4,
-    %             ymax=4,
-    %         ]
-    %         \addplot [
-    %             dashdotdotted,
-    %             domain=0:1,
-    %             samples=70,
-    %             color=black,
-    %         ]
-    %         {exp( (1 - x) / 1)};
-    %         \addlegendentry{$n_{c1}$}
-    %         \addplot [
-    %             dashdotdotted,
-    %             domain=0:1,
-    %             samples=70,
-    %             color=black,
-    %         ]
-    %         {-exp( (1 - x) / 1)};
-    %         \addplot [
-    %             dashed,
-    %             domain=0:1,
-    %             samples=70,
-    %             color=black,
-    %         ]
-    %         {1/x};
-    %         \addlegendentry{$n_{c2}$}
-
-    %         \addplot [
-    %             dashed,
-    %             domain=0:1,
-    %             samples=70,
-    %             color=black,
-    %         ]
-    %         {-1/x};
-
-    %         \addplot [
-    %             domain=0:1,
-    %             samples=70,
-    %             color=black,
-    %         ]
-    %         {1};
-    %         \addlegendentry{$n_{c3}$}
-    %         \addplot [
-    %             domain=0:1,
-    %             samples=70,
-    %             color=black,
-    %         ]
-    %         {-1};
-
-    %         \addplot[
-    %             domain=0:1,
-    %             samples=70,
-    %             color=red,
-    %         ]
-    %         {0.3*gauss(0,0.1) + 0.2*gauss(0.7,0.08) + 0.2*gauss(0.5,0.1) + 0.25*gauss(0.9,0.05) + 0.1*gauss(0.2,0.3) + 0.15*gauss(0.4,0.1)- 1};
-
-    %     \end{axis}
-    % \end{tikzpicture}
-    This exploration of the density profile is motivated by the fact that at the edge of the plasma, the relative amplitude of the turbulence profile is higher than in the core of the plasma.
-    The simple linearization of the turbulence profile gives a constant envelope, wheras the non normalized one gives a divergent one at the edge. One solution was to introduce an exponential factor to the normalization.
-
-    % \subsection{Datasets building}
-    % \begin{center}
-    %     \begin{tabular}{ccccc}
-    %         \toprule
-    %         \multicolumn{5}{c}{Parameters range}                     \\
-    %         \cmidrule{1 -5}
-    %         $\delta n$     & $l_{cx}$-[cm] & L-[cm]   & $N_x$ & n    \\
-    %         \midrule
-    %         $[1e^{-3}, 1]$ & $[0.1,1]$     & $[7,20]$ & 5000  & 1000 \\
-    %         \bottomrule
-    %     \end{tabular}
-    % \end{center}
-
-    %     \begin{figure}[H]
-    %         \centering
-    %         \includegraphics[width=1\linewidth]{./figures/chord.png}
-    %         \caption{Chord plot of Correlation between Variables, every correlation between quantiles are omitted. The strong correlation between $L$ and $\tau_0$ is correct in our dataset, but we want our model to get rids of this relation to avoid getting wrong results when L will stand for the gradient scale at the cut-off layer.
-    %             Our model should be able to get $\tau_0$ with only the statistical properties of the delay.}
-    %         \label{}
-    %     \end{figure}
-    %     This is why we should use a randoim shift to the delay distribution to avoid the model to learn the L dependancy of the delay, but the relation between the delay bins and the delay itself. We obtain the following chord plosrt, furthermore, in a 2ed study the L value can be ponderated by the curvature of the tokamak vessel, this is why the correlation of the L value with the delay should not be a crucial factor.
-
-    %     For each density profile we compute the integrated delay of many samples to have a statistical overview of this latter. One way to tackle the problem was to study the binned delay but is leads to a strong collapse when we removed the perefect linear dependency between $td_0$ and $L$. An easier method was to study the quantiles of the $td$ distribution, and it leads to qualitiative results, without the collapsing of the prediction when introducing a little random shift in the delay distribution.
-    %     We were using a 30 quantiles discretization of the delay distribution which leads to a 32 dimensions input dataset, and a 2 dimensions output dataset, the perturbation amplitude and the original delay of the probing wave $\tau_0$. Then all datasets corresponding with each density profiles were assembled and normalized using a Z-score normalization, to have a much global undterstanding of the model.
-    %     Let's recall that the goal of this approach is to predict the perturbation amplitude and the original delay of the probing wave $\tau_0$, using the statistical property of the delay, and the correlation length in the $x$ direction, in this 1d model.
-
-
-    %     % \subsection{Regression model}
-    %     % To tackle this problem, we tested several regression models, from GradientBoosting Mutlioutput model to random forest.
-    %     % The best results were obtained using a RegressorChain GradientBoosting model with a final score on the test set of 0.99, however we succeed in getting a beter score, obtaining a near perfect model, using a tricky RegressorChain StackedRegressor model packing four different regressor model,
-    %     % \textbf{GradientBoosting, RandomForest, KNeighbors, GaussianProcess}, this model is then trained to predict the perturbation amplitude and the original delay of the probing wave $\tau_0$, using the four models results, it is a much more complex and versatile model, with an absolute error of 0.99 out of the test set.
-    %     % To have beter vizualization of the model results, we can plot the predicted log-amp of the test set over the true log-amp. The dispersion of point around the identity will then give us an overview of the model quality.
-
-    %     % To test if the same model can learn to retrieve the $\tau_0$ value only from the delay distribution, we trained another model using the same dataset omitting L, the results are clearly collapsing with a $R^2$ score of 0.6 without or with a random shift in the delay distribution, we also showed that putting the amplitude in the input datasets leads to significantly better results with a $R^2$ score of 0.82, this is tackled in the 2d output model without the \textbf{RegressorChain}[cite]. This was intended since the turbulences are responsible in a shift of the cut-off.
-
-    %     \subsection{Results}
-    %     The models are tested for every case on the test dataset, and on the 2d output simulations to see if our 1D training model can be generalized to 2D data.
-
-    %     One other way to see physically the good quality of the model learning is to plot the mean value of $\tau$ over the value of the log-amp.
-    %     Indeed in the 1D analytics approach we supposed that $\tau_0 = < \tau >$, this hypothetsis is broken for high amplitudes, so the theoritical value should depend on the amplitude, whereas $\tau_0$ does not depend on amp, since is the value of the delay without amplitudes.
-
-
-    %     Test on combined datasets
-
-    %     Test on shifted td0 and td bins to avoiding the model to learn just with L dependancy of td0.
-    %     but on the relations between td bins and td0
-
-    %     Test on quantile data whether than binned data, to avoid the scale learning by the model
-
-    %     TD0 with shift train model, test with 0 shift model
-
-    %     1D training applied to the 2D simulations, shifted to the mean of the 1D model, quite good results
-
-    %     2D training on new simulations
-
-    %     2D training on curved profile (or flat curved profile)
-
-    %     2D training on small angle incidence probing beam
-    % \end{multicols}
-    % \begin{multicols}{2}
-
-
-    %     \section{2 dimensional study}
-    %     \subsection{Datasets building}
-    %     \begin{center}
-    %         \begin{tabular}{cccc}
-    %             \toprule
-    %             \multicolumn{4}{c}{Parameters range}                            \\
-    %             \cmidrule{1 -4}
-    %             $\delta n$     & $l_{cx}$-[cm] & $l_{cy}$-[cm]   & $ro$-[cm]    \\
-    %             \midrule
-    %             $[1e^{-3}, 1]$ & $\{1, 0.5 \}$ & $\{0.5,2,30 \}$ & $\{1,4,10\}$ \\
-    %             \bottomrule
-    %         \end{tabular}
-    %     \end{center}
-    %     To deal with these multiple parameters, we will use a machine learning approach, trained on a datasets of simulated pulse shape, and delay for multiple ranges of value of $\delta n$, $l_{cx}$, $l_{cy}$ and beam size $ro$.
-    %     To build this datasets we will based our apporach on the previous results, where we extracted the best hyperparameters candidate for both computations speed and accuracy. The datasets will be built using the linear normalized perturbation profile, and a number of sample $N_s = 500$, the $\tau_0$ will be compute for each combination of parameters, even if it should not depend on correlation lengths and amplitudes.
-
-    %     - REDUCTION OF BM AND LCX CORR MATRIX
-    %     - PLOT WITH ALL THE CORR MATRIX
-    %     - USE SPIKEWIZARD
-    %     - LCy PARAMS FOR 2D with 1D COMPARISON
-    %     - 2D MODEL TRAINING
-    %     - 2D MODEL TESTING (AMP AND TD0)
-    %     - 2. Histogram of residual
-    %     - LEVERAGES
-    %     \subsection{Gaussian spectrum of the turbulences}
-    %     The gaussian spectrum is the most simple way to model the turbulence, and was used as first approximation to see if the model could integrate the dependancy of the diffrent correlation length.
-    %     The gaussian distribution of the wave vector is given by the following :
-    %     \begin{figure}[H]        \centering
-    %         \includegraphics[width=0.7\linewidth]{example-image}
-    %         \caption{Gaussian Power Spetrum and correlation length measurements}
-    %         \label{}
-    %     \end{figure}
-
-    % \end{multicols}
-    % \begin{figure}
-    %     \centering
-    %     \includegraphics[width=1\linewidth]{./figures/polar_param.pdf}
-    %     \caption{Polar distributions of the params}
-    %     \label{}
-    % \end{figure}
-    % \begin{multicols}{2}
-    %     % \subsection{Power Spectrum of the turbulences}
-    %     % The power spectrum of the turbulences is a more realistic approach to the turbulence profile, (give the detail for each litterature measurements of the knee power spectrum). Then explain why the power spectrum is much more complicated to have a continuous one.
-    %     % Then introduce the formula of the power spectrum used [cite], and the different parameters used .
-    %     % $$<\delta n^2 > = \frac{1}{1 + \vert \frac{k_x}{W_x} \vert^\gamma + \vert \frac{k_y - k_y^*}{W_y}\vert^\beta}$$
-    %     % This formula has the advantage to not be separable in $x$ and $y$, which is the case in ... [cite]
-    %     % \begin{figure}[H]
-    %     %     \centering
-    %     %     \includegraphics[width=0.7\linewidth]{example-image}
-    %     %     \caption{Power Spectrum and correlation length measurements, compared to the gaussian spectrum}
-    %     %     \label{}
-    %     % \end{figure}
-
-    %     \subsubsection{COrrelation length dependancy study}
-    %     As it is not determied by the power spectrum formula we have to shift to measured lc as an input for the model. This is why its conveninent to have a relationship between all the parameters and the correlation length.
-    %     One has already enearths the expression of the correlation length in the $x$ direction for the given power spectrum [label]. This has been calculated using a partial discrete fourrier transform, using the Wienner-Khinchin theorem, and the results are shown in the following figure.
-    %     However the true expression of the Wiener-Khinchin theorem [] is the following :
-    %     $$\int_{-\infty}^{\infty} <\delta n(k_x, k_y)^2> \, dk_xdk_y$$
-    %     For this study we will limit ourselves to the $k_x$ direction, the integration detailed in the mathematical appendix leads to the following expression of the correlation length detailed in the appendix.
-    %     $$l_{cx} = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} \frac{dk_x}{\sqrt{1 + \vert \frac{k_x}{W_x} \vert^\gamma}}$$
-    %     This expression is valid under the following limits\dots
-    %     This leads to the following numerical expresion of the correlation length found fore the given paraameters of the power field,
+    \begin{align}
+        r_{x x}(\tau) & = \int_{-\infty}^{\infty} \frac{1}{1 + \vert \frac{k_x}{W_x} \vert^\gamma + \vert \frac{k_y - k_y^*}{W_y}\vert^\beta} e^{2 \pi i k_x \tau} \, dk_x \\
+                      & = \int_{-\infty}^{\infty} \frac{e^{2 \pi i k_x \tau}}{1 + \vert \frac{k_x}{W_x C^{1/ \gamma}} \vert^\gamma} \, dk_x
+    \end{align}
+    This expression is valid under the following limits\dots
+    This leads to the following numerical expresion of the correlation length found fore the given paraameters of the power field,
     %     \begin{center}
     %         \begin{tabular}{ccccccc}
     %             \toprule
@@ -801,72 +659,23 @@
     %             \bottomrule
     %         \end{tabular}
     %     \end{center}
+    %     % \begin{cases}
+    %     %     lc_x = 1.19402632 \rho + 0.00121852 \\
+    %     %     lc_y = 1.35459058 \rho + 0.00152604
+    %     % \end{cases}
 
-    %     \begin{cases}
-    %         lc_x = 1.19402632 \rho + 0.00121852
-    %         lc_y = 1.35459058 \rho + 0.00152604
-    %     \end{cases}
-    %     \begin{figure}
-    %         \centering
-    %         \includegraphics[width=0.7\linewidth]{example-image}
-    %         \caption{Fit plot}
-    %         \label{}
-    %     \end{figure}
-    % \end{multicols}
+    The real field is then obtain using the inverse fourier transform of the $\delta n(\textbf{k} )$ field. For each simulations we recorded the pulse signal with and without the turbulence field, and this for approximatively 500 samples. The raw data is then process online on LEONARDO to get the pulse metrics, and the delay distribution. This data is then saved in a SQL dataset build for this purpose and then trasnfer to the SPC computer for small data operations. We followed the same procedure as for the 1D dataset, with stantard normalisation, and same training/testing split, with the simulation parameters as input with the previous metrics and $\delta n_0, \, \tau_0$ as output.
 
-    % \chapter{Mathematical appendix}
-    % \begin{multicols}{2}
-
-    % \begin{enumerate}
-    % \item Gaussian perturbation integral
-    % $$\tau_d = \frac{2}{c} \int_0^L \frac{dx}{\sqrt{1 - \frac{x}{L} - \frac{\delta n\exp(-\frac{(x - L)^2}{8l_{cx}^2})}{n_c}}}$$
-    % The first assumption that we can made is that away from $L - l_{cx}$ the perturbation is negligible, thanks to that we can expand the integral to the following :
-    % \begin{multline*}
-    %     \tau_d = \frac{2}{c} \int_{L - l_{cx}}^L \frac{dx}{\sqrt{1 - \frac{x}{L} - \frac{\delta n\exp(-\frac{(x - L)^2}{8l_{cx}^2})}{n_c}}} \\
-    %     + \frac{2}{c} \int_{0}^{L - l_{cx}} \frac{dx}{\sqrt{1 - \frac{x}{L}}}
-    % \end{multline*}
-    % Let's focus on the first integral, we can expand the exponential to the first order, and we obtain the following :
-
-    % \begin{align*}
-    %      & \frac{2}{c} \int_{L - l_{cx}}^L \frac{dx}{\sqrt{1 - \frac{x}{L} - \frac{\delta n\exp(-\frac{(x - L)^2}{8l_{cx}^2})}{n_c}}}        \\
-    %      & \approx \frac{2}{c} \int_{L - l_{cx}}^L \frac{dx}{\sqrt{1 - \frac{x}{L} - \frac{\delta n}{n_c}(1 - \frac{(x - L)^2}{8l_{cx}^2})}} \\
-    %      & \approx \frac{2}{c} \int_{0}^{l_{cx}} \frac{dx}{\sqrt{\frac{x}{L} - \frac{\delta n}{n_c}(1 - \frac{x^2}{8l_{cx}^2})}}             \\
-    % \end{align*}
-    % Now we can introduce the $x_0$ and $K_1$ constants defined by : $$x_0 = \sqrt{8\frac{n_c}{\delta n}l_{cx}^2}
-    %     \text{ and } K_1 = \sqrt{\left(\frac{x_0}{2L}\right)^2 - 8 \left(\frac{l_{cx}}{x_0} \right)^2}$$
-    % which leads to the following canonical form of the integral :
-    % \begin{align*}
-    %      & \frac{2}{c} \int_{0}^{l_{cx}} \frac{dx}{\sqrt{(\frac{x}{x_0} - \frac{x_0}{2L})^2 - K_1^2}}                                                  \\
-    %      & = \frac{2}{c} x_0 \int_{-\tfrac{x_0}{2LK_1}}^{(\tfrac{l_{cx}}{x_0} - \tfrac{x_0}{2L}) / K_1} \frac{dx}{\sqrt{x^2 - K_1^2}}                  \\
-    %      & = \frac{2}{c} x_0 \int_{-\tfrac{x_0}{2LK_1}}^{(\tfrac{l_{cx}}{x_0} - \tfrac{x_0}{2L}) / K_1} \frac{dx}{\sqrt{x^2 - 1}}                      \\
-    %      & = \frac{2}{c} x_0 \left[ \log \left( \sqrt{x^2 - 1} + x\right)\right]_{-\tfrac{x_0}{2LK_1}}^{(\tfrac{l_{cx}}{x_0} - \tfrac{x_0}{2L}) / K_1} \\
-    %      & = \frac{2}{c} x_0 ( \log \left( \sqrt{(\frac{K_2}{K_1})^2 - 1} + \frac{K_2}{K_1}\right)                                                     \\
-    %      & - \log \left( \sqrt{(\frac{K_2^*}{K_1})^2 - 1} + \frac{K_2^*}{K_1}\right) )                                                                 \\
-    % \end{align*}
-
-    % With $K_2 = \left(\tfrac{l_{cx}}{x_0} - \tfrac{x_0}{2L}\right)$ and $K_2^* = -\tfrac{x_0}{2L}$.
-    % %   \begin{figure}[H]
-    % %               %       \begin{center}
-
-    % %               %           \begin{tikzpicture}[line/.style = {decoration={markings,
-    % %               %                                   mark=at position #1 with
-    % %               %                                       {\arrow[very thick]{>}}},
-    % %               %                           postaction={decorate}}]
-    % %               %               \draw[line = 0.12, line width=0.5mm, color=red!50]
-    % %               %               (0:2.4) arc (0:180:2.4) -- cycle;
-    % %               %               \draw[ line width=0.25mm]
-    % %               %               (0:1) arc (0:180:1) -- cycle;
-    % %               %               \draw[->]   (-3,0) -- (3,0) node[right] {$\Re$};
-    % %               %               \draw[->]   (0,-1) -- (0,3) node[right] {$\Im$};
-    % %               %               \filldraw[black] (2.4,0) node[anchor=north]{$R$};
-    % %               %               \filldraw[black] ({cos(50)},{sin(50)}) circle (2pt) node[anchor=west]{$a_0$};
-    % %               %               \filldraw[black] ({cos(150)},{sin(150)}) circle (2pt) node[anchor=east]{$a_1$};
-    % %               %           \end{tikzpicture}
-    % %               %       \end{center}
-    % %               %   \end{figure}
-
-    % %     \end{enumerate}
+    \subsection{data scanning}
+    For the first part of the training to have homogeneous data distribution we chose data points on a defined grid, then to refined the model we used some random uniformly sample (logarithmicly for $\delta n_0$ ) data points in the range of the study.
 \end{multicols}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{./figures/polar_param.pdf}
+    \caption{Polar distributions of the params}
+    \label{}
+\end{figure}
+
 \begin{multicols}{2}
     \newpage
     \nocite{*}

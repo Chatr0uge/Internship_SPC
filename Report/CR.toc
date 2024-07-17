@@ -24,9 +24,15 @@
 \contentsline {section}{\numberline {II}Machine Learning Model}{8}{section.3.2}%
 \contentsline {subsection}{\numberline {1}structure}{8}{subsection.3.2.1}%
 \contentsline {section}{\numberline {III}Input Data}{9}{section.3.3}%
-\contentsline {section}{\numberline {IV}Results}{9}{section.3.4}%
+\contentsline {section}{\numberline {IV}Datasets building}{9}{section.3.4}%
+\contentsline {section}{\numberline {V}Results}{9}{section.3.5}%
 \contentsline {chapter}{\numberline {4}2 dimensinal Model}{10}{chapter.4}%
-\contentsline {subsection}{\numberline {1}Pulse shape Study}{10}{subsection.4.0.1}%
-\contentsline {subsection}{\numberline {2}Gaussian fitting of the pulse}{11}{subsection.4.0.2}%
-\contentsline {section}{\numberline {I}Model collapses}{11}{section.4.1}%
-\contentsline {section}{\numberline {II}1 dimensional study}{11}{section.4.2}%
+\contentsline {section}{\numberline {I}Pulse shape Study}{10}{section.4.1}%
+\contentsline {subsection}{\numberline {1}Relative Study of Pulse Shape}{10}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {2}Statistical Study of Pulse Shape}{11}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {3}Gaussian fitting of the pulse}{11}{subsection.4.1.3}%
+\contentsline {section}{\numberline {II}Datasets building}{12}{section.4.2}%
+\contentsline {subsection}{\numberline {1}Gaussian spectrum of the turbulences}{12}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {2}Power Spectrum of the turbulences}{12}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {a)}COrrelation length dependancy study}{12}{subsubsection.4.2.2.1}%
+\contentsline {subsection}{\numberline {3}data scanning}{12}{subsection.4.2.3}%
