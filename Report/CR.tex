@@ -24,7 +24,7 @@
 \usepackage{fancybox}
 \tcbuselibrary{most}
 \usepackage{pifont}
-\usepackage[skip = 2pt, font = footnotesize, labelfont = bf]{caption}
+\usepackage[skip = 2pt, font = {small}, labelfont = bf]{caption}
 \usepackage{subcaption}
 \usepackage{eso-pic}
 \usepackage{nicematrix}
@@ -383,11 +383,10 @@
     \includegraphics[width=1\linewidth]{./figures/field_SPR.pdf}
     \label{}
 \end{figure}
-\captionof{figure}{\textbf{SPR} setup using the \emph{O.Krutkin and A.combette \textbf{LEONARDO} simulations from the \textbf{CUWA} code}, the probing wave is sent to the plasma, and the reflected wave from the cut-off is measured, the delay between the two waves is a measure of the plasma density profile, in addition to the pulse shape that has been altered by the turbulenences (eq). Here we plot the contours of the density profile, with cold density perturbations (black contour lines on the left plot), the probing wave is reflected by the cut-off layer (initial probing wave on the left and after a $\Delta t \approx 10 ns$ we got the reflected scattered wave on the right). The third plot on the right shows the density profile width its perturbations (filled), a liner density profile $$n(x,y) = \frac{x}{L} \left(n_c + \delta n(x,y)\right).$$ as been chosen accoriding to (cite). Note that this linear correction made on the amplitude of the turbulence fields, follows from the non-adiabatic perturbations \cite{San_diego}, and his more relevant than a simple constant amplitude turbulence field. The curvature of the grid has been set to the $R = 0.25m$ to mimic the TCV geometry.}
+\captionof{figure}{\textbf{SPR} setup using the \emph{O.Krutkin and A.combette \textbf{LEONARDO} simulations from the \textbf{CUWA} code}, the probing wave is sent to the plasma, and the reflected wave from the cut-off is measured, the delay between the two waves is a measure of the plasma density profile, in addition to the pulse shape that has been altered by the turbulenences (eq). Here we plot the contours of the density profile, with cold density perturbations (black contour lines on the left plot), the probing wave is reflected by the cut-off layer (initial probing wave on the left and after a $\Delta t \approx 10 ns$ we got the reflected scattered wave on the right). The third plot on the right shows the density profile width its perturbations (filled), a liner density profile $$n(x,y) = \frac{x}{L} \left(n_c + \delta n(x,y)\right).$$ as been chosen accoriding to (cite). Note that this linear correction made on the amplitude of the turbulence fields, follows from the non-adiabatic perturbations \cite{San_diego} AND NUMERICAL INSTABILITY, and his more relevant than a simple constant amplitude turbulence field. The curvature of the grid has been set to the $R = 0.25m$ to mimic the TCV geometry.}
 \begin{multicols}{2}
-    \chapter{Linear Regime Study}
+    \section{Linear Regime Study}
     The goal of this study is to find a way to link the plasma density perturbations to the reflected pulse characterics. First we will study a simple 1 dimensional model proposed by (\emph{Oleg Krutkin}) applied in a given range of turbulence amplitude and size and then we will extend this study to a morte general 2D model using the \textbf{CUWA} code.
-    \section{1 dimensional study}
     Assuming a simple plasma density profile $n(x)$, we can study the wave propagation in the plasma. The goal of this approach is to find a way to link the plasma density perturbations to the reflected pulse delay. To retrieve some information about the pulse delay we will
     use a statistical approach to get rid of the randomness implies by the perturbations considerations.
     The delay of the probing wave is given by the following formula  : $$\tau_c = 2 \int_0^L \frac{dx}{v_g}$$ Where $v_g$ is the group velocity of the wave, $L$ is the position of the cut-off.
@@ -461,9 +460,16 @@
     The machine Learning model will learn to predict the amplitude $\delta n_0 $ and the default delay without amplitude $\tau_0 $ , with one one dimensional training set, and will be test on a one dimensional and a two dimensional testing set.
     \subsection{structure}
 
-    The regression model we used is a stacked-multioutput regressor, it combines the following models : K-neighbors (\texttt{KNN}), Random-forest (\texttt{RF}), 3 different Gradient-Boosting (\texttt{GB}, \texttt{LGBM}, \texttt{XGB}), and support vector (\texttt{SVR}) , regressors, it is made to be as general and versatile as possible. Then the 6 models are trained in parallel on the same training datasets, in series with a decision regression model which is in our case a final \texttt{RF} layer trained on the outputs of previous layers.T
+    The regression model we used is a stacked-multioutput regressor
 
-    Normally the Gradient-Boosting models can not handle multi-output regression, this is why we used a multi-output \href{https://scikit-learn.org/stable/modules/generated/sklearn.multioutput.RegressorChain.html}{\texttt{RegressorChain}}. This model train the model to predict the the first entry and then to predict the second given the first prediction, this allows to incorporate a dependancy between the different outputs, which should not be the case here, so normally a simple \texttt{MultiOutputRegressor} should be sufficient. Let's note that the score of the final model cannot be less than the score of the best model. The following table described the hyperparameters used for the stacked model.
+    \begin{figure}[H]
+        \def\svgwidth{\linewidth}
+        \centering
+        \input{./figures/stacked_regressor.pdf_tex}
+        \caption{stacked Regressor structure with global regressor chain, the internal strcture of the multiple regressors are not detailed for simplicity, but each one is a complex model with specific advantage and limitations, we tested each model on several datasets, and the combination of them is a key in the performance of our prediction specially in limit cases, with high or low turbulences amplitude.}
+    \end{figure}
+    Our model combines the following models : K-neighbors (\texttt{KNN}), Random-forest (\texttt{RF}), 3 different Gradient-Boosting (\texttt{GB}, \texttt{LGBM}, \texttt{XGB}), and support vector (\texttt{SVR}) , regressors, it is made to be as general and versatile as possible. Then the 6 models are trained in parallel on the same training datasets, in series with a decision regression model which is in our case a final \texttt{RF} layer trained on the outputs of previous layers. Normally the Gradient-Boosting models can not handle multi-output regression, this is why we used a multi-output \href{https://scikit-learn.org/stable/modules/generated/sklearn.multioutput.RegressorChain.html}{\texttt{RegressorChain}}. This model train the model to predict the the first entry and then to predict the second given the first prediction, this allows to incorporate a dependancy between the different outputs, which should not be the case here, so normally a simple \texttt{MultiOutputRegressor} should be sufficient. Let's note that the score of the final model cannot be less than the score of the best model.
+    The following table described the hyperparameters used for the stacked model.
 
     \begin{table}[H]
         \centering
@@ -488,7 +494,7 @@
             \texttt{SVR}   & \begin{tabular}[c]{@{}c@{}}\texttt{kernel} : 'rbf'\\ \texttt{C} : 1 \\ \texttt{epsilon} : 0.01\end{tabular} \\
             \hline
         \end{tabular}
-
+        \label{Hyperparameters}
     \end{table}
     \captionof{table}{Main Hyperparameters used for the stacked model, the error use is not detailed as long as the performance tweaks}
 
@@ -595,10 +601,12 @@
     \end{figure}
 
 
-    ADD SPIKE NUMBER
+    \subsection{Detection of scattered pulse}
+    An other way to see the effect of non-linear regime on the probing pulse is to study the multiple scattering effect on this latter.
+    For example we can imagine that the number of secondary spikes should be a good indicator of the non-linear regime, the amplitude of the scattered pulses should be also intesting. To do so we have to introduce a systematic method to detect all the spikes, this has been done using the \texttt{spikefinder} library, which is a python library that allows to detect all the spikes in a signal. The following figure shows the number of spikes detected in the pulse signal, and the amplitude of the spikes.
 
     \section{Datasets building}
-    For the two dimensional datasets we select the following pulse metrics in addition to the quantilized delay distribution :  mean of pulse amplitude, standard deviation of delay, mean of Hysteresis, skewness of the mean pulse, standard deviation of pulse width.
+    For the two dimensional datasets we select the following pulse metrics in addition to the quantilized delay distribution :  mean of pulse amplitude, standard deviation of delay, mean of Hysteresis, skewness of the mean pulse, standard deviation of pulse width. In every case we begin to generate a 2d dataset based on a spectral density field. The real field is then obtain using the inverse fourier transform of the $\delta n(\textbf{k} )$ field. For each simulations we recorded the pulse signal with and without the turbulence field, and this for approximatively 500 samples. The raw data is then process online on LEONARDO to get the pulse metrics, and the delay distribution. This data is then saved in a SQL dataset build for this purpose and then trasnfer to the SPC computer for small data operations. We followed the same procedure as for the 1D dataset, with stantard normalisation, and same training/testing split, with the simulation parameters as input with the previous metrics and $\delta n_0, \, \tau_0$ as output.
 
     % - REDUCTION OF BM AND LCX CORR MATRIX
     % - PLOT WITH ALL THE CORR MATRIX
@@ -610,18 +618,20 @@
     % - LEVERAGES
     \subsection{Gaussian spectrum of the turbulences}
     The gaussian spectrum is the most simple way to model the turbulence, and was used as first approximation to see if the model could integrate the dependancy of the diffrent correlation length. The parameter used for the 2D simulations with the CUWA code on \textbf{LEONARDO} are the following :
-    \setlength{\tabcolsep}{.016\linewidth}
-    \begin{center}
-        \begin{tabular}{ccccc}
+    \setlength{\tabcolsep}{.008\linewidth}
+    \begin{table}
+        \begin{tabular}{c|c|c|c|c|c}
             \toprule
-            \multicolumn{5}{c}{Parameters range}                                                \\
-            \cmidrule{1 -5}
-            $\delta n_0$   & $l_{cx}$ -[cm] & $l_{cy}$ -[cm]  & $\theta$ -[°] & $R$ -[m]        \\
+            \multicolumn{6}{c}{Parameters range}                                                     \\
+            \cmidrule{1 -6}
+            $\delta n_0$   & $L$ -[cm] & $l_{cx}$ -[cm] & $l_{cy}$ -[cm]  & $\theta$ -[°] & $R$ -[m] \\
             \midrule
-            $[1e^{-3}, 1]$ & $\{1, 0.5 \}$  & $\{0.5,2,30 \}$ & [0-10]        & [0.2,5]\{1000\} \\
+            $[1e^{-3}, 1]$ & $[5-18]$  & $\{1, 0.5 \}$  & $\{0.5,2,30 \}$ & [0-10]        & [0.2,5]  \\
             \bottomrule
         \end{tabular}
-    \end{center}
+        \caption{2D simulation parameters range based on Gaussian spectrum}
+        \label{Gaussian_table}
+    \end{table}
     $\theta$ stands for the incident angle of the probing beam, $R$ the geometry curvature, $l_{cx}$ the typical correlation length of the turbulence in the $x$ direction, and $l_{cy}$ the typical correlation length of the turbulence in the $y$ direction. The $R$ range is choosen to tackle flat and near TCV tokamak geometries, $\theta$ values are dependant of the $R$ range and cannot be to high, indeed if we consider a high curvature the incident angle cannot be too high, because the probing beam will not be able to reach the cut-off layer, or will be reflefed not in the direction of the antenna, this is why we limited ourselves to 10 degrees, with $R = 0.2$ m. In the gaussian case, the power spectrum of the turbulence arr given by the following formula :
     $$\delta n(\textbf{k} ) = \delta n_0 \exp\left(-\frac{(k_x l_{cx} k_y l_{cy})^2}{8} + i\Phi(\textbf{k} )\right)$$
     This formula will be used to create the first part of the dataset with defined correlation lengths. But one could argue that the power spectrum of \textbf{TEM} instabilities is not gauussian.
@@ -629,16 +639,13 @@
     Indeed the power spectrum of the turbulences is a more realistic approach to the turbulence profile, (give the detail for each litterature measurements of the knee power spectrum). Then explain why the power spectrum is much more complicated to have a continuous one.
     Then introduce the formula of the power spectrum used [cite], and the different parameters used .
     $$<\delta n^2 > = \frac{1}{1 + \vert \frac{k_x}{W_x} \vert^\gamma + \vert \frac{k_y - k_y^*}{W_y}\vert^\beta}$$
-    This formula has the advantage to not be separable in $x$ and $y$, which is the case in ... [cite]
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.7\linewidth]{example-image}
-        \caption{Power Spectrum and correlation length measurements, compared to the gaussian spectrum}
-        \label{}
-    \end{figure}
+    With $W_x$ the $x$ spectral witdh, $W_y$ the $y$ spectral width $k_y^*$ the injection driving scale of the instabilities [CITE]. Note that all the parameter are normalized by $\rho_s$ the ion gyro-radius.  This formula has the advantage to not be separable in $x$ and $y$, which is the case in ... [cite]
 
     \subsubsection{COrrelation length dependancy study}
-    As it is not determied by the power spectrum formula we have to shift to measured lc as an input for the model. This is why its conveninent to have a relationship between all the parameters and the correlation length. The expression of lcx can be found using the Wiener-Khinchin theorem [], supposing $k_y$ constant fore the integration ::
+    As it is not determied by the power spectrum formula we have to shift to measured lc as an input for the model. This is why its conveninent to have a relationship between all the parameters and the correlation length. The expression of $l_{cx,cy}$ can be found using the \textbf{CCF} on many field sample ($s$).
+
+    $$r_{x x}(\tau) = \frac{\sum_{s}\left(\tilde{\delta n_s}(x + \tau, y)\right)\left(\tilde{\delta n_s}(x, y)\right)}{\sum_{s}\left(\tilde{\delta n_s}(x, y)\right)^2}$$
+    With $\tilde{\delta n_s}(x,y) = \delta n_s(x,y) - \bar{\delta n_s}(y)$. The Wiener-Khinchin theorem [CITE] brings an other method to compute the correlation length without the need of having many samples indeed supposing $k_y$ constant for the integration we have for the $x$ correlation length :
     $$r_{x x}(\tau) = \int_{-\infty}^{\infty} <\delta n(k_x, k_y)^2> e^{2 \pi k_x \tau} \, dk_x$$
     With $r_{x x}$ the autocorellation function. The correlation length is then defined when the $r_{x x}$ reaches the $e^{-1}$ level, then developing the expression of the power spectrum, we have :
 
@@ -646,36 +653,93 @@
         r_{x x}(\tau) & = \int_{-\infty}^{\infty} \frac{1}{1 + \vert \frac{k_x}{W_x} \vert^\gamma + \vert \frac{k_y - k_y^*}{W_y}\vert^\beta} e^{2 \pi i k_x \tau} \, dk_x \\
                       & = \int_{-\infty}^{\infty} \frac{e^{2 \pi i k_x \tau}}{1 + \vert \frac{k_x}{W_x C^{1/ \gamma}} \vert^\gamma} \, dk_x
     \end{align}
-    This expression is valid under the following limits\dots
-    This leads to the following numerical expresion of the correlation length found fore the given paraameters of the power field,
-    %     \begin{center}
-    %         \begin{tabular}{ccccccc}
-    %             \toprule
-    %             \multicolumn{7}{c}{Parameters range}                                                                                                     \\
-    %             \cmidrule{1 7}
-    %             $k_y^*$                & $W_x$           & $W_y$                 & $\gamma$ & $\beta$ & $D$                                      & $ L$  \\
-    %             \midrule
-    %             $\frac{1e^{-4}}{\rho}$ & $frac{1}{\rho}$ & $frac{1e^{-4}}{\rho}$ & $4$      & $3.14$  & $6.3e^{-3}\left(\frac{\rho}{L}\right)^2$ & $0.1$ \\
-    %             \bottomrule
-    %         \end{tabular}
-    %     \end{center}
-    %     % \begin{cases}
-    %     %     lc_x = 1.19402632 \rho + 0.00121852 \\
-    %     %     lc_y = 1.35459058 \rho + 0.00152604
-    %     % \end{cases}
 
-    The real field is then obtain using the inverse fourier transform of the $\delta n(\textbf{k} )$ field. For each simulations we recorded the pulse signal with and without the turbulence field, and this for approximatively 500 samples. The raw data is then process online on LEONARDO to get the pulse metrics, and the delay distribution. This data is then saved in a SQL dataset build for this purpose and then trasnfer to the SPC computer for small data operations. We followed the same procedure as for the 1D dataset, with stantard normalisation, and same training/testing split, with the simulation parameters as input with the previous metrics and $\delta n_0, \, \tau_0$ as output.
+    From this we can see that the autocorrelation function has a spiked shape, whose width is linearly proportional to :
+    $\frac{1}{W_x C^{1/ \gamma}}$ with $C = 1 + \vert \frac{k_y - k_y^*}{W_y}\vert^\beta$,the same reasoning can be done for the $y$ correlation length, with the same width dependancy, this leads to the following dependancy :
 
-    \subsection{data scanning}
-    For the first part of the training to have homogeneous data distribution we chose data points on a defined grid, then to refined the model we used some random uniformly sample (logarithmicly for $\delta n_0$ ) data points in the range of the study.
+    $$l_{cx} \propto \left(\frac{1}{W_x C^{1/ \gamma}}\right) \, ,\, l_{cy} \propto \left(\frac{1}{W_y Z^{1/ \beta}}\right) $$
+    With $Z = 1 + \vert \frac{k_x}{W_x} \vert^\gamma$. For large scale turbulences liek \textbf{TEM}, the spectral width is greater than the wave number since it's known to be large scale phenomena, this leads to $C \approx 1$ and $Z \approx 1$. We then have :
+    $$l_{cx} \propto \frac{1}{W_x}  \propto \rho_s \, ,\, l_{cy} \propto \frac{1}{W_y} \propto \rho_s$$
+
+    Then we numerically computed the correlation length using true \textbf{CCF} and Wiener-theorem to determine the proportionality constant for both, $x$ and $y$, cases. Thanks to that we can keep the correlation length as an input for the model, and not the spectral width, which is more difficult to measure.
 \end{multicols}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{./figures/polar_param.pdf}
-    \caption{Polar distributions of the params}
-    \label{}
+    \includegraphics[width=1\linewidth]{./figures/CCF_Wiener.pdf}
+    \caption{On the left plot the $r_{x x}$ computed with the \textbf{CFF} and Wiener Theorem, for several $\rho_s$. On the right the linear fit between the correlation and the ion gyro-radius. The same study has been done for the $y$ correlation length dependancy study.}
+    \label{Wiener}
 \end{figure}
+\begin{multicols}{2}
 
+    The correlation length fit of the Wiener theorem appears to have the smallest residuals, ands leads to the same results as the \textbf{CCF} method, without computing too many samples. We can then obtain the follwing formula for the correlation lengths which should leads to the same turbulence structures as the gaussian spectrum (see fig: \ref{fig:density_field}) :
+    \begin{equation*}
+        \begin{cases}
+            lc_x = (1.19 \pm 0.02) \rho_s + (0.0012 \pm 0.0001) \\
+            lc_y = (1.35 \pm 0.03) \rho_s + (0.0015 \pm 0.0001) \\
+        \end{cases}
+        \label{eq:}
+    \end{equation*}
+
+    We can then use these formula to compute the correlation length for the 2D datasets which will be input parameters for our model, and then use the power spectrum formula to compute the $\delta n(\textbf{k} )$ field. The parameters used for the 2D simulations with the CUWA code on \textbf{LEONARDO} are the following :
+    \setlength{\tabcolsep}{.02\linewidth}
+
+    \begin{table}[H]
+        \begin{tabular}{c|c|c|c|c}
+            \toprule
+            \multicolumn{5}{c}{Parameters range}                                         \\
+            \cmidrule{1 -5}
+            $\delta n_0$   & $L$ -[cm] & $\rho_s$-[m]         & $\theta$ -[°] & $R$ -[m] \\
+            \midrule
+            $[1e^{-3}, 1]$ & $[5-18]$  & $[2e^{-3}, 2e^{-2}]$ & [0-10]        & [0.2,5]  \\
+            \bottomrule
+        \end{tabular}
+        \caption{2D simulation parameters range based on Power spectrum, the value of $\rho_s$ are choosen to be included in the range of the gaussian dataset values of $l_{cx}$ amd $l_{cy}$ }
+        \label{Power_table}
+    \end{table}
+
+    Note that for generating the $<\delta n>^2$ field we took, $D = 6.3e^{-3} (\frac{\rho}{L})^2$, $W_x = \frac{3.71}{\rho_s}$, $W_y = \frac{4}{\rho_s}$, $\beta = 2.88$, $\gamma = 3.14$, $k_y^* = \frac{0.1}{\rho_s}$. The $l_{cx}$ and $l_{cy}$ 'calibration' (fig: \ref{Wiener}) was done using this values used in [CITE]
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\linewidth]{figures/field_power.pdf}
+        \caption{Comparaison of both structure with $\rho_s = 8e^{-3}$ of the turbulence field (we used the same corelation lengths in the gaussian spetrum). The selected plotting zone in a (3cm x 10cm) rectangle including the cut-off layer and the vaccum layer}
+
+        \label{fig:density_field}
+    \end{figure}
+
+    In  fig:\ref{fig:density_field} we can denote the same structure of the turbulence field for both spectral approach which menas that our first gaussian approximation is quite relevant and should help our model to generalize his prediction to both cases.
+    \subsection{data scanning}
+    For the first part of the training to have homogeneous data distribution we chose data points on a defined grid, then to refined the model we used some random uniformly sample (logarithmicly for $\delta n_0$ ) data points in the range of the study. To see if the reached distribution is quite homogeneous for the training we can plot the distribution of the data points in the parameter space, and see if the data points are well distributed. This is done in the following figure.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\linewidth]{./figures/polar_param.pdf}
+        \caption{Polar distributions of the params, the circle corresponds to the parameter range (described in table \ref{Power_table} and table \ref{Gaussian_table}), and the radial value to the paranmeter distribution value. In blue the power spectrum datasets and in red the gaussian spectrum datasets.}
+        \label{params_distr}
+    \end{figure}
+
+    The fig: shows that the data points are quite well distributed in the parameter space, the that we can note is that the $R$ distribution is concentrated near 0, because we choose to plot the curvature $\frac{1}{R}$  distribution wheter than the true radius doistribution (indeed to account for flat geometries we introduced $R = 1000$ value in the datasets, which should have broken the normalization process in the datasets).The last thing to highlight is that the $l_{cy}$ distribution is also unevenly reparted, since we also introuced high value of $l_{cy}$ in the datasets to mimic the 1 dimensional case. We finally end up with more than 2000 datapoints with 500 samples for each points. Before the training, we followed the same procedure as for the 1D datasets, with stantard normalisation, and same training/testing split, with the simulation parameters as input with the previous metrics and $\delta n_0, \, \tau_0$ as output.
+
+    \section{Results}
+    The model was trained on the 2D datasets, with the same structure as the 1D model (which was found quite robust for tackling non linearities)the same hyperparameters are used for this study (see table \ref{Hyperparameters}). The only thing changing is the number of input data variable, which complexify our model.
+
+    \subsection{Global performance}
+    The model reached a $R^2$ score of 0.92 for the gaussian testing set, and 0.89 for the power spectrum testing set. Which are quite reasonable results even for the logarithmic dependancy of $\delta n_0$. For comparison, a deep neural network has been trained in parallel of our model with the same dataset with 5 layers of respectively (256,128,64,32,2) neurons in each layer with sigmoid activation, this model begins to be quiet complex and reach a poor $R^2$score of 0.3, which is far behind our performances. To have a better overviwe we can follow the sampe principle used in the figure ??, comparing the residuals of the model for each parameter value of the testing set. This is done in the following figure.
+\end{multicols}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \linewidth]{./figures/polar_res.pdf}
+    \vspace*{1cm}
+    \caption{Here we plot the mean residuals for every value of every parameter, in blue filled we got the residuals for the gaussian datasets, and in red the residuals for the power spectrum datasets. One remarkable thing is that the model is far more better than the 1D model in both datasets, which is quite comforting. Indeed we reach a mean residual of 0.25, ten times smaller tham the 1D model apply to the 2D-shifted datasets. An other intersting thing is that the residuals are quite well distributed among all the simulation parameters, however one can not that the residual over the $R$ values are quite focused on the lower values, but this is symply a consequences of the $\frac{1}{R}$ transform. An other interesting results is that the $\theta$ parameter residuals seems higher for high value of $\theta$ which seems reasonable, since theses cases are much more difficult to handle. Regarding the difference between the two datasets the residuals have globally the same mean value, which is comforting, and leads to quite good generalization of the model.}
+\end{figure}
+\begin{multicols}{2}
+
+    \subsection{Comparison of the prediction with other models}
+    For the previous study the datasets contained several parameters that impied a 2D geometry. However, if we wanna compare the model with the 1D model, and the analytical one we have to build a final comparison datasets, To have clear results we will fix the $l_{cy}$, $R$, $\theta$, $L$, $l_{cx}$ parameters to the same value for the 1D and 2D model, then we will see if our model is able to handle the simple 1D case with the stuyd of the dependancy of predictded $\delta n_0$ over true $\delta n_0$, which is a more general way to study $\text{rms}(\tau)$ over $\delta n_0$ . An other intersting results to have as comparison is the fact that for the 1D analytic model (eq ??) we have the following equation $< \tau > = \tau_0$, in non linear regime this assumption is broken, and our model should be able to handle this case, to see this effect we can study the dependancy of $\tau_0$ over $\delta n_0$.
+
+    \subsection{Results on experimental datasets}
+\end{multicols}
+\newpage
 \begin{multicols}{2}
     \newpage
     \nocite{*}
