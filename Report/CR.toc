@@ -8,8 +8,8 @@
 \contentsline {subsubsection}{\numberline {a)}Trapped particles}{3}{subsubsection.1.2.1.1}%
 \contentsline {subsubsection}{\numberline {b)}Drift waves}{3}{subsubsection.1.2.1.2}%
 \contentsline {subsection}{\numberline {2}Radial Transport}{4}{subsection.1.2.2}%
-\contentsline {section}{\numberline {III}Wave propagation in plasma}{5}{section.1.3}%
-\contentsline {subsection}{\numberline {1}Plasma as a medium}{5}{subsection.1.3.1}%
+\contentsline {section}{\numberline {III}Wave propagation in plasma}{4}{section.1.3}%
+\contentsline {subsection}{\numberline {1}Plasma as a medium}{4}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {2}Wave equation}{5}{subsection.1.3.2}%
 \contentsline {section}{\numberline {IV}CUWA code overiview}{5}{section.1.4}%
 \contentsline {section}{\numberline {V}Linear Regime Study}{6}{section.1.5}%
@@ -39,4 +39,9 @@
 \contentsline {section}{\numberline {III}Results}{14}{section.3.3}%
 \contentsline {subsection}{\numberline {1}Global performance}{14}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {2}Comparison of the prediction with other models}{15}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3}Results on experimental datasets}{15}{subsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {a)}Mean delay study}{15}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {b)}Amplitude prediction study}{16}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {c)}standard deviodation of delay}{16}{subsubsection.3.3.2.3}%
+\contentsline {subsection}{\numberline {3}Results on experimental datasets}{16}{subsection.3.3.3}%
+\contentsline {chapter}{\numberline {4}Conclusion and Discussion}{17}{chapter.4}%
+\contentsline {chapter}{\numberline {5}ACKNOWLEDGMENTS}{17}{chapter.5}%

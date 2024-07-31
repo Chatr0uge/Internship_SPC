@@ -57,6 +57,7 @@
 
 % Make section titles centered and bold
 \titleformat*{\section}{\centering\bfseries}
+\titleformat*{\subsection}{\bfseries}
 
 % Make subsections centered and italc
  % Make subsubsections centered
@@ -73,7 +74,7 @@
 \titlespacing*{\chapter}{0pt}{10pt}{10pt}
 \titlespacing{\section}{0pt}{*3}{*3}
 \titlespacing{\subsection}{0pt}{*1.5}{*1.5}
-\titlespacing{\subsubsection}{0pt}{*4}{*1.5}
+\titlespacing{\subsubsection}{0pt}{*1.5}{*1.5}
 
 
 \usepackage{amsmath}
@@ -729,15 +730,74 @@
 \begin{figure}[H]
     \centering
     \includegraphics[width = \linewidth]{./figures/polar_res.pdf}
-    \vspace*{1cm}
+    \vspace*{.5cm}
     \caption{Here we plot the mean residuals for every value of every parameter, in blue filled we got the residuals for the gaussian datasets, and in red the residuals for the power spectrum datasets. One remarkable thing is that the model is far more better than the 1D model in both datasets, which is quite comforting. Indeed we reach a mean residual of 0.25, ten times smaller tham the 1D model apply to the 2D-shifted datasets. An other intersting thing is that the residuals are quite well distributed among all the simulation parameters, however one can not that the residual over the $R$ values are quite focused on the lower values, but this is symply a consequences of the $\frac{1}{R}$ transform. An other interesting results is that the $\theta$ parameter residuals seems higher for high value of $\theta$ which seems reasonable, since theses cases are much more difficult to handle. Regarding the difference between the two datasets the residuals have globally the same mean value, which is comforting, and leads to quite good generalization of the model.}
 \end{figure}
 \begin{multicols}{2}
 
     \subsection{Comparison of the prediction with other models}
-    For the previous study the datasets contained several parameters that impied a 2D geometry. However, if we wanna compare the model with the 1D model, and the analytical one we have to build a final comparison datasets, To have clear results we will fix the $l_{cy}$, $R$, $\theta$, $L$, $l_{cx}$ parameters to the same value for the 1D and 2D model, then we will see if our model is able to handle the simple 1D case with the stuyd of the dependancy of predictded $\delta n_0$ over true $\delta n_0$, which is a more general way to study $\text{rms}(\tau)$ over $\delta n_0$ . An other intersting results to have as comparison is the fact that for the 1D analytic model (eq ??) we have the following equation $< \tau > = \tau_0$, in non linear regime this assumption is broken, and our model should be able to handle this case, to see this effect we can study the dependancy of $\tau_0$ over $\delta n_0$.
+    For the previous study the datasets contained several parameters that impied a 2D geometry. However, if we wanna compare the model with the 1D model, and the analytical one we have to build a final comparison datasets, To have clear results we will fix the $l_{cy}$, $R$, $\theta$, $L$, $l_{cx}$ parameters to the same value for the 1D and 2D model, then we will see if our model is able to handle the simple 1D case with the stuyd of the dependancy of predictded $\delta n_0$ over true $\delta n_0$, which is a more general way to study $\text{rms}(\tau)$ over $\delta n_0$ . An other intersting results to have as comparison is the fact that for the 1D analytic model (eq ??) we have the following equation $< \tau > = \tau_0$.
+    \subsubsection{Mean delay study}
+    In non linear regime the previous assumption is broken, and our model should be able to handle this case, to see this effect we can study the dependancy of $\tau_0$ over $\delta n_0$. Indeed, for the delay shift to be 0, we should have the same probability to make a shift of $\delta x$ of teh cut-off layer in the left or in the right direction which is not the case in the non-linear regime, indeed we have a higher probability to have a negative shift than a positive shift, indeed let's consider a given $n_c$ and $\delta x$ value. We will consider a 1d model with a density variation PDF that does not take into account the spatial correlation length, this leads to the followind : $$p(\delta n, x) = \frac{1}{\sqrt{2 \pi \sigma^2}}e^{-\frac{\delta n^2}{2\sigma^2}} /,.$$
 
+    With $\sigma \propto \delta n_0$ We are looking for the first-hitting-position, this is a sub-branch of the survival stochastic analysis, the probability of survival $S(x)$ (i.e the probability that the density does not reach the $\delta n_c$ value before $x$) is always given for constant $\delta n_c$ relative to $x$ or in our case the critical density variation is $\delta n_c = n_c\frac{L-x}{\sigma}$. The goal is to show that the probability of first hitting possition is decreasing with $x$. This study implies to take into account the cprrelation length of the instabilities fild, indeed if we do not, the survival probability will be just equal to 0. For simplicity we will discrtized the interval of study $[0,x]$  with $\left\lfloor \frac{x}{l_{cx}} \right\rfloor $ points (here the argument is that every points in each interval of length $lcx$ has the same probability of survival which is equivalent to  the step approximation, the probability of having a value smaller than $\delta n_c$ at a specific point $i$ is given by the following formula :
+    \begin{align*}
+        P(\delta n_c, ia) & = \int_{-\infty}^{\delta n_c} p(\delta n, ia) \, d\delta n                         \\
+                          & = \frac{1}{2}\left(1 + \text{erf}\left(\frac{\delta n_c(ia)}{\sigma}\right)\right) \\
+    \end{align*}
+    The survival probability at point  $x = ia$ is then given by the following formula :
+    \begin{align*}
+        S(ia) & = \prod_{j=0}^{i} P(\delta n_c, j*a) \\
+    \end{align*}
+    The probability that the first hitting position is at $x = ia$ is then given by $F(ia) = S(ia)P(ia)$. Th goal of this study is to show that $F(x)$ maximum is located before the original cut-off position. To show this we computed numrically the value of the value of $S(ia)$. With this computation we find an intersting approximation of the survival function (see \ref{FHP}) in this gaussian (shifted) process has been numerically find
+    to be :
+
+    \begin{equation}\label{survival}
+        S(x) \approx \frac{1}{2} + \frac{1}{2}\text{erf}\left(\frac{L - x- a(l_cx, L, \sigma)}{b(l_cx, L, \sigma)} \right)
+    \end{equation}
+    With $a(l_{cx}, L, \sigma)$ the characteric shift and $b(l_{cx}, L, \sigma)$  a characteric width, This approximation is the probability to remains bellow the critical value at a position $x - a(l_{cx}, L, \sigma)$ with a modified distribution of instabilities amplitude $\mathcal{N}(0,b(l_{cx}, L, \sigma))$. We can note that this results is really close from the survial function of a brownian process considering an absorption point $x_c$ the forst hitting time method used in this kind of problem were not transpoe here due to the linear shifted of the gaussian dirstribution which zas very difficult to handle, because we need to consider a moving absorption point to make the parallelism.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width = \linewidth]{./figures/First_Hitting.pdf}
+        \label{FHP}
+        \caption{Here we plot the numerical calculation of $F(x)$ the First timeHitting probability (\textbf{FHP}) for numerous $\sigma$ in plain line  and the approximated formula \eqref{survival} in dotted line. . For this simulation we used $L = 10$cm and $l_{cx} = 0.1$cm, and for the approximated formula we used $a = 2.1 \sigma^{1.5}L$ and $b = .36\sigma^{0.8} L$, we did not study the dependancy over $l_{cx}$ but this one is clearly in the power and the coefficient of $a$ and $b$.}
+    \end{figure}
+    One can remarks that the \textbf{FHP} is shifted to the values before $L$ while $\sigma $ is increasing, which explains the radial external shift of the cut-off with the increasing of the amplitude of turbulences, indeed we can assume a linear dependacy between $\sigma$ and $\delta n_0$. This shift will results in a difference between $\langle \tau \rangle$ and $\tau_0$. With $\tau_0$ remaining constant and $\langle \tau \rangle$ decreasing. We already know that the linear model is not able to have this precision, what about the new ones.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width = \linewidth]{example-image-a}
+        \label{}
+        \caption{Here we plots the linear and the 1d, 2d model prediction for $\tau_0$ over the $\langle \tau \rangle$.}
+    \end{figure}
+    Here we can see that the 1d model and the 2d model build on the same architecture are able to predict a constant $\tau_0$ independantly of the changing delay distribution. This was intended since the model are trained on constant $\tau_0$ just depending on $L, R, \theta$.
+    \subsubsection{Amplitude prediction study}
+    The first thing we did is comparing the efficiency of all the modle we build with the $(\delta n_0, \delta n_0^{\text{pred}})$ comparison. Which is, taking into account the results of the residuals be much more better for our last model than for the others. The more the points are dispersed from the identity the worse is the model, several conclusion on the training efficiencu can also be studied from the study of the residuals of this presdiction.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width = \linewidth]{example-image-a}
+        \label{}
+        \caption{Here we plots the linear and the 1d, 2d model prediction for $\tau_0$ over the $\langle \tau \rangle$.}
+    \end{figure}
+
+    \subsubsection{standard deviodation of delay}
+    As explained with the \ref{fig:std_delay} the rms of the delay distribution should decrease at high amplitude from $\delta n_{c_1}$. Thi decreasing is not tackled with the linear model (the next order of the  step model devolpment have to be studies), at least not correctly (see the third order develpment of the linear model). The previous model should present better results considering the residuals  of the predictions.
     \subsection{Results on experimental datasets}
+
+    A demonstration of our final model was done on one expreimental dataset acquired from the TCV diagnostics. To have coherent results we had to shift the experimental datasets distribution of delay to the training one. This constant shift is due to the geometry of the probing method, with a different void layer. This process will be necessary for the next studies, one solution is too have a consistant dataset with the same range of data than our training datasets (see table PUT), or to train the model on an other dataset specific to the geometry and diagnostic method used (see the code of the model HERE),
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width = \linewidth]{example-image-a}
+        \label{}
+        \caption{Here we plots the linear and the 1d, 2d model prediction for $\tau_0$ over the $\langle \tau \rangle$.}
+    \end{figure}
+
+
+    \chapter{Conclusion and Discussion}
+    In this report we first detailed the origin of \textbf{TEM} mode and how they can induce a uncontrolled radial transport, causing trouble for plasma confinement. We then used a 1d model (proposed by Krutkin) to have first insights of the turbulence regime, and to what extents the linear model can be relevant. We then move on the analysis on a 1 dimensional dataset, checking if the non linear regime could be tackled by the model structure. A more general 2d model was then proposed with a better handling of non linear effect emerging from this added dimension, this model includes more metrics that have been precautiously choosen to have the best overview of the phenomena at stake. Finally, The model predictions have been tested on severa aspect of the problem through the shifted cut-off handling to the decreasing of the rms of the delay distribution. This leads to significantly good results, which were not reached before for turbulence characterizations. One can note that our modle is build on the assumption that we have sufficient insight on the turbulences characteristics such as the correlation lengths that can be determined through other diagnotic methods (Doppler Reflectometry Method and Thomson Scattering). If the futre users if this model do not have this insights one can build a reduce model dropping every metrics they do not have. We should highlight that the delay distribution and the pulse characteric (at leads the standard deviation of the delay distribution)
+    \chapter{ACKNOWLEDGMENTS}
 \end{multicols}
 \newpage
 \begin{multicols}{2}

@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber CR"] 0 "CR.bcf" "CR.bbl" "CR" 1721390804.72908 -1
-  "CR.bcf" 1721390804.33213 110338 a78f1688bf1694108fe927b5aee52b42 "pdflatex"
+["biber CR"] 0 "CR.bcf" "CR.bbl" "CR" 1722441406.23984 -1
+  "CR.bcf" 1722441405.78575 110338 a78f1688bf1694108fe927b5aee52b42 "pdflatex"
   "bibliography.bib" 1720685356.90335 18382 df647bd6c033603ba54745ff5d287d98 ""
   (generated)
   "CR.bbl"
   "CR.blg"
   (rewritten before read)
-["pdflatex"] 1721390793.9961 "/mnt/sdc2/scholar/Master/stage/Report/CR.tex" "CR.pdf" "CR" 1721390804.72992 0
+["pdflatex"] 1722441393.09507 "/mnt/sdb2/scholar/Master/stage/Report/CR.tex" "CR.pdf" "CR" 1722441406.24062 0
   "/etc/texmf/web2c/texmf.cnf" 1719581977.21311 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/mnt/sdc2/scholar/Master/stage/Report/CR.tex" 1721390783.34161 75412 1c1e8dc011494330cbe46d94eb55c216 ""
+  "/mnt/sdb2/scholar/Master/stage/Report/CR.tex" 1722441392.28758 84351 43e51ab82c1543df431838cafd98723b ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -254,6 +254,8 @@
   "/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty" 1284153563 6187 b27afc771af565d3a9ff1ca7d16d0d46 ""
   "/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty" 1656621545 62269 5c1837a5bc5db4c0d255eedc225ca44b ""
   "/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty" 1616101747 5582 a43dedf8e5ec418356f1e9dfe5d29fc3 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/mwe/example-image-a.pdf" 1522444699 12160 f5a33a472bc2acb8800c3e00764d8ad1 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/mwe/example-image-a.tex" 1336516272 466 d1a94627f2e1cbf8876e228d48d436ec ""
   "/usr/share/texlive/texmf-dist/tex/latex/nicematrix/nicematrix.sty" 1706217727 381339 f30bd7ee415971a2285a0e5d2de8d091 ""
   "/usr/share/texlive/texmf-dist/tex/latex/pdfcol/pdfcol.sty" 1663877585 8086 ac143843b6ea88d172677dc3ed532925 ""
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty" 1601326656 1090 bae35ef70b3168089ef166db3e66f5b2 ""
@@ -379,6 +381,7 @@
   "/usr/share/texmf/fonts/type1/public/lm/lmr9.pfb" 1255129361 121065 50bbfa703ce7e11638752ef5a6d120c7 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmri10.pfb" 1255129361 112593 fda2373ba4420af33949610de4c28fe8 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmri9.pfb" 1255129361 109598 cb570392cb143ca78182169795feed7a ""
+  "/usr/share/texmf/fonts/type1/public/lm/lmss17.pfb" 1255129361 97155 77b0a2ea02ee9c950117adae5f41f9c9 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb" 1254269338 27863 09ce3735688ffde955e72da27c95b61a ""
   "/usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb" 1254269338 28210 987b40585e9bcf6463d6155bb4219492 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb" 1254269338 28109 6d61305ed3d0eb794ebe36f15cf44aa0 ""
@@ -397,14 +400,15 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1719581999.77612 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1719582135 8214032 f456b84f8d7c84c6bf99ab6605fa5190 ""
-  "CR.aux" 1721390804.31489 31349 afdac0edb52b653508b3824f1eaee950 "pdflatex"
-  "CR.bbl" 1721307855.1049 53001 6e7da7482947a31d10cc9d4553b15c08 "biber CR"
-  "CR.out" 1721390804.32536 6865 ffc98a259ac8292653f41e60dfb97a0c "pdflatex"
-  "CR.run.xml" 1721390804.33423 2418 c6365d55e526251823a2c935ca89013d "pdflatex"
-  "CR.tex" 1721390783.34161 75412 1c1e8dc011494330cbe46d94eb55c216 ""
-  "CR.toc" 1721390804.33448 3518 6342422cb29b90049e53355ebdb10204 "pdflatex"
+  "CR.aux" 1722441405.76477 33772 0df3d14749bdb79bec06d3b66e1dba57 "pdflatex"
+  "CR.bbl" 1722319927.75529 53001 6e7da7482947a31d10cc9d4553b15c08 "biber CR"
+  "CR.out" 1722441405.778 7751 6812999564880178afb24ac51890f4df "pdflatex"
+  "CR.run.xml" 1722441405.78751 2418 c6365d55e526251823a2c935ca89013d "pdflatex"
+  "CR.tex" 1722441392.28758 84351 43e51ab82c1543df431838cafd98723b ""
+  "CR.toc" 1722441405.78775 3971 25611324378e4642efbe11d071078a07 "pdflatex"
   "figures/1d.pdf" 1720782899 33473 4765f9df99bf14a5071d69564466ec5e ""
   "figures/CCF_Wiener.pdf" 1721390201 72455 a97a6eb58967758d2e58d6dea91a6dda ""
+  "figures/First_Hitting.pdf" 1722369235.18932 28825 7e1892eb5101c946ee10bedb04b9501a ""
   "figures/balloning_TEM.png" 1718902490.06743 4668009 29260ef2e97ae10d02a1277497787a24 ""
   "figures/banana.png" 1718625590.61225 124019 dbddf9772282261d3185c3de78b07e9d ""
   "figures/delay_overview.pdf" 1721054866.24285 268498 68b6b2f29b976b1ef34636f59e9c8243 ""
