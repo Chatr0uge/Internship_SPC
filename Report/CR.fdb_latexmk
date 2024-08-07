@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber CR"] 1722618422.75171 "CR.bcf" "CR.bbl" "CR" 1723014054.49682 0
-  "CR.bcf" 1723014054.18678 110528 18700575fa6f564bd54d5eb502b264f5 "pdflatex"
+["biber CR"] 1722618422.75171 "CR.bcf" "CR.bbl" "CR" 1723014903.37667 0
+  "CR.bcf" 1723014903.06022 110528 18700575fa6f564bd54d5eb502b264f5 "pdflatex"
   "bibliography.bib" 1722617007.96677 20598 db8f15088f4e574ea2cdb98ba883f56a ""
   (generated)
   "CR.bbl"
   "CR.blg"
   (rewritten before read)
-["pdflatex"] 1723014046.05733 "/mnt/sdb2/scholar/Master/stage/Report/CR.tex" "CR.pdf" "CR" 1723014054.4975 0
+["pdflatex"] 1723014895.3079 "/mnt/sdb2/scholar/Master/stage/Report/CR.tex" "CR.pdf" "CR" 1723014903.37736 0
   "/etc/texmf/web2c/texmf.cnf" 1719581977.21311 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/mnt/sdb2/scholar/Master/stage/Report/CR.tex" 1723014045.42521 94868 8677c8bf4986cad630b4f17aa3abe5c2 ""
+  "/mnt/sdb2/scholar/Master/stage/Report/CR.tex" 1723014886.6272 94837 140c6ddb9ba0eccf9c502db498e78ed9 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/adforn/OrnementsADF.enc" 1285345476 2001 9a43270062b08428097bbcee56651809 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -412,12 +412,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1719581999.77612 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1719582135 8214032 f456b84f8d7c84c6bf99ab6605fa5190 ""
-  "CR.aux" 1723014054.17436 34173 5df43d9c2686ca36ef6627c89db38c49 "pdflatex"
+  "CR.aux" 1723014903.04936 34173 fc388151394031519d6f0ab9bb3b6120 "pdflatex"
   "CR.bbl" 1722618424.20171 56932 77ace3f7f0d5643b46da6696157d06a4 "biber CR"
-  "CR.out" 1723014054.18138 7319 af1963edb85bb8e6822bb849dfce7490 "pdflatex"
-  "CR.run.xml" 1723014054.18881 2418 c6365d55e526251823a2c935ca89013d "pdflatex"
-  "CR.tex" 1723014045.42521 94868 8677c8bf4986cad630b4f17aa3abe5c2 ""
-  "CR.toc" 1723014054.18898 3723 e9647d1262ff0a9f6ab10b31501791ec "pdflatex"
+  "CR.out" 1723014903.05576 7319 af1963edb85bb8e6822bb849dfce7490 "pdflatex"
+  "CR.run.xml" 1723014903.06161 2418 c6365d55e526251823a2c935ca89013d "pdflatex"
+  "CR.tex" 1723014886.6272 94837 140c6ddb9ba0eccf9c502db498e78ed9 ""
+  "CR.toc" 1723014903.06175 3723 e9647d1262ff0a9f6ab10b31501791ec "pdflatex"
   "figures/1d.pdf" 1722702322 28555 0e5b03d72023b996ab105c0b65d9d229 ""
   "figures/CCF_Wiener.pdf" 1722846265 71870 aad1a70d1058d09f5d4a9efe91a4ff70 ""
   "figures/First_Hitting.pdf" 1722369235.18932 28825 7e1892eb5101c946ee10bedb04b9501a ""
