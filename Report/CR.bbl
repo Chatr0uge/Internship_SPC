@@ -639,8 +639,8 @@
       \strng{authorbibnamehash}{9a0d3f3efd4c614cc467cfcba450f655}
       \strng{authornamehash}{9a0d3f3efd4c614cc467cfcba450f655}
       \strng{authorfullhash}{9a0d3f3efd4c614cc467cfcba450f655}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://courses.physics.ucsd.edu/2021/Spring/physics218c/handouts.html}}
@@ -828,6 +828,70 @@
       \field{year}{2023}
       \verb{doi}
       \verb 10.1088/1741-4326/acd5e0
+      \endverb
+    \endentry
+    \entry{critical2}{article}{}
+      \name{author}{6}{}{%
+        {{hash=6b3084a827d227688987ff00c6ccc38a}{%
+           family={Heuraux},
+           familyi={H\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1b73a4542875b7da674bf5db8f27273f}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod},
+           prefix={da},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=b920733cd4f4ef5089ea19fa512da674}{%
+           family={Gusakov},
+           familyi={G\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=548c78bd85b3dd0d14bb46a59f54e09e}{%
+           family={Popov},
+           familyi={P\bibinitperiod},
+           given={A\bibnamedelima Yu},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=903ed1e6c4f316034387b2baca833c01}{%
+           family={Kosolapova},
+           familyi={K\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+        {{hash=5b8fc53ca9e57ff4b74ab969ba49c897}{%
+           family={Syisoeva},
+           familyi={S\bibinitperiod},
+           given={K\bibnamedelima V},
+           giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{d84076d432c6e0d15005631ec919b551}
+      \strng{fullhash}{5fe3eb9d6f52df7e0164b2d3ddff9a76}
+      \strng{bibnamehash}{5fe3eb9d6f52df7e0164b2d3ddff9a76}
+      \strng{authorbibnamehash}{5fe3eb9d6f52df7e0164b2d3ddff9a76}
+      \strng{authornamehash}{d84076d432c6e0d15005631ec919b551}
+      \strng{authorfullhash}{5fe3eb9d6f52df7e0164b2d3ddff9a76}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A first step towards the measurement of turbulence characteristics or transient events required for the understanding of turbulent transport is to build an interpretative model able to link the measurements of a given diagnostic to a wanted parameter of the turbulence, and simulation helps us to do that. To obtain density fluctuation parameters in fusion plasmas, microwaves can be used. However, the interpretation of the received signals requires generally sophisticated data processing to extract an exact evaluation of the wanted parameters. Simulations of electromagnetic wave propagation in turbulent plasmas permit to identify the main processes involved in probing wave-fluctuations interaction and the reflectometry signature of the expected events, which gives ideas to model them. It is shown here how simulations have permitted to exhibit the role of resonances of the probing wave induced by turbulence and to explain part of phase jumps seen during reflectometer measurements. The multi-scattering phenomena can be modelled by a photon diffusion equation which can be used to provide information on the turbulence at density fluctuations levels higher than allowed by usual methods. The reflectometry simulations show that at high level of turbulence a competition between the resonances generation mechanism, able to maintain the probing depth, and the Bragg backscattering exists. Its consequences on turbulence characterisation are discussed.}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Reflectometry simulation as a tool to explore new schemes of characterizing the fusion plasma turbulence}
+      \field{volume}{416}
+      \field{year}{2013}
+      \field{pages}{012019}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1742-6596/416/1/012019
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1742-6596/416/1/012019
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1742-6596/416/1/012019
       \endverb
     \endentry
     \entry{Unseparable_Turbulence_Spectra}{article}{}
@@ -1041,8 +1105,8 @@
       \strng{authorbibnamehash}{b3d38760c0e3b6ab7214273c667e4df3}
       \strng{authornamehash}{e81f63b06562d07c7c6002a39d3ff1cf}
       \strng{authorfullhash}{b3d38760c0e3b6ab7214273c667e4df3}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{The influence of changing collisionality on density fluctuation characteristics is studied during dedicated ν∗ scaling experiments, using Doppler backscattering system. First, the repartition of fluctuation energy over different spatial scales, as represented by the wavenumber spectrum, is investigated and a modification of the shape of the perpendicular wavenumber spectrum in the low wavenumber part of the spectrum is observed when changing collisionality. In addition, a new procedure to evaluate the dispersion relation of micro-turbulence is presented. From the behavior of the perpendicular mean velocity of density fluctuations with the perpendicular wavenumber, different dispersion relations are obtained between low and high collisionality cases.}}

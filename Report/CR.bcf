@@ -2392,7 +2392,7 @@
     <bcf:citekey order="16" intorder="2">Wakatani</bcf:citekey>
     <bcf:citekey order="17" intorder="1">Trapped_Particle_Mode</bcf:citekey>
     <bcf:citekey order="18" intorder="1">Mima</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">Sazn_diego</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">San_diego</bcf:citekey>
     <bcf:citekey order="20" intorder="1">Trapped_Particle_Mode</bcf:citekey>
     <bcf:citekey order="21" intorder="1">San_diego</bcf:citekey>
     <bcf:citekey order="21" intorder="2">Krutkin_thesis</bcf:citekey>
@@ -2400,18 +2400,21 @@
     <bcf:citekey order="22" intorder="1">TEM_simulation</bcf:citekey>
     <bcf:citekey order="22" intorder="2">Ballooning_transform</bcf:citekey>
     <bcf:citekey order="23" intorder="1">San_diego</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">Thomas H.Stix</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">CUWA</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">Yee</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">San_diego</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">SPR_Krutkin</bcf:citekey>
-    <bcf:citekey order="28" intorder="2">PUT</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">Krutkin_thesis</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">San_diego</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">cite</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">Thomas H. Stix</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">CUWA</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">Yee</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">San_diego</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">SPR_Krutkin</bcf:citekey>
+    <bcf:citekey order="29" intorder="2">PUT</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">critical2</bcf:citekey>
     <bcf:citekey order="31" intorder="1">Krutkin_thesis</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">SPR_Krutkin</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">SPR_Krutkin</bcf:citekey>
-    <bcf:citekey order="34" intorder="1" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="31" intorder="2">San_diego</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">San_diego</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">Krutkin_thesis</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">SPR_Krutkin</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">SPR_Krutkin</bcf:citekey>
+    <bcf:citekey order="36" intorder="1" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

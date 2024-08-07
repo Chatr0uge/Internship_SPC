@@ -4,44 +4,41 @@
 \contentsline {subsection}{\numberline {1}Fusion Reaction}{2}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {2}Tokamak confinement}{2}{subsection.1.1.2}%
 \contentsline {section}{\numberline {II}Transports in Tokamak}{3}{section.1.2}%
-\contentsline {subsection}{\numberline {1}Trapped particles and drifts}{3}{subsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {a)}Trapped particles}{3}{subsubsection.1.2.1.1}%
-\contentsline {subsubsection}{\numberline {b)}Drift waves}{3}{subsubsection.1.2.1.2}%
-\contentsline {subsection}{\numberline {2}Radial Transport}{4}{subsection.1.2.2}%
-\contentsline {section}{\numberline {III}Wave propagation in plasma}{4}{section.1.3}%
-\contentsline {subsection}{\numberline {1}Plasma as a medium}{4}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {2}Wave equation}{5}{subsection.1.3.2}%
-\contentsline {section}{\numberline {IV}CUWA code overiview}{5}{section.1.4}%
+\contentsline {subsection}{\numberline {1}Trapped Particles and Drifts}{3}{subsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {a)}Trapped Particles}{3}{subsubsection.1.2.1.1}%
+\contentsline {subsubsection}{\numberline {b)}Drift waves}{4}{subsubsection.1.2.1.2}%
+\contentsline {subsection}{\numberline {2}Radial Transport}{5}{subsection.1.2.2}%
+\contentsline {section}{\numberline {III}Wave Propagation in Plasma}{5}{section.1.3}%
+\contentsline {subsection}{\numberline {1}Plasma as a Medium}{5}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {2}Wave Equation}{5}{subsection.1.3.2}%
+\contentsline {section}{\numberline {IV}CUWA Code Overview}{6}{section.1.4}%
 \contentsline {section}{\numberline {V}Linear Regime Study}{6}{section.1.5}%
 \contentsline {subsection}{\numberline {1}Perturbed Density Profile}{6}{subsection.1.5.1}%
-\contentsline {subsubsection}{\numberline {a)}General perturbation profile}{6}{subsubsection.1.5.1.1}%
-\contentsline {subsubsection}{\numberline {b)}Step-like perturbation}{6}{subsubsection.1.5.1.2}%
-\contentsline {paragraph}{\numberline {b).1}Model}{6}{paragraph.1.5.1.2.1}%
-\contentsline {paragraph}{\numberline {b).2}Results}{7}{paragraph.1.5.1.2.2}%
-\contentsline {chapter}{\numberline {2}1 dimensinal Model}{8}{chapter.2}%
-\contentsline {section}{\numberline {I}Reliable metrics}{8}{section.2.1}%
-\contentsline {section}{\numberline {II}Machine Learning Model}{8}{section.2.2}%
-\contentsline {subsection}{\numberline {1}structure}{8}{subsection.2.2.1}%
-\contentsline {section}{\numberline {III}Input Data}{9}{section.2.3}%
-\contentsline {section}{\numberline {IV}Datasets building}{9}{section.2.4}%
+\contentsline {subsubsection}{\numberline {a)}General Perturbation Profile}{6}{subsubsection.1.5.1.1}%
+\contentsline {subsubsection}{\numberline {b)}Step-like Perturbation}{7}{subsubsection.1.5.1.2}%
+\contentsline {chapter}{\numberline {2}1-Dimensional Model}{8}{chapter.2}%
+\contentsline {section}{\numberline {I}Reliable Metrics}{8}{section.2.1}%
+\contentsline {section}{\numberline {II}Machine Learning Model}{9}{section.2.2}%
+\contentsline {subsection}{\numberline {1}Structure}{9}{subsection.2.2.1}%
+\contentsline {section}{\numberline {III}Input Data}{10}{section.2.3}%
+\contentsline {section}{\numberline {IV}Datasets building}{10}{section.2.4}%
 \contentsline {section}{\numberline {V}Results}{10}{section.2.5}%
-\contentsline {chapter}{\numberline {3}2 dimensinal Model}{10}{chapter.3}%
-\contentsline {section}{\numberline {I}Pulse shape Study}{10}{section.3.1}%
-\contentsline {subsection}{\numberline {1}Relative Study of Pulse Shape}{10}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {2}Statistical Study of Pulse Shape}{11}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3}Gaussian fitting of the pulse}{12}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {4}Detection of scattered pulse}{12}{subsection.3.1.4}%
-\contentsline {section}{\numberline {II}Datasets building}{12}{section.3.2}%
-\contentsline {subsection}{\numberline {1}Gaussian spectrum of the turbulences}{12}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {2}Power Spectrum of the turbulences}{12}{subsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {a)}COrrelation length dependancy study}{13}{subsubsection.3.2.2.1}%
-\contentsline {subsection}{\numberline {3}data scanning}{14}{subsection.3.2.3}%
-\contentsline {section}{\numberline {III}Results}{14}{section.3.3}%
-\contentsline {subsection}{\numberline {1}Global performance}{14}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {2}Comparison of the prediction with other models}{15}{subsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {a)}Mean delay study}{15}{subsubsection.3.3.2.1}%
-\contentsline {subsubsection}{\numberline {b)}Amplitude prediction study}{16}{subsubsection.3.3.2.2}%
-\contentsline {subsubsection}{\numberline {c)}standard deviodation of delay}{16}{subsubsection.3.3.2.3}%
-\contentsline {subsection}{\numberline {3}Results on experimental datasets}{16}{subsection.3.3.3}%
-\contentsline {chapter}{\numberline {4}Conclusion and Discussion}{17}{chapter.4}%
-\contentsline {chapter}{\numberline {5}ACKNOWLEDGMENTS}{17}{chapter.5}%
+\contentsline {chapter}{\numberline {3}2-Dimensional Model}{11}{chapter.3}%
+\contentsline {section}{\numberline {I}Pulse Shape Study}{11}{section.3.1}%
+\contentsline {subsection}{\numberline {1}Relative Study of Pulse Shape}{11}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {2}Statistical Study of Pulse Shape}{12}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3}Gaussian Fitting of the Pulse}{12}{subsection.3.1.3}%
+\contentsline {section}{\numberline {II}Datasets Building}{13}{section.3.2}%
+\contentsline {subsection}{\numberline {1}Gaussian spectrum of the turbulences}{13}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {2}Power Spectrum of the Turbulences}{13}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {a)}Correlation Length Dependency Study}{13}{subsubsection.3.2.2.1}%
+\contentsline {subsection}{\numberline {3}Data Scanning}{15}{subsection.3.2.3}%
+\contentsline {section}{\numberline {III}Results}{15}{section.3.3}%
+\contentsline {subsection}{\numberline {1}Global Performance}{15}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {2}Comparison of the Prediction with Other Models}{16}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {a)}Mean Delay Study}{16}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {b)}Amplitude prediction study}{17}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {c)}Standard deviation of delay}{17}{subsubsection.3.3.2.3}%
+\contentsline {subsection}{\numberline {3}Results on experimental datasets}{17}{subsection.3.3.3}%
+\contentsline {chapter}{\numberline {4}Conclusion and Discussion}{18}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Acknowledgments}{18}{chapter.5}%
