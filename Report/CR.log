@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.6.28)  7 AUG 2024 09:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.6.28)  7 AUG 2024 22:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1400,12 +1400,6 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
 )
 \openout1 = `CR.aux'.
 
@@ -1613,7 +1607,7 @@ Package lettrine.sty Info: Targeted height = 15.26949pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 15.26955pt (\color {black} T);
 (lettrine.sty)             reported on input line 227.
-<./figures/tokamak.png, id=285, 494.20634pt x 395.3169pt>
+<./figures/tokamak.png, id=280, 494.20634pt x 395.3169pt>
 File: ./figures/tokamak.png Graphic file (type png)
 <use ./figures/tokamak.png>
 Package pdftex.def Info: ./figures/tokamak.png  used on input line 241.
@@ -1626,7 +1620,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
 [2{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc} <./figures/tokamak.png>]
-<./figures/banana.png, id=322, 958.58125pt x 814.04124pt>
+<./figures/banana.png, id=316, 958.58125pt x 814.04124pt>
 File: ./figures/banana.png Graphic file (type png)
 <use ./figures/banana.png>
 Package pdftex.def Info: ./figures/banana.png  used on input line 297.
@@ -1640,7 +1634,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
 [3{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc} <./figures/banana.png>]
-<./figures/balloning_TEM.png, id=356, 573.1011pt x 252.2223pt>
+<./figures/balloning_TEM.png, id=351, 573.1011pt x 252.2223pt>
 File: ./figures/balloning_TEM.png Graphic file (type png)
 <use ./figures/balloning_TEM.png>
 Package pdftex.def Info: ./figures/balloning_TEM.png  used on input line 339.
@@ -1671,13 +1665,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
 [5]
-<./figures/field_SPR.pdf, id=393, 426.42696pt x 141.2073pt>
+<./figures/field_SPR.pdf, id=388, 426.42696pt x 141.2073pt>
 File: ./figures/field_SPR.pdf Graphic file (type pdf)
 <use ./figures/field_SPR.pdf>
 Package pdftex.def Info: ./figures/field_SPR.pdf  used on input line 459.
 (pdftex.def)             Requested size: 493.37286pt x 163.38257pt.
 
-Overfull \hbox (4.83908pt too wide) in paragraph at lines 459--460
+Overfull \hbox (4.83908pt too wide) in paragraph at lines 459--462
  []| [] 
  []
 
@@ -1689,13 +1683,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
 [6 <./figures/field_SPR.pdf>]
-<./figures/density_profile.png, id=474, 434.46315pt x 168.02776pt>
+<./figures/density_profile.png, id=469, 434.46315pt x 168.02776pt>
 File: ./figures/density_profile.png Graphic file (type png)
 <use ./figures/density_profile.png>
-Package pdftex.def Info: ./figures/density_profile.png  used on input line 504.
+Package pdftex.def Info: ./figures/density_profile.png  used on input line 506.
 (pdftex.def)             Requested size: 498.20718pt x 192.68944pt.
 
-Overfull \hbox (2.73463pt too wide) in paragraph at lines 520--529
+Overfull \hbox (2.73463pt too wide) in paragraph at lines 522--531
  [] 
  []
 
@@ -1708,23 +1702,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [7 <./figures/density_profile.png>]
 
-LaTeX Warning: Citation 'PUT' on page 8 undefined on input line 534.
+LaTeX Warning: Citation 'PUT' on page 8 undefined on input line 536.
 
-<./figures/1d.pdf, id=489, 248.36742pt x 151.75432pt>
+<./figures/1d.pdf, id=484, 248.36742pt x 151.75432pt>
 File: ./figures/1d.pdf Graphic file (type pdf)
 <use ./figures/1d.pdf>
-Package pdftex.def Info: ./figures/1d.pdf  used on input line 544.
+Package pdftex.def Info: ./figures/1d.pdf  used on input line 546.
 (pdftex.def)             Requested size: 281.68156pt x 172.1241pt.
 
-Overfull \hbox (5.68991pt too wide) in paragraph at lines 544--545
+Overfull \hbox (41.25586pt too wide) in paragraph at lines 546--547
  []| [] 
  []
 
 Chapter 2.
-<figures/delay_overview.pdf, id=491, 197.47778pt x 144.17677pt>
+<figures/delay_overview.pdf, id=486, 197.47778pt x 144.17677pt>
 File: figures/delay_overview.pdf Graphic file (type pdf)
 <use figures/delay_overview.pdf>
-Package pdftex.def Info: figures/delay_overview.pdf  used on input line 561.
+Package pdftex.def Info: figures/delay_overview.pdf  used on input line 563.
 (pdftex.def)             Requested size: 234.73524pt x 171.38547pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1735,15 +1729,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [8 <./figures/1d.pdf>]
 
-LaTeX Warning: Reference `fig:Density_profile' on page 9 undefined on input line 565.
+LaTeX Warning: Reference `fig:Density_profile' on page 9 undefined on input line 567.
 
 (./figures/stacked_regressor.pdf_tex
-<./figures/stacked_regressor.pdf, id=561, page=1, 406.0661pt x 285.77539pt>
+<./figures/stacked_regressor.pdf, id=556, page=1, 406.0661pt x 285.77539pt>
 File: ./figures/stacked_regressor.pdf Graphic file (type pdf)
 <use ./figures/stacked_regressor.pdf, page 1>
 Package pdftex.def Info: ./figures/stacked_regressor.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 234.73524pt x 165.19604pt.
-<./figures/stacked_regressor.pdf, id=562, page=2, 406.0661pt x 285.77539pt>
+<./figures/stacked_regressor.pdf, id=557, page=2, 406.0661pt x 285.77539pt>
 File: ./figures/stacked_regressor.pdf Graphic file (type pdf)
 <use ./figures/stacked_regressor.pdf, page 2>
 Package pdftex.def Info: ./figures/stacked_regressor.pdf , page2 used on input line 68.
@@ -1760,10 +1754,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 pdfTeX warning: pdflatex (file ./figures/stacked_regressor.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<./figures/polar_param_1d.pdf, id=624, 218.01402pt x 164.74423pt>
+<./figures/polar_param_1d.pdf, id=619, 218.01402pt x 164.74423pt>
 File: ./figures/polar_param_1d.pdf Graphic file (type pdf)
 <use ./figures/polar_param_1d.pdf>
-Package pdftex.def Info: ./figures/polar_param_1d.pdf  used on input line 660.
+Package pdftex.def Info: ./figures/polar_param_1d.pdf  used on input line 662.
 (pdftex.def)             Requested size: 230.03954pt x 173.84122pt.
 
 
@@ -1775,18 +1769,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [10 <./figures/polar_param_1d.pdf>]
 Chapter 3.
-<./figures/pulse_shape.png, id=667, 248.00655pt x 176.94106pt>
+<./figures/pulse_shape.png, id=662, 248.00655pt x 176.94106pt>
 File: ./figures/pulse_shape.png Graphic file (type png)
 <use ./figures/pulse_shape.png>
-Package pdftex.def Info: ./figures/pulse_shape.png  used on input line 686.
+Package pdftex.def Info: ./figures/pulse_shape.png  used on input line 688.
 (pdftex.def)             Requested size: 234.73524pt x 167.47476pt.
-<./figures/skew_Hyst.png, id=668, 248.24745pt x 147.06944pt>
+<./figures/skew_Hyst.png, id=663, 248.24745pt x 147.06944pt>
 File: ./figures/skew_Hyst.png Graphic file (type png)
 <use ./figures/skew_Hyst.png>
-Package pdftex.def Info: ./figures/skew_Hyst.png  used on input line 696.
+Package pdftex.def Info: ./figures/skew_Hyst.png  used on input line 698.
 (pdftex.def)             Requested size: 234.73524pt x 139.07109pt.
 
-LaTeX Warning: Reference `CRITICAL' on page 11 undefined on input line 697.
+LaTeX Warning: Reference `CRITICAL' on page 11 undefined on input line 699.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1796,20 +1790,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
 [11 <./figures/pulse_shape.png>]
-<./figures/pulse_overview.png, id=675, 248.31972pt x 298.90872pt>
+<./figures/pulse_overview.png, id=670, 248.31972pt x 298.90872pt>
 File: ./figures/pulse_overview.png Graphic file (type png)
 <use ./figures/pulse_overview.png>
-Package pdftex.def Info: ./figures/pulse_overview.png  used on input line 708.
+Package pdftex.def Info: ./figures/pulse_overview.png  used on input line 710.
 (pdftex.def)             Requested size: 234.73524pt x 282.56145pt.
-<./figures/gaussian_fit.png, id=676, 248.24745pt x 121.77495pt>
+<./figures/gaussian_fit.png, id=671, 248.24745pt x 121.77495pt>
 File: ./figures/gaussian_fit.png Graphic file (type png)
 <use ./figures/gaussian_fit.png>
-Package pdftex.def Info: ./figures/gaussian_fit.png  used on input line 720.
+Package pdftex.def Info: ./figures/gaussian_fit.png  used on input line 722.
 (pdftex.def)             Requested size: 234.73524pt x 115.15225pt.
-<./figures/gaussian_Params.pdf, id=677, 248.36742pt x 121.89491pt>
+<./figures/gaussian_Params.pdf, id=672, 248.36742pt x 121.89491pt>
 File: ./figures/gaussian_Params.pdf Graphic file (type pdf)
 <use ./figures/gaussian_Params.pdf>
-Package pdftex.def Info: ./figures/gaussian_Params.pdf  used on input line 727.
+Package pdftex.def Info: ./figures/gaussian_Params.pdf  used on input line 729.
 (pdftex.def)             Requested size: 234.73524pt x 115.20616pt.
 
 
@@ -1820,7 +1814,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
 [12 <./figures/skew_Hyst.png> <./figures/pulse_overview.png> <./figures/gaussian_fit.png>]
-Overfull \hbox (11.92065pt too wide) in paragraph at lines 753--762
+Overfull \hbox (11.92065pt too wide) in paragraph at lines 755--764
 [][] 
  []
 
@@ -1838,19 +1832,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
 [13 <./figures/gaussian_Params.pdf>]
-<./figures/CCF_Wiener.pdf, id=762, 469.07999pt x 151.75632pt>
+<./figures/CCF_Wiener.pdf, id=757, 469.07999pt x 151.75632pt>
 File: ./figures/CCF_Wiener.pdf Graphic file (type pdf)
 <use ./figures/CCF_Wiener.pdf>
-Package pdftex.def Info: ./figures/CCF_Wiener.pdf  used on input line 819.
+Package pdftex.def Info: ./figures/CCF_Wiener.pdf  used on input line 821.
 (pdftex.def)             Requested size: 483.69687pt x 156.48904pt.
-<figures/field_power.pdf, id=765, 248.36742pt x 121.89491pt>
+<figures/field_power.pdf, id=760, 248.36742pt x 121.89491pt>
 File: figures/field_power.pdf Graphic file (type pdf)
 <use figures/field_power.pdf>
 Package pdftex.def Info: figures/field_power.pdf  used on input line 855.
 (pdftex.def)             Requested size: 234.73524pt x 115.20616pt.
 
 
-LaTeX Warning: Reference `fig' on page 14 undefined on input line 861.
+LaTeX Warning: Reference `fig' on page 14 undefined on input line 860.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1860,24 +1854,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
 [14 <./figures/CCF_Wiener.pdf> <./figures/field_power.pdf>]
-<./figures/polar_param.pdf, id=866, 248.36742pt x 182.46982pt>
+<./figures/polar_param.pdf, id=861, 248.36742pt x 182.46982pt>
 File: ./figures/polar_param.pdf Graphic file (type pdf)
 <use ./figures/polar_param.pdf>
-Package pdftex.def Info: ./figures/polar_param.pdf  used on input line 869.
+Package pdftex.def Info: ./figures/polar_param.pdf  used on input line 868.
 (pdftex.def)             Requested size: 234.73524pt x 172.45715pt.
 
 
-LaTeX Warning: Reference `Gaussian_table' on page 15 undefined on input line 870.
+LaTeX Warning: Reference `Gaussian_table' on page 15 undefined on input line 869.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 883--884
+Overfull \hbox (17.0pt too wide) in paragraph at lines 885--886
 [][] 
  []
 
-<./figures/polar_res.pdf, id=869, 397.73346pt x 83.5038pt>
+<./figures/polar_res.pdf, id=864, 397.73346pt x 83.5038pt>
 File: ./figures/polar_res.pdf Graphic file (type pdf)
 <use ./figures/polar_res.pdf>
-Package pdftex.def Info: ./figures/polar_res.pdf  used on input line 887.
+Package pdftex.def Info: ./figures/polar_res.pdf  used on input line 889.
 (pdftex.def)             Requested size: 483.69687pt x 101.55466pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1887,20 +1881,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
 [15 <./figures/polar_param.pdf> <./figures/polar_res.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 928--930
+Underfull \hbox (badness 10000) in paragraph at lines 930--932
 \T1/lmr/m/n/10 With $\OML/lmm/m/it/10 a\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 l[]; L; ^^[\OT1/lmr/m/n/10 )$ \T1/lmr/m/n/10 the char-ac-ter-is-tic shift and
  []
 
-<./figures/First_Hitting.pdf, id=927, 248.36742pt x 187.2707pt>
+<./figures/First_Hitting.pdf, id=922, 248.36742pt x 187.2707pt>
 File: ./figures/First_Hitting.pdf Graphic file (type pdf)
 <use ./figures/First_Hitting.pdf>
-Package pdftex.def Info: ./figures/First_Hitting.pdf  used on input line 933.
+Package pdftex.def Info: ./figures/First_Hitting.pdf  used on input line 935.
 (pdftex.def)             Requested size: 265.25197pt x 200.01761pt.
-<./figures/Mean_delay.pdf, id=929, 250.40118pt x 153.52582pt>
+<./figures/Mean_delay.pdf, id=924, 251.52539pt x 153.52582pt>
 File: ./figures/Mean_delay.pdf Graphic file (type pdf)
 <use ./figures/Mean_delay.pdf>
-Package pdftex.def Info: ./figures/Mean_delay.pdf  used on input line 939.
-(pdftex.def)             Requested size: 258.21019pt x 158.32779pt.
+Package pdftex.def Info: ./figures/Mean_delay.pdf  used on input line 941.
+(pdftex.def)             Requested size: 267.59802pt x 163.35034pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 29.11996pt, for example:
@@ -1909,26 +1903,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
 [16 <./figures/First_Hitting.pdf>]
-<./figures/amplitude.pdf, id=980, 249.91562pt x 153.55228pt>
+<./figures/amplitude.pdf, id=975, 251.12013pt x 153.55228pt>
 File: ./figures/amplitude.pdf Graphic file (type pdf)
 <use ./figures/amplitude.pdf>
-Package pdftex.def Info: ./figures/amplitude.pdf  used on input line 952.
-(pdftex.def)             Requested size: 258.21019pt x 158.65262pt.
-<./figures/Std_delay.pdf, id=982, 251.6057pt x 153.52582pt>
+Package pdftex.def Info: ./figures/amplitude.pdf  used on input line 954.
+(pdftex.def)             Requested size: 258.21019pt x 157.90285pt.
+<./figures/Std_delay.pdf, id=978, 251.20418pt x 153.52582pt>
 File: ./figures/Std_delay.pdf Graphic file (type pdf)
 <use ./figures/Std_delay.pdf>
-Package pdftex.def Info: ./figures/Std_delay.pdf  used on input line 964.
-(pdftex.def)             Requested size: 258.21019pt x 157.56175pt.
+Package pdftex.def Info: ./figures/Std_delay.pdf  used on input line 970.
+(pdftex.def)             Requested size: 262.90231pt x 160.68445pt.
 
-Overfull \hbox (23.47495pt too wide) in paragraph at lines 964--966
- []|[] 
+Overfull \hbox (22.47661pt too wide) in paragraph at lines 970--972
+ []| [] 
  []
 
-<example-image-a.pdf, id=983, 321.2pt x 240.9pt>
-File: example-image-a.pdf Graphic file (type pdf)
-<use example-image-a.pdf>
-Package pdftex.def Info: example-image-a.pdf  used on input line 977.
-(pdftex.def)             Requested size: 234.73524pt x 176.0577pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 29.11996pt, for example:
@@ -1938,7 +1927,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [17 <./figures/Mean_delay.pdf> <./figures/amplitude.pdf> <./figures/Std_delay.pdf>]
 Chapter 4.
-Chapter 5.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 29.11996pt, for example:
@@ -1946,8 +1934,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.11996pt}.
 
-[18 </usr/share/texlive/texmf-dist/tex/latex/mwe/example-image-a.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1004--1004
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 1003--1003
 []\T1/lmr/m/n/10.95 A. Hasegawa and M. Wakatani, ^^P  Self-
  []
 
@@ -1971,7 +1959,7 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `CR.out' has not changed.
-(rerunfilecheck)             Checksum: AF1963EDB85BB8E6822BB849DFCE7490;7319.
+(rerunfilecheck)             Checksum: E40EB18096854B52B850C9FAFDBFAC2B;7200.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                CR
@@ -1982,18 +1970,18 @@ Package logreq Info: Writing requests to 'CR.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59251 strings out of 474222
- 1376405 string characters out of 5748733
- 2416217 words of memory out of 5000000
- 80426 multiletter control sequences out of 15000+600000
+ 59237 strings out of 474222
+ 1376042 string characters out of 5748733
+ 2416838 words of memory out of 5000000
+ 80414 multiletter control sequences out of 15000+600000
  684024 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,18n,93p,1871b,1991s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/arkandis/adforn/OrnementsADF.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-orns.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx7.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmro9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
-Output written on CR.pdf (20 pages, 16571543 bytes).
+ 94i,18n,93p,1871b,1993s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/arkandis/adforn/OrnementsADF.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-orns.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx7.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmro9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
+Output written on CR.pdf (20 pages, 16559076 bytes).
 PDF statistics:
- 1493 PDF objects out of 1728 (max. 8388607)
- 814 compressed objects within 9 object streams
- 128 named destinations out of 1000 (max. 500000)
- 621 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1479 PDF objects out of 1728 (max. 8388607)
+ 805 compressed objects within 9 object streams
+ 126 named destinations out of 1000 (max. 500000)
+ 608 words of extra memory for PDF output out of 10000 (max. 10000000)
 

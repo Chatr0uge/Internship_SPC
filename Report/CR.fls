@@ -796,12 +796,6 @@ INPUT ./figures/Std_delay.pdf
 INPUT ./figures/Std_delay.pdf
 INPUT ./figures/Std_delay.pdf
 INPUT ./figures/Std_delay.pdf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/mwe/example-image-a.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/mwe/example-image-a.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/mwe/example-image-a.pdf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/mwe/example-image-a.pdf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/mwe/example-image-a.pdf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/mwe/example-image-a.pdf
 INPUT CR.aux
 INPUT ./CR.out
 INPUT ./CR.out
@@ -833,7 +827,6 @@ INPUT /usr/share/texmf/fonts/type1/public/lm/lmr9.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmri10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmri9.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmro9.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmss17.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb
