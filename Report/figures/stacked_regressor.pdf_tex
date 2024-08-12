@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{404.54904151bp}%
+    \setlength{\unitlength}{414.90927869bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,21 +50,21 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.70376568)%
+  \begin{picture}(1,0.48750609)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{./figures/stacked_regressor.pdf}}%
-    \put(0.41152536,0.65806926){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{DATASET}\end{tabular}}}}%
-    \put(0.03886888,0.44403732){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{KNN}\end{tabular}}}}%
-    \put(0.22139083,0.44517022){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{GB}\end{tabular}}}}%
-    \put(0.35833656,0.44469112){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{LGBM}\end{tabular}}}}%
-    \put(0.53616508,0.44535433){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{XGB}\end{tabular}}}}%
-    \put(0.6886632,0.44447814){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{SVRT}\end{tabular}}}}%
-    \put(0.88116937,0.44587523){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{RF}\end{tabular}}}}%
-    \put(0.46784752,0.2222698){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{RF}\end{tabular}}}}%
-    \put(0.01689095,0.2211469){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{RegressorChain}\end{tabular}}}}%
-    \put(0.47373285,0.09010764){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\tau_0$ \end{tabular}}}}%
-    \put(0.64062989,0.09348397){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\delta n_0$ \end{tabular}}}}%
+    \put(0.37388646,0.45348022){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}DATASET\end{tabular}}}}%
+    \put(0.02689884,0.29828575){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{KNN}\end{tabular}}}}%
+    \put(0.17954932,0.2988047){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{GB}\end{tabular}}}}%
+    \put(0.33642976,0.29770708){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{LGBM}\end{tabular}}}}%
+    \put(0.4962164,0.29686307){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{XGB}\end{tabular}}}}%
+    \put(0.66706088,0.2968637){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{SVRT}\end{tabular}}}}%
+    \put(0.83342316,0.29750408){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{RF}\end{tabular}}}}%
+    \put(0.42659323,0.09338313){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{RF}\end{tabular}}}}%
+    \put(0.01650971,0.0666742){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{RegressorChain}\end{tabular}}}}%
+    \put(0.43922495,0.0035823){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\tau_0$ \end{tabular}}}}%
+    \put(0.56767228,0.00500225){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\delta n_0$ \end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{./figures/stacked_regressor.pdf}}%
   \end{picture}%
 \endgroup%

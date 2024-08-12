@@ -2383,7 +2383,7 @@
     <bcf:citekey order="10" intorder="1">Banana_distr_runaway</bcf:citekey>
     <bcf:citekey order="11" intorder="1">book_banana</bcf:citekey>
     <bcf:citekey order="12" intorder="1">TEM_mirror_localization</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">TEM_slow</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">Banana_distr_runaway</bcf:citekey>
     <bcf:citekey order="14" intorder="1">TEM_slow</bcf:citekey>
     <bcf:citekey order="14" intorder="2">Banana_distr_runaway</bcf:citekey>
     <bcf:citekey order="15" intorder="1">book_banana</bcf:citekey>
@@ -2400,7 +2400,7 @@
     <bcf:citekey order="22" intorder="1">TEM_simulation</bcf:citekey>
     <bcf:citekey order="22" intorder="2">Ballooning_transform</bcf:citekey>
     <bcf:citekey order="23" intorder="1">San_diego</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">cite</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">Krutkin_thesis</bcf:citekey>
     <bcf:citekey order="25" intorder="1">Thomas H. Stix</bcf:citekey>
     <bcf:citekey order="26" intorder="1">CUWA</bcf:citekey>
     <bcf:citekey order="27" intorder="1">Yee</bcf:citekey>
@@ -2414,7 +2414,10 @@
     <bcf:citekey order="33" intorder="1">Krutkin_thesis</bcf:citekey>
     <bcf:citekey order="34" intorder="1">SPR_Krutkin</bcf:citekey>
     <bcf:citekey order="35" intorder="1">SPR_Krutkin</bcf:citekey>
-    <bcf:citekey order="36" intorder="1" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">Krutkin_thesis</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">Unseparable_Turbulence_Spectra</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">Power_spectrum_coupled</bcf:citekey>
+    <bcf:citekey order="39" intorder="1" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

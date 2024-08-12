@@ -793,6 +793,36 @@
       \endverb
       \keyw{FDTD,Full-wave,Mode conversion,Stellarator,OXB}
     \endentry
+    \entry{Yee}{article}{}
+      \name{author}{1}{}{%
+        {{hash=77352edacd2292358c2b40a540f4e341}{%
+           family={Yee},
+           familyi={Y\bibinitperiod},
+           given={Kane},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{77352edacd2292358c2b40a540f4e341}
+      \strng{fullhash}{77352edacd2292358c2b40a540f4e341}
+      \strng{bibnamehash}{77352edacd2292358c2b40a540f4e341}
+      \strng{authorbibnamehash}{77352edacd2292358c2b40a540f4e341}
+      \strng{authornamehash}{77352edacd2292358c2b40a540f4e341}
+      \strng{authorfullhash}{77352edacd2292358c2b40a540f4e341}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Antennas and Propagation}
+      \field{number}{3}
+      \field{title}{Numerical solution of initial boundary value problems involving maxwell's equations in isotropic media}
+      \field{volume}{14}
+      \field{year}{1966}
+      \field{pages}{302\bibrangedash 307}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/TAP.1966.1138693
+      \endverb
+      \keyw{Boundary value problems;Maxwell equations;Difference equations;Finite difference methods;Boundary conditions;Electromagnetic scattering;Partial differential equations;EMP radiation effects;Conductors;Differential equations}
+    \endentry
     \entry{SPR_Krutkin}{article}{}
       \name{author}{3}{}{%
         {{hash=4404399cf4b58b3af6d6663dd34a7759}{%
@@ -877,7 +907,6 @@
       \field{labeltitlesource}{title}
       \field{abstract}{A first step towards the measurement of turbulence characteristics or transient events required for the understanding of turbulent transport is to build an interpretative model able to link the measurements of a given diagnostic to a wanted parameter of the turbulence, and simulation helps us to do that. To obtain density fluctuation parameters in fusion plasmas, microwaves can be used. However, the interpretation of the received signals requires generally sophisticated data processing to extract an exact evaluation of the wanted parameters. Simulations of electromagnetic wave propagation in turbulent plasmas permit to identify the main processes involved in probing wave-fluctuations interaction and the reflectometry signature of the expected events, which gives ideas to model them. It is shown here how simulations have permitted to exhibit the role of resonances of the probing wave induced by turbulence and to explain part of phase jumps seen during reflectometer measurements. The multi-scattering phenomena can be modelled by a photon diffusion equation which can be used to provide information on the turbulence at density fluctuations levels higher than allowed by usual methods. The reflectometry simulations show that at high level of turbulence a competition between the resonances generation mechanism, able to maintain the probing depth, and the Bragg backscattering exists. Its consequences on turbulence characterisation are discussed.}
       \field{journaltitle}{Journal of Physics: Conference Series}
-      \field{month}{3}
       \field{number}{1}
       \field{title}{Reflectometry simulation as a tool to explore new schemes of characterizing the fusion plasma turbulence}
       \field{volume}{416}
@@ -981,8 +1010,8 @@
       \strng{authorbibnamehash}{47b9156aa5135a0aa8789608cba1a7b4}
       \strng{authornamehash}{953a7b796cec4200249f73c46487fd5a}
       \strng{authorfullhash}{47b9156aa5135a0aa8789608cba1a7b4}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A linear response, local model for the DBS amplitude applied to gyrokinetic simulations shows that radial correlation Doppler reflectometry measurements (RCDR, Schirmer et al 2007 Plasma Phys. Control. Fusion 49 1019) are not sensitive to the average turbulence radial correlation length, but to a correlation length that depends on the binormal wavenumber selected by the Doppler backscattering (DBS) signal. Nonlinear gyrokinetic simulations show that the turbulence naturally exhibits a nonseparable power law spectrum in wavenumber space, leading to a power law dependence of the radial correlation length with binormal wavenumber which agrees with the inverse proportionality relationship between the measured and observed in experiments (Fernández-Marina et al 2014 Nucl. Fusion 54 072001). This new insight indicates that RCDR characterizes the eddy aspect ratio in the perpendicular plane to the magnetic field. It also motivates future use of a nonseparable turbulent spectrum to quantitatively interpret RCDR and potentially other turbulence diagnostics. The radial correlation length is only measurable when the radial resolution at the cutoff location satisfies , while the measurement becomes dominated by for . This suggests that is likely to be inaccessible for electron-scale DBS measurements (). The effect of on ion-scale radial correlation lengths could be nonnegligible.}
@@ -991,7 +1020,6 @@
       \field{title}{Interpreting radial correlation Doppler reflectometry using gyrokinetic simulations}
       \field{volume}{64}
       \field{year}{2022}
-      \true{nocite}
       \field{pages}{055019}
       \range{pages}{1}
       \verb{doi}
@@ -1002,6 +1030,82 @@
       \endverb
       \verb{url}
       \verb https://dx.doi.org/10.1088/1361-6587/ac5916
+      \endverb
+    \endentry
+    \entry{Power_spectrum_coupled}{article}{}
+      \name{author}{8}{}{%
+        {{hash=214a4f642198851f9aa3c120295725c1}{%
+           family={Vermare},
+           familyi={V\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b01f9dd11e8fa7db8df844cee8b88758}{%
+           family={Hennequin},
+           familyi={H\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9c1a2e3009028b2d3c0ed288402ca913}{%
+           family={Gürcan},
+           familyi={G\bibinitperiod},
+           given={Ö.\bibnamedelimi D.},
+           giveni={Ö\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=76b1b33e5b0ee2f3e6be84d7e6002b10}{%
+           family={Bourdelle},
+           familyi={B\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9863130357a041237eec9ffd49f5801c}{%
+           family={Clairet},
+           familyi={C\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=58967928c1a73688fdcdc1cabbfd5d0b}{%
+           family={Garbet},
+           familyi={G\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=623eedf34be175a336623703fd354c2b}{%
+           family={Sabot},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5cfaced056b2865c7893939037ad8441}{%
+           family={Tore\bibnamedelimb Supra\bibnamedelima Team},
+           familyi={T\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           prefix={the},
+           prefixi={t\bibinitperiod}}}%
+      }
+      \strng{namehash}{e81f63b06562d07c7c6002a39d3ff1cf}
+      \strng{fullhash}{b3d38760c0e3b6ab7214273c667e4df3}
+      \strng{bibnamehash}{b3d38760c0e3b6ab7214273c667e4df3}
+      \strng{authorbibnamehash}{b3d38760c0e3b6ab7214273c667e4df3}
+      \strng{authornamehash}{e81f63b06562d07c7c6002a39d3ff1cf}
+      \strng{authorfullhash}{b3d38760c0e3b6ab7214273c667e4df3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{The influence of changing collisionality on density fluctuation characteristics is studied during dedicated ν∗ scaling experiments, using Doppler backscattering system. First, the repartition of fluctuation energy over different spatial scales, as represented by the wavenumber spectrum, is investigated and a modification of the shape of the perpendicular wavenumber spectrum in the low wavenumber part of the spectrum is observed when changing collisionality. In addition, a new procedure to evaluate the dispersion relation of micro-turbulence is presented. From the behavior of the perpendicular mean velocity of density fluctuations with the perpendicular wavenumber, different dispersion relations are obtained between low and high collisionality cases.}}
+      \field{issn}{1070-664X}
+      \field{journaltitle}{Physics of Plasmas}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{{Impact of collisionality on fluctuation characteristics of micro-turbulence}}
+      \field{volume}{18}
+      \field{year}{2011}
+      \field{pages}{012306}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3536648
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.aip.org/aip/pop/article-pdf/doi/10.1063/1.3536648/14688904/012306\_1\_online.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3536648
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3536648
       \endverb
     \endentry
     \entry{WF_turb}{article}{}
@@ -1054,83 +1158,6 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1063/1.859529
-      \endverb
-    \endentry
-    \entry{Power_spectrum_coupled}{article}{}
-      \name{author}{8}{}{%
-        {{hash=214a4f642198851f9aa3c120295725c1}{%
-           family={Vermare},
-           familyi={V\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=b01f9dd11e8fa7db8df844cee8b88758}{%
-           family={Hennequin},
-           familyi={H\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=9c1a2e3009028b2d3c0ed288402ca913}{%
-           family={Gürcan},
-           familyi={G\bibinitperiod},
-           given={Ö.\bibnamedelimi D.},
-           giveni={Ö\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=76b1b33e5b0ee2f3e6be84d7e6002b10}{%
-           family={Bourdelle},
-           familyi={B\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=9863130357a041237eec9ffd49f5801c}{%
-           family={Clairet},
-           familyi={C\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-        {{hash=58967928c1a73688fdcdc1cabbfd5d0b}{%
-           family={Garbet},
-           familyi={G\bibinitperiod},
-           given={X.},
-           giveni={X\bibinitperiod}}}%
-        {{hash=623eedf34be175a336623703fd354c2b}{%
-           family={Sabot},
-           familyi={S\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=5cfaced056b2865c7893939037ad8441}{%
-           family={Tore\bibnamedelimb Supra\bibnamedelima Team},
-           familyi={T\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim T\bibinitperiod},
-           prefix={the},
-           prefixi={t\bibinitperiod}}}%
-      }
-      \strng{namehash}{e81f63b06562d07c7c6002a39d3ff1cf}
-      \strng{fullhash}{b3d38760c0e3b6ab7214273c667e4df3}
-      \strng{bibnamehash}{b3d38760c0e3b6ab7214273c667e4df3}
-      \strng{authorbibnamehash}{b3d38760c0e3b6ab7214273c667e4df3}
-      \strng{authornamehash}{e81f63b06562d07c7c6002a39d3ff1cf}
-      \strng{authorfullhash}{b3d38760c0e3b6ab7214273c667e4df3}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{{The influence of changing collisionality on density fluctuation characteristics is studied during dedicated ν∗ scaling experiments, using Doppler backscattering system. First, the repartition of fluctuation energy over different spatial scales, as represented by the wavenumber spectrum, is investigated and a modification of the shape of the perpendicular wavenumber spectrum in the low wavenumber part of the spectrum is observed when changing collisionality. In addition, a new procedure to evaluate the dispersion relation of micro-turbulence is presented. From the behavior of the perpendicular mean velocity of density fluctuations with the perpendicular wavenumber, different dispersion relations are obtained between low and high collisionality cases.}}
-      \field{issn}{1070-664X}
-      \field{journaltitle}{Physics of Plasmas}
-      \field{month}{01}
-      \field{number}{1}
-      \field{title}{{Impact of collisionality on fluctuation characteristics of micro-turbulence}}
-      \field{volume}{18}
-      \field{year}{2011}
-      \true{nocite}
-      \field{pages}{012306}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1063/1.3536648
-      \endverb
-      \verb{eprint}
-      \verb https://pubs.aip.org/aip/pop/article-pdf/doi/10.1063/1.3536648/14688904/012306\_1\_online.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1063/1.3536648
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1063/1.3536648
       \endverb
     \endentry
     \entry{Shear_ballooning}{article}{}
