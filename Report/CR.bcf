@@ -2406,18 +2406,20 @@
     <bcf:citekey order="27" intorder="1">Yee</bcf:citekey>
     <bcf:citekey order="28" intorder="1">San_diego</bcf:citekey>
     <bcf:citekey order="29" intorder="1">SPR_Krutkin</bcf:citekey>
-    <bcf:citekey order="29" intorder="2">PUT</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">critical2</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">Krutkin_thesis</bcf:citekey>
-    <bcf:citekey order="31" intorder="2">San_diego</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">San_diego</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">Krutkin_thesis</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">SPR_Krutkin</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">SPR_Krutkin</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">Krutkin_thesis</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">Unseparable_Turbulence_Spectra</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">Power_spectrum_coupled</bcf:citekey>
-    <bcf:citekey order="39" intorder="1" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">SPR_Krutkin</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">critical2</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">Krutkin_thesis</bcf:citekey>
+    <bcf:citekey order="32" intorder="2">San_diego</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">San_diego</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">Mean_delay</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">Krutkin_thesis</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">SPR_Krutkin</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">SPR_Krutkin</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">Krutkin_thesis</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">Unseparable_Turbulence_Spectra</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">Power_spectrum_coupled</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">Unseparable_Turbulence_Spectra</bcf:citekey>
+    <bcf:citekey order="42" intorder="1" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

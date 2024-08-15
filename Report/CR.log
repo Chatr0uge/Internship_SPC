@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.6.28)  12 AUG 2024 11:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.6.28)  14 AUG 2024 21:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1456,9 +1456,6 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
-
-LaTeX Warning: Label `' multiply defined.
-
 )
 \openout1 = `CR.aux'.
 
@@ -1609,12 +1606,12 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 178.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 178.
-<./figures/cc-logo.png, id=211, 1156.32pt x 405.01312pt>
+<./figures/cc-logo.png, id=207, 1156.32pt x 405.01312pt>
 File: ./figures/cc-logo.png Graphic file (type png)
 <use ./figures/cc-logo.png>
 Package pdftex.def Info: ./figures/cc-logo.png  used on input line 178.
 (pdftex.def)             Requested size: 121.84946pt x 42.67912pt.
-<./figures/fusenet.png, id=213, 250.9375pt x 72.27pt>
+<./figures/fusenet.png, id=209, 250.9375pt x 72.27pt>
 File: ./figures/fusenet.png Graphic file (type png)
 <use ./figures/fusenet.png>
 Package pdftex.def Info: ./figures/fusenet.png  used on input line 178.
@@ -1641,6 +1638,8 @@ LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10.95> not available
 (Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 221.
 LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <8> not available
 (Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 221.
+LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <6> not available
+(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 221.
 LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <12> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 225.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1665,57 +1664,57 @@ Package lettrine.sty Info: Targeted height = 14.25pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 14.24998pt (\color {black} T);
 (lettrine.sty)             reported on input line 247.
-<./figures/tokamak.png, id=273, 494.20634pt x 395.3169pt>
+<./figures/tokamak.png, id=268, 494.20634pt x 395.3169pt>
 File: ./figures/tokamak.png Graphic file (type png)
 <use ./figures/tokamak.png>
 Package pdftex.def Info: ./figures/tokamak.png  used on input line 261.
 (pdftex.def)             Requested size: 243.12881pt x 194.47906pt.
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 1 might be wrong on input line 274.
+(multicol)                Footnotes on page 1 might be wrong on input line 275.
 
-<./figures/github.png, id=284, 2055.68pt x 2055.68pt>
+<./figures/github.png, id=279, 2055.68pt x 2055.68pt>
 File: ./figures/github.png Graphic file (type png)
 <use ./figures/github.png>
-Package pdftex.def Info: ./figures/github.png  used on input line 274.
+Package pdftex.def Info: ./figures/github.png  used on input line 275.
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.274 
+l.275 
        [1 <./figures/github.png> <./figures/tokamak.png>]
-<./figures/banana.png, id=313, 958.58125pt x 814.04124pt>
+<./figures/banana.png, id=308, 958.58125pt x 814.04124pt>
 File: ./figures/banana.png Graphic file (type png)
 <use ./figures/banana.png>
-Package pdftex.def Info: ./figures/banana.png  used on input line 316.
+Package pdftex.def Info: ./figures/banana.png  used on input line 317.
 (pdftex.def)             Requested size: 243.12881pt x 206.46606pt.
 File: ./figures/github.png Graphic file (type png)
 <use ./figures/github.png>
-Package pdftex.def Info: ./figures/github.png  used on input line 346.
+Package pdftex.def Info: ./figures/github.png  used on input line 347.
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
  [2{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc} <./figures/banana.png>]
-<./figures/balloning_TEM.png, id=346, 573.1011pt x 252.2223pt>
+<./figures/balloning_TEM.png, id=341, 573.1011pt x 252.2223pt>
 File: ./figures/balloning_TEM.png Graphic file (type png)
 <use ./figures/balloning_TEM.png>
-Package pdftex.def Info: ./figures/balloning_TEM.png  used on input line 358.
+Package pdftex.def Info: ./figures/balloning_TEM.png  used on input line 359.
 (pdftex.def)             Requested size: 500.484pt x 220.26292pt.
 File: ./figures/github.png Graphic file (type png)
 <use ./figures/github.png>
-Package pdftex.def Info: ./figures/github.png  used on input line 372.
+Package pdftex.def Info: ./figures/github.png  used on input line 373.
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
  [3 <./figures/balloning_TEM.png>]
 
-LaTeX Warning: Citation 'Thomas H. Stix' on page 4 undefined on input line 387.
+LaTeX Warning: Citation 'Thomas H. Stix' on page 4 undefined on input line 388.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--388
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
 []\T1/cmbr/m/sc/9 we can de-rive the fol-low-ing di-elec-tric ten-sor
  []
 
 LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <9> not available
-(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 458.
-<./figures/field_SPR.pdf, id=365, 413.41837pt x 153.34866pt>
+(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 459.
+<./figures/field_SPR.pdf, id=360, 413.41837pt x 153.34866pt>
 File: ./figures/field_SPR.pdf Graphic file (type pdf)
 <use ./figures/field_SPR.pdf>
 Package pdftex.def Info: ./figures/field_SPR.pdf  used on input line 475.
@@ -1731,54 +1730,41 @@ File: ./figures/github.png Graphic file (type png)
 Package pdftex.def Info: ./figures/github.png  used on input line 481.
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
 [4]
+Overfull \vbox (1.70883pt too high) has occurred while \output is active []
+
 File: ./figures/github.png Graphic file (type png)
 <use ./figures/github.png>
-Package pdftex.def Info: ./figures/github.png  used on input line 510.
+Package pdftex.def Info: ./figures/github.png  used on input line 511.
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
  [5 <./figures/field_SPR.pdf>]
-<./figures/density_profile.png, id=450, 434.46315pt x 168.02776pt>
+<./figures/density_profile.png, id=446, 434.46315pt x 168.02776pt>
 File: ./figures/density_profile.png Graphic file (type png)
 <use ./figures/density_profile.png>
-Package pdftex.def Info: ./figures/density_profile.png  used on input line 522.
+Package pdftex.def Info: ./figures/density_profile.png  used on input line 516.
 (pdftex.def)             Requested size: 515.4979pt x 199.37863pt.
-
-
-LaTeX Warning: Citation 'PUT' on page 6 undefined on input line 552.
-
-File: ./figures/github.png Graphic file (type png)
-<use ./figures/github.png>
-Package pdftex.def Info: ./figures/github.png  used on input line 554.
-(pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
-[6 <./figures/density_profile.png>]
-<./figures/1d.pdf, id=468, 298.3948pt x 200.83118pt>
+<./figures/1d.pdf, id=455, 298.3948pt x 200.83118pt>
 File: ./figures/1d.pdf Graphic file (type pdf)
 <use ./figures/1d.pdf>
-Package pdftex.def Info: ./figures/1d.pdf  used on input line 562.
+Package pdftex.def Info: ./figures/1d.pdf  used on input line 556.
 (pdftex.def)             Requested size: 298.39407pt x 200.83067pt.
 
-Overfull \hbox (15.43158pt too wide) in paragraph at lines 562--563
+Overfull \hbox (15.43158pt too wide) in paragraph at lines 556--557
  []| [] 
  []
 
-Chapter 2.
-<figures/delay_overview.pdf, id=470, 242.10449pt x 191.87547pt>
-File: figures/delay_overview.pdf Graphic file (type pdf)
-<use figures/delay_overview.pdf>
-Package pdftex.def Info: figures/delay_overview.pdf  used on input line 579.
-(pdftex.def)             Requested size: 242.1039pt x 191.875pt.
-
-Package caption Warning: \label without proper reference on input line 967.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:FHP' on page 7 undefined on input line 583.
-
 File: ./figures/github.png Graphic file (type png)
 <use ./figures/github.png>
-Package pdftex.def Info: ./figures/github.png  used on input line 587.
+Package pdftex.def Info: ./figures/github.png  used on input line 560.
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
-[7 <./figures/1d.pdf> <./figures/delay_overview.pdf>] (./figures/stacked_regressor.pdf_tex
-<./figures/stacked_regressor.pdf, id=580, page=1, 416.46518pt x 203.02931pt>
+[6 <./figures/density_profile.png>]
+Chapter 2.
+<figures/delay_overview.pdf, id=468, 242.10449pt x 191.87547pt>
+File: figures/delay_overview.pdf Graphic file (type pdf)
+<use figures/delay_overview.pdf>
+Package pdftex.def Info: figures/delay_overview.pdf  used on input line 573.
+(pdftex.def)             Requested size: 242.1039pt x 191.875pt.
+(./figures/stacked_regressor.pdf_tex
+<./figures/stacked_regressor.pdf, id=472, page=1, 416.46518pt x 203.02931pt>
 File: ./figures/stacked_regressor.pdf Graphic file (type pdf)
 <use ./figures/stacked_regressor.pdf, page 1>
 Package pdftex.def Info: ./figures/stacked_regressor.pdf , page1 used on input line 56.
@@ -1787,7 +1773,7 @@ LaTeX Font Info:    Trying to load font information for T1+cmtl on input line 58
  (/usr/share/texlive/texmf-dist/tex/latex/cmbright/t1cmtl.fd
 File: t1cmtl.fd 2005/04/13 v8.1 (WaS)
 )
-<./figures/stacked_regressor.pdf, id=581, page=2, 416.46518pt x 203.02931pt>
+<./figures/stacked_regressor.pdf, id=473, page=2, 416.46518pt x 203.02931pt>
 File: ./figures/stacked_regressor.pdf Graphic file (type pdf)
 <use ./figures/stacked_regressor.pdf, page 2>
 Package pdftex.def Info: ./figures/stacked_regressor.pdf , page2 used on input line 68.
@@ -1795,94 +1781,99 @@ Package pdftex.def Info: ./figures/stacked_regressor.pdf , page2 used on input l
 )
 File: ./figures/github.png Graphic file (type png)
 <use ./figures/github.png>
-Package pdftex.def Info: ./figures/github.png  used on input line 654.
+Package pdftex.def Info: ./figures/github.png  used on input line 595.
+(pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
+ [7 <./figures/1d.pdf> <./figures/delay_overview.pdf>]
+File: ./figures/github.png Graphic file (type png)
+<use ./figures/github.png>
+Package pdftex.def Info: ./figures/github.png  used on input line 652.
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
  [8 <./figures/stacked_regressor.pdf> <./figures/stacked_regressor.pdf
 
 pdfTeX warning: pdflatex (file ./figures/stacked_regressor.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<./figures/polar_param_1d.pdf, id=594, 218.01402pt x 164.74423pt>
+<./figures/polar_param_1d.pdf, id=592, 218.01402pt x 164.74423pt>
 File: ./figures/polar_param_1d.pdf Graphic file (type pdf)
 <use ./figures/polar_param_1d.pdf>
-Package pdftex.def Info: ./figures/polar_param_1d.pdf  used on input line 676.
+Package pdftex.def Info: ./figures/polar_param_1d.pdf  used on input line 670.
 (pdftex.def)             Requested size: 238.2652pt x 180.05783pt.
 
 Chapter 3.
 File: ./figures/github.png Graphic file (type png)
 <use ./figures/github.png>
-Package pdftex.def Info: ./figures/github.png  used on input line 699.
+Package pdftex.def Info: ./figures/github.png  used on input line 695.
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
 [9 <./figures/polar_param_1d.pdf>]
-<./figures/pulse_shape.png, id=637, 235.72066pt x 218.0145pt>
+<./figures/pulse_shape.png, id=635, 235.72066pt x 218.0145pt>
 File: ./figures/pulse_shape.png Graphic file (type png)
 <use ./figures/pulse_shape.png>
-Package pdftex.def Info: ./figures/pulse_shape.png  used on input line 702.
+Package pdftex.def Info: ./figures/pulse_shape.png  used on input line 698.
 (pdftex.def)             Requested size: 243.12881pt x 224.86679pt.
-<./figures/skew_Hyst.png, id=639, 282.5757pt x 191.9973pt>
+<./figures/skew_Hyst.png, id=637, 282.5757pt x 191.9973pt>
 File: ./figures/skew_Hyst.png Graphic file (type png)
 <use ./figures/skew_Hyst.png>
-Package pdftex.def Info: ./figures/skew_Hyst.png  used on input line 714.
+Package pdftex.def Info: ./figures/skew_Hyst.png  used on input line 710.
 (pdftex.def)             Requested size: 282.575pt x 191.99681pt.
 
-Overfull \hbox (25.21982pt too wide) in paragraph at lines 714--715
+Overfull \hbox (25.21982pt too wide) in paragraph at lines 710--711
  []| [] 
  []
 
-<./figures/Num_spikes.pdf, id=641, 127.86597pt x 188.96959pt>
+<./figures/Num_spikes.pdf, id=639, 127.86597pt x 188.96959pt>
 File: ./figures/Num_spikes.pdf Graphic file (type pdf)
 <use ./figures/Num_spikes.pdf>
-Package pdftex.def Info: ./figures/Num_spikes.pdf  used on input line 726.
+Package pdftex.def Info: ./figures/Num_spikes.pdf  used on input line 722.
 (pdftex.def)             Requested size: 127.86563pt x 188.96912pt.
 
-Overfull \hbox (17.75854pt too wide) in paragraph at lines 726--727
+Overfull \hbox (17.75854pt too wide) in paragraph at lines 722--723
 [][] 
  []
 
 
-Underfull \hbox (badness 5504) in paragraph at lines 728--730
+Underfull \hbox (badness 5504) in paragraph at lines 724--726
 []\T1/cmbr/m/sc/9 This was done us-ing the
  []
 
-<./figures/pulse_overview.png, id=643, 242.1045pt x 503.28828pt>
+<./figures/pulse_overview.png, id=641, 242.1045pt x 503.28828pt>
 File: ./figures/pulse_overview.png Graphic file (type png)
 <use ./figures/pulse_overview.png>
-Package pdftex.def Info: ./figures/pulse_overview.png  used on input line 741.
+Package pdftex.def Info: ./figures/pulse_overview.png  used on input line 737.
 (pdftex.def)             Requested size: 243.12881pt x 505.43732pt.
 File: ./figures/github.png Graphic file (type png)
 <use ./figures/github.png>
-Package pdftex.def Info: ./figures/github.png  used on input line 744.
+Package pdftex.def Info: ./figures/github.png  used on input line 740.
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
 [10 <./figures/pulse_shape.png> <./figures/skew_Hyst.png> <./figures/Num_spikes.pdf>]
-<./figures/gaussian_fit.png, id=675, 265.7127pt x 191.87685pt>
+<./figures/gaussian_fit.png, id=673, 265.7127pt x 191.87685pt>
 File: ./figures/gaussian_fit.png Graphic file (type png)
 <use ./figures/gaussian_fit.png>
-Package pdftex.def Info: ./figures/gaussian_fit.png  used on input line 753.
+Package pdftex.def Info: ./figures/gaussian_fit.png  used on input line 749.
 (pdftex.def)             Requested size: 265.71205pt x 191.87637pt.
 
-Overfull \hbox (22.58324pt too wide) in paragraph at lines 753--754
+Overfull \hbox (22.58324pt too wide) in paragraph at lines 749--750
  [][] 
  []
 
-<./figures/gaussian_Params.pdf, id=676, 248.6088pt x 155.08813pt>
+<./figures/gaussian_Params.pdf, id=674, 248.6088pt x 155.08813pt>
 File: ./figures/gaussian_Params.pdf Graphic file (type pdf)
 <use ./figures/gaussian_Params.pdf>
-Package pdftex.def Info: ./figures/gaussian_Params.pdf  used on input line 760.
+Package pdftex.def Info: ./figures/gaussian_Params.pdf  used on input line 756.
 (pdftex.def)             Requested size: 248.60817pt x 155.08774pt.
 
-Overfull \hbox (5.47935pt too wide) in paragraph at lines 760--761
+Overfull \hbox (5.47935pt too wide) in paragraph at lines 756--757
  [][] 
  []
 
 File: ./figures/github.png Graphic file (type png)
 <use ./figures/github.png>
-Package pdftex.def Info: ./figures/github.png  used on input line 764.
+Package pdftex.def Info: ./figures/github.png  used on input line 760.
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
 [11 <./figures/pulse_overview.png> <./figures/gaussian_fit.png>]
-LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 790.
+LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 786.
  (/usr/share/texlive/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
 File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
 )
-Overfull \hbox (11.26408pt too wide) in paragraph at lines 786--795
+Overfull \hbox (11.26408pt too wide) in paragraph at lines 782--791
 [][] 
  []
 
@@ -1894,121 +1885,102 @@ Package multicol Warning: Floats and marginpars not allowed inside `multicols' e
 
 File: ./figures/github.png Graphic file (type png)
 <use ./figures/github.png>
-Package pdftex.def Info: ./figures/github.png  used on input line 843.
+Package pdftex.def Info: ./figures/github.png  used on input line 839.
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
 [12 <./figures/gaussian_Params.pdf>]
-<./figures/CCF_Wiener.pdf, id=725, 469.07999pt x 151.75632pt>
+<./figures/CCF_Wiener.pdf, id=723, 469.07999pt x 151.75632pt>
 File: ./figures/CCF_Wiener.pdf Graphic file (type pdf)
 <use ./figures/CCF_Wiener.pdf>
-Package pdftex.def Info: ./figures/CCF_Wiener.pdf  used on input line 852.
+Package pdftex.def Info: ./figures/CCF_Wiener.pdf  used on input line 848.
 (pdftex.def)             Requested size: 500.484pt x 161.92146pt.
-<figures/field_power.pdf, id=728, 248.36742pt x 121.89491pt>
+<figures/field_power.pdf, id=727, 248.36742pt x 121.89491pt>
 File: figures/field_power.pdf Graphic file (type pdf)
 <use figures/field_power.pdf>
-Package pdftex.def Info: figures/field_power.pdf  used on input line 886.
+Package pdftex.def Info: figures/field_power.pdf  used on input line 882.
 (pdftex.def)             Requested size: 243.12881pt x 119.32597pt.
 File: ./figures/github.png Graphic file (type png)
 <use ./figures/github.png>
-Package pdftex.def Info: ./figures/github.png  used on input line 896.
+Package pdftex.def Info: ./figures/github.png  used on input line 892.
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
  [13{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./figures/CCF_Wiener.pdf> <./figures/field_power.pdf>]
-<./figures/polar_param.pdf, id=831, 248.36742pt x 182.46982pt>
+<./figures/polar_param.pdf, id=830, 248.36742pt x 182.46982pt>
 File: ./figures/polar_param.pdf Graphic file (type pdf)
 <use ./figures/polar_param.pdf>
-Package pdftex.def Info: ./figures/polar_param.pdf  used on input line 899.
+Package pdftex.def Info: ./figures/polar_param.pdf  used on input line 895.
 (pdftex.def)             Requested size: 243.12881pt x 178.62428pt.
 
 
-LaTeX Warning: Reference `Gaussian_table' on page 14 undefined on input line 900.
+LaTeX Warning: Reference `Gaussian_table' on page 14 undefined on input line 896.
 
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 916--917
-[][] 
- []
-
-<./figures/polar_res.pdf, id=834, 397.73346pt x 83.5038pt>
+<./figures/polar_res.pdf, id=833, 397.73346pt x 83.5038pt>
 File: ./figures/polar_res.pdf Graphic file (type pdf)
 <use ./figures/polar_res.pdf>
-Package pdftex.def Info: ./figures/polar_res.pdf  used on input line 920.
+Package pdftex.def Info: ./figures/polar_res.pdf  used on input line 917.
 (pdftex.def)             Requested size: 500.484pt x 105.079pt.
 File: ./figures/github.png Graphic file (type png)
 <use ./figures/github.png>
-Package pdftex.def Info: ./figures/github.png  used on input line 923.
+Package pdftex.def Info: ./figures/github.png  used on input line 920.
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
 [14 <./figures/polar_param.pdf> <./figures/polar_res.pdf>]
-<./figures/First_Hitting.pdf, id=893, 282.91623pt x 184.54135pt>
+<./figures/First_Hitting.pdf, id=892, 282.91623pt x 184.54135pt>
 File: ./figures/First_Hitting.pdf Graphic file (type pdf)
 <use ./figures/First_Hitting.pdf>
-Package pdftex.def Info: ./figures/First_Hitting.pdf  used on input line 966.
+Package pdftex.def Info: ./figures/First_Hitting.pdf  used on input line 963.
 (pdftex.def)             Requested size: 282.91553pt x 184.5409pt.
 
-Overfull \hbox (39.78671pt too wide) in paragraph at lines 966--968
+Overfull \hbox (39.78671pt too wide) in paragraph at lines 963--964
  [][] 
  []
 
-<./figures/Mean_delay.pdf, id=895, 285.56342pt x 164.61455pt>
+<./figures/Mean_delay.pdf, id=894, 286.06876pt x 164.615pt>
 File: ./figures/Mean_delay.pdf Graphic file (type pdf)
 <use ./figures/Mean_delay.pdf>
-Package pdftex.def Info: ./figures/Mean_delay.pdf  used on input line 972.
-(pdftex.def)             Requested size: 285.5627pt x 164.61414pt.
+Package pdftex.def Info: ./figures/Mean_delay.pdf  used on input line 970.
+(pdftex.def)             Requested size: 286.06805pt x 164.6146pt.
 
-Overfull \hbox (2.6002pt too wide) in paragraph at lines 972--973
+Overfull \hbox (3.10556pt too wide) in paragraph at lines 970--971
  []| [] 
  []
 
 File: ./figures/github.png Graphic file (type png)
 <use ./figures/github.png>
-Package pdftex.def Info: ./figures/github.png  used on input line 976.
+Package pdftex.def Info: ./figures/github.png  used on input line 974.
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
 [15 <./figures/First_Hitting.pdf>]
-<./figures/amplitude.pdf, id=926, 265.79332pt x 164.61455pt>
+<./figures/amplitude.pdf, id=925, 265.79332pt x 164.61455pt>
 File: ./figures/amplitude.pdf Graphic file (type pdf)
 <use ./figures/amplitude.pdf>
-Package pdftex.def Info: ./figures/amplitude.pdf  used on input line 989.
+Package pdftex.def Info: ./figures/amplitude.pdf  used on input line 987.
 (pdftex.def)             Requested size: 265.79266pt x 164.61414pt.
 
-Overfull \hbox (16.97339pt too wide) in paragraph at lines 989--991
+Overfull \hbox (16.97339pt too wide) in paragraph at lines 987--989
  []| [] 
  []
 
-
-Package caption Warning: \label without proper reference on input line 1005.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:std_delay2' on page 16 undefined on input line 1000.
-
-<./figures/Std_delay.pdf, id=931, 290.87062pt x 174.5878pt>
+<./figures/Std_delay.pdf, id=930, 290.87062pt x 174.5878pt>
 File: ./figures/Std_delay.pdf Graphic file (type pdf)
 <use ./figures/Std_delay.pdf>
 Package pdftex.def Info: ./figures/Std_delay.pdf  used on input line 1004.
 (pdftex.def)             Requested size: 290.8699pt x 174.58736pt.
 
-Overfull \hbox (7.90741pt too wide) in paragraph at lines 1004--1006
+Overfull \hbox (7.90741pt too wide) in paragraph at lines 1004--1005
  []| [] 
  []
 
 File: ./figures/github.png Graphic file (type png)
 <use ./figures/github.png>
-Package pdftex.def Info: ./figures/github.png  used on input line 1008.
+Package pdftex.def Info: ./figures/github.png  used on input line 1009.
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
 [16 <./figures/Mean_delay.pdf> <./figures/amplitude.pdf>]
-
-Package caption Warning: \label without proper reference on input line 990.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `' on page 17 undefined on input line 1013.
-
 Chapter 4.
 File: ./figures/github.png Graphic file (type png)
 <use ./figures/github.png>
-Package pdftex.def Info: ./figures/github.png  used on input line 1036.
+Package pdftex.def Info: ./figures/github.png  used on input line 1037.
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
 [17 <./figures/Std_delay.pdf>]
 File: ./figures/github.png Graphic file (type png)
 <use ./figures/github.png>
-Package pdftex.def Info: ./figures/github.png  used on input line 1040.
+Package pdftex.def Info: ./figures/github.png  used on input line 1038.
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
  [18] (./CR.aux)
  ***********
@@ -2026,7 +1998,7 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `CR.out' has not changed.
-(rerunfilecheck)             Checksum: 5F42CB59C7D5979D12BFE8579C0595C5;7200.
+(rerunfilecheck)             Checksum: 65422A507D6F507B74F4638961868487;6982.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                CR
@@ -2037,21 +2009,21 @@ Package logreq Info: Writing requests to 'CR.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59297 strings out of 474222
- 1378223 string characters out of 5748733
- 2432019 words of memory out of 5000000
- 80495 multiletter control sequences out of 15000+600000
- 589624 words of font info for 115 fonts, out of 8000000 for 9000
+ 59286 strings out of 474222
+ 1378151 string characters out of 5748733
+ 2433578 words of memory out of 5000000
+ 80485 multiletter control sequences out of 15000+600000
+ 587092 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,19n,93p,1871b,2324s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,19n,93p,2093b,2324s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{https://github.com/Chatr0uge/Internship_SPC} has been referenced but does not exist, replaced by a fixed one
 
 </usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbrbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbrmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbrsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbbx10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbmo10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbmo8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbmo9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbmr10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbmr17.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbmr8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbmr9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbsr8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbtl10.pfb>
-Output written on CR.pdf (19 pages, 16512082 bytes).
+Output written on CR.pdf (19 pages, 16845384 bytes).
 PDF statistics:
- 1189 PDF objects out of 1200 (max. 8388607)
- 817 compressed objects within 9 object streams
+ 3933 PDF objects out of 4296 (max. 8388607)
+ 2632 compressed objects within 27 object streams
  128 named destinations out of 1000 (max. 500000)
- 628 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 620 words of extra memory for PDF output out of 10000 (max. 10000000)
 

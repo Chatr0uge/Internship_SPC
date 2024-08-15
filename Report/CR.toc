@@ -14,12 +14,11 @@
 \contentsline {section}{\numberline {IV}CUWA CODE OVERVIEW}{4}{section.1.4}%
 \contentsline {section}{\numberline {V}LINEAR REGIME STUDY}{5}{section.1.5}%
 \contentsline {subsection}{\numberline {A}Perturbed Density Profile}{5}{subsection.1.5.1}%
-\contentsline {subsubsection}{\numberline {a)}General Perturbation Profile}{5}{subsubsection.1.5.1.1}%
-\contentsline {subsubsection}{\numberline {b)}Step-like Perturbation}{5}{subsubsection.1.5.1.2}%
+\contentsline {subsubsection}{\numberline {a)}Step-like Perturbation}{5}{subsubsection.1.5.1.1}%
 \contentsline {chapter}{\numberline {2}1-DIMENSIONAL MODEL}{7}{chapter.2}%
 \contentsline {section}{\numberline {I}RELIABLE METRICS}{7}{section.2.1}%
-\contentsline {section}{\numberline {II}MACHINE LEARNING MODEL}{8}{section.2.2}%
-\contentsline {subsection}{\numberline {A}Structure}{8}{subsection.2.2.1}%
+\contentsline {section}{\numberline {II}MACHINE LEARNING MODEL}{7}{section.2.2}%
+\contentsline {subsection}{\numberline {A}Structure}{7}{subsection.2.2.1}%
 \contentsline {section}{\numberline {III}INPUT DATA}{8}{section.2.3}%
 \contentsline {section}{\numberline {IV}DATASETS BUILDING}{8}{section.2.4}%
 \contentsline {section}{\numberline {V}RESULTS}{9}{section.2.5}%

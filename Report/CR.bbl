@@ -847,6 +847,7 @@
       \strng{authorbibnamehash}{3d51e4cfd6679deab593cd0678007ad3}
       \strng{authornamehash}{11a4f39b61a5f28eaf1de0330d7cb42c}
       \strng{authorfullhash}{3d51e4cfd6679deab593cd0678007ad3}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -921,6 +922,62 @@
       \endverb
       \verb{url}
       \verb https://dx.doi.org/10.1088/1742-6596/416/1/012019
+      \endverb
+    \endentry
+    \entry{Mean_delay}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b9ecf3d319cd14505ce8e1d3b4ebecdc}{%
+           family={Krutkin},
+           familyi={K\bibinitperiod},
+           given={O},
+           giveni={O\bibinitperiod}}}%
+        {{hash=55e7681aaf33a934622596e8c95b6101}{%
+           family={Brunner},
+           familyi={B\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=81b34ed1aa4ba9ecff2c1d4a3abef695}{%
+           family={Coda},
+           familyi={C\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b9d1f650aac6f9da29fd3c1ecc7f644b}{%
+           family={Aleynikov},
+           familyi={A\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{6212b704b88c9b6ad92fbfaff4e46eb3}
+      \strng{fullhash}{04760ee28f67470a566b66370b7951e9}
+      \strng{bibnamehash}{04760ee28f67470a566b66370b7951e9}
+      \strng{authorbibnamehash}{04760ee28f67470a566b66370b7951e9}
+      \strng{authornamehash}{6212b704b88c9b6ad92fbfaff4e46eb3}
+      \strng{authorfullhash}{04760ee28f67470a566b66370b7951e9}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The linear scattering theory of short pulse reflectometry is presented. An expression for the scattering signal is obtained by applying the perturbation theory approach for solving the Helmholtz equation. Based on these analytical results, a method for measuring the radial wavenumber spectrum of the turbulence is suggested. Analytical results are validated against full-wave numerical modelling.}
+      \field{journaltitle}{Plasma Physics and Controlled Fusion}
+      \field{month}{12}
+      \field{number}{1}
+      \field{title}{Linear scattering theory of short-pulse reflectometry}
+      \field{volume}{65}
+      \field{year}{2022}
+      \field{pages}{015013}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1361-6587/aca826
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1361-6587/aca826
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1361-6587/aca826
       \endverb
     \endentry
     \entry{Unseparable_Turbulence_Spectra}{article}{}
@@ -1081,8 +1138,8 @@
       \strng{authorbibnamehash}{b3d38760c0e3b6ab7214273c667e4df3}
       \strng{authornamehash}{e81f63b06562d07c7c6002a39d3ff1cf}
       \strng{authorfullhash}{b3d38760c0e3b6ab7214273c667e4df3}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{The influence of changing collisionality on density fluctuation characteristics is studied during dedicated ν∗ scaling experiments, using Doppler backscattering system. First, the repartition of fluctuation energy over different spatial scales, as represented by the wavenumber spectrum, is investigated and a modification of the shape of the perpendicular wavenumber spectrum in the low wavenumber part of the spectrum is observed when changing collisionality. In addition, a new procedure to evaluate the dispersion relation of micro-turbulence is presented. From the behavior of the perpendicular mean velocity of density fluctuations with the perpendicular wavenumber, different dispersion relations are obtained between low and high collisionality cases.}}
@@ -1132,8 +1189,8 @@
       \strng{authorbibnamehash}{56932e410ea8ec1485a2d88b51bf1339}
       \strng{authornamehash}{d8c6b01013b0f2eb506b1bdb2c9661b0}
       \strng{authorfullhash}{56932e410ea8ec1485a2d88b51bf1339}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{The impact of radially sheared poloidal flows on ambient edge turbulence in tokamaks is investigated analytically. In the regime where poloidal shearing exceeds turbulent radial scattering, a hybrid time scale weighted toward the former is found to govern the decorrelation process. The coupling between radial and poloidal decorrelation results in a suppression of the turbulence below its ambient value. The turbulence quench mechanism is found to be insensitive to the sign of either the radial electric field or its shear.}}
@@ -1243,8 +1300,8 @@
       \strng{authorbibnamehash}{d80893fbb76eefd54933470385c94e67}
       \strng{authornamehash}{51067c7dc7b6b4d12735544eb7d258e0}
       \strng{authorfullhash}{d80893fbb76eefd54933470385c94e67}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0034-6748}

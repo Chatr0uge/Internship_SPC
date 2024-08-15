@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber CR"] 1723393315.08776 "CR.bcf" "CR.bbl" "CR" 1723456349.22558 0
-  "CR.bcf" 1723456348.96822 110784 b91f87902180b1ecb908dbc1d3e41ae5 "pdflatex"
-  "bibliography.bib" 1723210606.69873 21162 bf82c4a327279999f6bb4d8017c73a75 ""
+["biber CR"] 1723625565.7576 "CR.bcf" "CR.bbl" "CR" 1723663653.91571 0
+  "CR.bcf" 1723663652.61142 110944 0bbb5d2799854451fdf3641b2b98b7f7 "pdflatex"
+  "bibliography.bib" 1723624306.00699 22032 9c615de949b7d88882bf831190f085b7 ""
   (generated)
   "CR.bbl"
   "CR.blg"
   (rewritten before read)
-["pdflatex"] 1723456339.87929 "/mnt/sdb2/scholar/Master/stage/Report/CR.tex" "CR.pdf" "CR" 1723456349.2263 0
+["pdflatex"] 1723663614.68014 "/mnt/sdb2/scholar/Master/stage/Report/CR.tex" "CR.pdf" "CR" 1723663653.92329 0
   "/etc/texmf/web2c/texmf.cnf" 1719581977.21311 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/mnt/sdb2/scholar/Master/stage/Report/CR.tex" 1723456329.73126 99502 c2f6701e988c4042f11dfc415c9675a9 ""
+  "/mnt/sdb2/scholar/Master/stage/Report/CR.tex" 1723654328.51213 99857 a3ed7a977dc68e8382b5141881bdacd9 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -48,7 +48,6 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary10.tfm" 1302307949 848 f478e0761563bbc369eca609a1741348 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary5.tfm" 1302307949 848 e1bc58a31b9ed9c3729ffea165acfaac ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary6.tfm" 1302307949 848 068dd119e13b75777e62821af7d4f2a6 ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary7.tfm" 1302307949 848 26631fcb3e4cb6757598b9cda7967b63 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary8.tfm" 1302307949 848 6125cdd3627e68d3db8013b98e587508 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary9.tfm" 1302307949 848 594c171945930dfc7cc52fb30457c803 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb" 1136849748 25127 0f921359adc22e3a8c6368d4f349f585 ""
@@ -370,16 +369,16 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1719581999.77612 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1719582135 8214032 f456b84f8d7c84c6bf99ab6605fa5190 ""
-  "CR.aux" 1723456348.95525 35504 99f6acdbef05d07e7f24edca85f72578 "pdflatex"
-  "CR.bbl" 1723393316.77897 58294 a5853e77ec7c49de99c18d74e0dfaf36 "biber CR"
-  "CR.out" 1723456348.96337 7200 5f42cb59c7d5979d12bfe8579c0595c5 "pdflatex"
-  "CR.run.xml" 1723456348.96931 2418 c6365d55e526251823a2c935ca89013d "pdflatex"
-  "CR.tex" 1723456329.73126 99502 c2f6701e988c4042f11dfc415c9675a9 ""
-  "CR.toc" 1723456348.96944 3646 b6b55d8eaaabd7682f0144e150b15640 "pdflatex"
+  "CR.aux" 1723663652.41522 37737 004d2fcf3739347069d4e14de27ed911 "pdflatex"
+  "CR.bbl" 1723625567.04553 60696 a3354de83c52ae47187954ed7adfd528 "biber CR"
+  "CR.out" 1723663652.57601 6982 65422a507d6f507b74f4638961868487 "pdflatex"
+  "CR.run.xml" 1723663652.63187 2418 c6365d55e526251823a2c935ca89013d "pdflatex"
+  "CR.tex" 1723654328.51213 99857 a3ed7a977dc68e8382b5141881bdacd9 ""
+  "CR.toc" 1723663652.63385 3543 82609491bd63c1ebcee2f7c38ffaea0e "pdflatex"
   "figures/1d.pdf" 1723307210 27709 1f80863a822326d1325ce02d5a37ea96 ""
   "figures/CCF_Wiener.pdf" 1722846265 71870 aad1a70d1058d09f5d4a9efe91a4ff70 ""
   "figures/First_Hitting.pdf" 1723407467.68322 181010 aa629d2bab9a8851998f1a102d2b49a6 ""
-  "figures/Mean_delay.pdf" 1723411893.92955 256768 e5ffabf32d79aa581248fd91484c1e8c ""
+  "figures/Mean_delay.pdf" 1723626099.47834 521077 87bd96fb65d5153a9d26265b45dd4a29 ""
   "figures/Num_spikes.pdf" 1723407117.37773 154610 8b37ad2c87cd325f4eef8be6c04ddc13 ""
   "figures/Std_delay.pdf" 1723411832.15469 258744 59bce80e0b1823c67d01d3fb18bd8d99 ""
   "figures/amplitude.pdf" 1723412644.26427 258421 51f5990446da4d62eb29ef1bd60c4f05 ""
@@ -401,7 +400,7 @@
   "figures/pulse_shape.png" 1723407231.67329 309201 0200bc6c8982d7f74ee2d376531402dd ""
   "figures/skew_Hyst.png" 1723368992.17078 178179 7becb16968c5f5071850b44db6be4c6b ""
   "figures/stacked_regressor.pdf" 1723386079.85794 2073 6873603217e794f3cc60af4efc3a1be1 ""
-  "figures/stacked_regressor.pdf_tex" 1723386133.89616 3771 73e66e8746488dcf38a9fb48f5827c7e ""
+  "figures/stacked_regressor.pdf_tex" 1723663613.66788 3771 fd056eb054bb6bc1ca1c706a0c50979e ""
   "figures/tokamak.png" 1718615824.34133 1223038 34d8fc0dfeaf99504cdae4a4a8b4ffea ""
   (generated)
   "CR.aux"

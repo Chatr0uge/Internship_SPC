@@ -54,7 +54,7 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{./figures/stacked_regressor.pdf}}%
-    \put(0.37388646,0.45348022){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}DATASET\end{tabular}}}}%
+    \put(0.38388646,0.44748022){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}DATASET\end{tabular}}}}%
     \put(0.02689884,0.29828575){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{KNN}\end{tabular}}}}%
     \put(0.17954932,0.2988047){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{GB}\end{tabular}}}}%
     \put(0.33642976,0.29770708){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\texttt{LGBM}\end{tabular}}}}%
