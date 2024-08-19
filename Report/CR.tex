@@ -195,7 +195,7 @@
             \hspace{-\fboxsep}\parbox{\textwidth-4\fboxsep-3\fboxrule}{\centering\colorbox{MySand!50}{\parbox{\textwidth-4.7\fboxsep-3\fboxrule}{\noindent
                         \textbf{Abstract}
 
-                        This report is devoted to investigation of turbulence characteristics in the TCV tokamak using Short Pulse Reflectometry diagnostic and Machine Learning approach, focusing on Trapped Electron Mode (TEM) instabilities and their impact on radial transport. A 1D model initially provided insights, but a 2D model was developed to better account for curvature, incidence angle, and scattering effects. Using extensive CUWA code simulations, datasets were generated for both Gaussian and power spectrum turbulence structures accounting for various simulation parameters like the position of the cut-off the structures of turbulences \dots The 2D model achieved $R^2$ scores of 0.92 for Gaussian and 0.89 for power spectrum tests, outperforming deeper neural networks. It effectively managed non-linear effects, delay characteristics, and cut-off layer shifts.
+                        This report is devoted to investigation of turbulence characteristics in the TCV tokamak using Short Pulse Reflectometry diagnostic and Machine Learning approach, focusing on Trapped Electron Mode (TEM) instabilities and their impact on radial transport. A 1D model initially provided insights, but a 2D model was developed to better account for curvature, incidence angle, and scattering effects. Using extensive CUWA code simulations, datasets were generated for both Gaussian and power spectrum turbulence structures accounting for various simulation parameters like the position of the cut-off the structures of turbulences. The 2D model achieved $R^2$ scores of 0.92 for Gaussian and 0.89 for power spectrum tests, outperforming deeper neural networks. It effectively managed non-linear effects, delay characteristics, and cut-off layer shifts.
 
                         \vspace*{.2cm}
 
@@ -236,7 +236,7 @@
 
 \begin{multicols}{2}
     \chapter*{Introduction}
-    \lettrine[loversize=.30,findent=.21em,nindent=2.5pt]{\color{black} O}{ne} of the common goal in experimental magnetically confined fusion research is the characterization of plasma txurbulence. To achieve this, the TCV tokamak features a novel short-pulse reflectometry (SPR) diagnostic that can potentially measure the properties of this turbulence.
+    \lettrine[loversize=.30,findent=.21em,nindent=2.5pt]{\color{black} O}{ne} of the common goals in experimental magnetically confined fusion research is the characterization of plasma txurbulence. To achieve this, the TCV tokamak features a novel short-pulse reflectometry (SPR) diagnostic that can potentially measure the properties of this turbulence.
     The SPR diagnostic operates as a radar system. It probes the plasma with a very short microwave pulse (under one nanosecond), which reflects off the cutoff (reflection) region back into the probing antenna. The position of this cutoff, for probing frequencies in the range of 50-75 GHz, is determined by the plasma electron density. By measuring the time delay between the probing pulse and the reflected pulse at different frequencies, the electron density profile, including its turbulent perturbations, can be inferred.
     However, the complex interaction between microwaves and magnetized plasma makes it challenging to link SPR measurements with turbulence properties. Numerical modeling using a simples 1 dimensional model has been performed for cases with low turbulence amplitudes (linear regime). The scenario with large turbulence amplitudes (nonlinear regime) remains unexplored.
     This project will conduct a systematic analysis of the SPR diagnostic in the nonlinear regime. The numerical finite difference code CUWA, which solves the wave equation for given plasma density and magnetic field and provides synthetic reflected pulses, will be used. The main objectives are to identify markers indicating whether the diagnostic is operating in the nonlinear regime and to assess the feasibility of determining turbulence parameters.
@@ -244,7 +244,7 @@
 
     \uppercase{\section{Nuclear Fusion}}
     \subsection{Fusion Reaction}
-    \lettrine[lines=2, lhang=.3, nindent=0pt]{\color{black} T}{he} Nuclear fusion is the process by which two atomic nuclei combine to form a heavier nucleus. This process is accompanied by the release or absorption of energy, depending on the masses of the nuclei involved. Typically, lighter nuclei release more energy because the short-range nuclear force is overcome more easily for light nuclei.
+    \lettrine[lines=2, lhang=.3, nindent=0pt]{\color{black} N}{uclear} fusion is the process by which two atomic nuclei combine to form a heavier nucleus. This process is accompanied by the release or absorption of energy, depending on the masses of the nuclei involved. Typically, lighter nuclei release more energy because the short-range nuclear force is overcome more easily for light nuclei.
 
     However, to overcome the Coulomb barrier, the nuclei must be brought close enough together for a long enough time to allow quantum tunneling to occur. To achieve this, the reactants must be heated to extremely high temperatures, ionizing them and turning them into plasma. It has been found that the probability of collision, or cross-section, is highest for the Deuterium-Tritium mixture.
 
@@ -262,7 +262,7 @@
         \caption{Simplification of Tokamak device, the toroidal magnetic field is generated by coils, while the poloidal magnetic field is produced by the plasma current and poloidal field coils. The plasma is heated by various devices, enabling the fusion reaction to be sustained.}
         \label{}
     \end{figure}
-    This confinement is realized by applying a strong magnetic field in the toroidal direction. The magnetic field is generated by a set of coils, which are arranged in a toroidal shape, and the plasma is heated by various methods \cite{Heating}. The neoclassical geometries in the Tokamak lead to several physical phenomena such as charge separation in the Tokamak, drift kinetics, and turbulence. The curvature and gradient of the magnetic field \cite{piel2018plasma} imposed by the geometry lead to drifts, which necessitats a poloidal magnetic field component in the Tokamak to counteract this effect. This twist in the field lines is the safety factor is defined as:
+    This confinement is realized by applying a strong magnetic field in the toroidal direction. The magnetic field is generated by a set of coils, which are arranged in a toroidal shape, and the plasma is heated by various methods \cite{Heating}. The neoclassical geometries in the Tokamak lead to several physical phenomena such as charge separation in the Tokamak, drift kinetics, and turbulence. The curvature and gradient of the magnetic field \cite{piel2018plasma} imposed by the geometry lead to drifts, which requires a poloidal magnetic field component in the Tokamak to counteract this effect. This twist in the field lines is the safety factor is defined as:
 
 
     $$q(\Psi) = \frac{1}{2\pi}\frac{\delta \chi (\Psi)}{\delta \Psi} \approx \frac{B_{tor}r}{B_{pol}R} \, ,$$
@@ -452,7 +452,7 @@
         E_z(x) = \frac{E_z}{\sqrt{\frac{c}{\omega}k(x)}}\exp\left(i\int_0^x k(x')dx'\right)
     $$
 
-    The WKB approximation will be used in the one-dimensional approach (see Chapter 2) and in the \textbf{CUWA} code for computing ray tracing in order to adjust the size of computation Yee cells \cite{CUWA} and the computation domain.
+    The WKB approximation will be used in the one-dimensional approach (see Chapter 2) and can be used in the \textbf{CUWA} code for computing ray tracing in order to adjust the size of computation Yee cells \cite{CUWA} and the computation domain.
 
     \uppercase{\section{CUWA Code Overview}}
 
@@ -541,9 +541,9 @@
     \end{center}
 
 
-    The second-order analytical formula exhibits a characteristic drop-off after reaching a critical amplitude value, similar to the simulated delay. This suggests that expanding further the $\sigma_{\tau_d}$ could improve handling of the non-linear domain. However, discrepancies are observed for large perturbations in the non-linear regime, though the analytical expression provides a good approximation for small perturbations, except for very tiny ones [cite].
+    The second-order analytical formula exhibits a characteristic drop-off after reaching a critical amplitude value, similar to the simulated delay. This suggests that expanding further the $\sigma_{\tau_d}$ could improve handling of the non-linear domain. However, discrepancies are observed for large perturbations in the non-linear regime, though the analytical expression provides a good approximation for small perturbations, except for very tiny ones ( $ \delta n_0 \leq 1e-3$ )[cite].
 
-    Note that the critical value can be defined in two ways \cite{SPR_Krutkin} and sets the threshold for what could later be considered the \textbf{non-linear} regime. Indeed we can consider the critical amplitude of turbulence as the densoty threshold where the 1D model is not applicable i.e when : $$\delta n \geq n_c \frac{l_{cx}}{L} = \delta n_{c 1}$$ This first approach does not care information about the scattering of the pulse, which leads to extinction of the probing line and saturation of the scattered signal power \cite{SPR_Krutkin}. This random non-linear scattering effect has already been studied for RCDR and DR theory \cite{critical2}, and leads to thefollowing formula :
+    Note that the critical value can be defined in two ways \cite{SPR_Krutkin} and sets the threshold for what could later be considered the \textbf{non-linear} regime. Indeed we can consider the critical amplitude of turbulence as the densoty threshold where the 1D model is not applicable i.e when : $$\delta n \geq n_c \frac{l_{cx}}{L} = n_{c 1}$$ This first approach does not consider information about the scattering of the pulse, which leads to extinction of the probing line and saturation of the scattered signal power \cite{SPR_Krutkin}. This random non-linear scattering effect has already been studied for RCDR and DR theory \cite{critical2}, and leads to thefollowing formula :
 
     $$ \frac{\delta n}{n_c} \gg  \frac{c}{w\sqrt{l_{cx}L\ln{\frac{L}{lcx}}}} = n_{c2}$$
 
@@ -642,9 +642,9 @@
     $$n(x,y) = n_c \frac{x}{L} +  \delta n(x,y).$$
     Here, $\delta n$ is the normalized 2D Gaussian turbulence profile.
 
-    For the quadratic background profile, $L$ stands for the gradient scale at the cut-off, and $\delta n_0$ is the turbulence amplitude profile. We used the following formula to get a gradient value of 1 at $L$:
+    For the quadratic background profile, $L$ represents for the gradient scale at the cut-off, and $\delta n_0$ is the turbulence amplitude profile. We used the following formula to get a gradient value of 1 at $L$:
     $$n(x,y) = n_c \left[1.25 - \frac{(1.5L_0 - x)^2}{L_0^2} \right] +  \delta n(x,y).$$
-    The negative values of the profiles are then shifted to zeros to prevent unphysical events, which has the effect of creating a larger vacuum layer in the simulations, and then a shift of the delay distribution. This explains partially why our model need to decorlate the delay from the $L$ parameter (see section PUT). The dependency of $\delta n_0$ will take several forms, from constant to linear, quadratic, or exponentially weighted \cite{SPR_Krutkin}. This scaling of the turbulence is done to mimic the true turbulence profile (REF) and to avoid the unnatural predominance of turbulence while working with small amplitudes. This exploration of the density profile is motivated by the fact that at the edge of the plasma, the relative amplitude of the turbulence profile is higher than in the core of the plasma.
+    The negative values of the profiles are then shifted to zeros to prevent unphysical events, which has the effect of creating a larger vacuum layer in the simulations, and then a shift of the delay distribution. This explains partially why our model need to decorlate the delay from the $L$ parameter. The dependency of $\delta n_0$ will take several forms, from constant to linear, quadratic, or exponentially weighted \cite{SPR_Krutkin}. This scaling of the turbulence is done to mimic the true turbulence profile (REF) and to avoid the unnatural predominance of turbulence while working with small amplitudes. This exploration of the density profile is motivated by the fact that at the edge of the plasma, the relative amplitude of the turbulence profile is higher than in the core of the plasma.
 
     For reproducibility the parameters of the 1D simulation are given below. A grid was employed to ensure homogeneous learning across the entire parameter space, potentially leading to stepped regression with constant values between points in the space.
     \setlength{\tabcolsep}{.03\linewidth}
@@ -668,7 +668,7 @@
     To evaluate the model we studied the residuals for each parameter value in the testing set. This approach provides a quick overview of the model's performance and the impact of parameter values on the model's accuracy, and is deppicted in the following figure.
     \begin{figure}[H]
         \includegraphics[width=0.98\linewidth]{./figures/polar_param_1d.pdf}
-        \caption{Plot of the amplitude residuals of the model for the 1D testing set, the residuals are meaned given a value of the studied simulation's parameter. The filled curved stands for the amplitude residuals exponentially rescaled to the real amplitude value, The red line in the center of the plot is the $\tau_0$ mean residuals, far bellow the mean amplitude residuals. The second smaller polar shows the comparison of the residuals for several daasetets : the plot of the mean amplitude residuals for the 2D datasets (black dashed curve), the amplitude residuals for the 1D datasets (blue curve in the center), and the plots of the residuals for the 2D datasets shifted to the 1D delay distribution (green curve). The black points around the circle show the values taken by the parameters}
+        \caption{Plot of the amplitude residuals of the model for the 1D testing set, the residuals are meaned given a value of the studied simulation's parameter. The filled curved represents for the amplitude residuals exponentially rescaled to the real amplitude value, The red line in the center of the plot is the $\tau_0$ mean residuals, far bellow the mean amplitude residuals. The second smaller polar shows the comparison of the residuals for several daasetets : the plot of the mean amplitude residuals for the 2D datasets (black dashed curve), the amplitude residuals for the 1D datasets (blue curve in the center), and the plots of the residuals for the 2D datasets shifted to the 1D delay distribution (green curve). The black points around the circle show the values taken by the parameters}
         \label{fig:polar_1d}
     \end{figure}
 
@@ -792,15 +792,15 @@
         \label{Gaussian_table}
     \end{table}
 
-    $\theta$ stands for the incident angle of the probing beam, $R$ the geometry curvature, $l_{cx}$ the typical correlation length of the turbulence in the $x$ direction, and $l_{cy}$ the typical correlation length of the turbulence in the $y$ direction. The $R$ range is chosen to tackle flat and near TCV tokamak geometries. $\theta$ values are dependent on the $R$ range and cannot be too high; indeed, if we consider a high curvature, the incident angle cannot be too high because the probing beam will not be able to reach the cut-off layer, or will be reflected not in the direction of the antenna. This is why we limited ourselves to 10 degrees, with $R = 0.2$ m. In the Gaussian case, the power spectrum of the turbulence is given by the following formula:
+    $\theta$ represents for the incident angle of the probing beam, $R$ the geometry curvature, $l_{cx}$ the typical correlation length of the turbulence in the $x$ direction, and $l_{cy}$ the typical correlation length of the turbulence in the $y$ direction. The $R$ range is chosen to tackle flat and near TCV tokamak geometries. $\theta$ values are dependent on the $R$ range and cannot be too high; indeed, if we consider a high curvature, the incident angle cannot be too high because the probing beam will not be able to reach the cut-off layer, or will be reflected not in the direction of the antenna. This is why we limited ourselves to 10 degrees, with $R = 0.2$ m. In the Gaussian case, the power spectrum of the turbulence is given by the following formula:
     $$
         \delta n(\textbf{k} ) = \delta n_0 \exp\left(-\frac{(k_x l_{cx})^2 + (k_y l_{cy})^2}{8} + i\Phi(\textbf{k} )\right)
     $$
     This formula will be used to create the first part of the dataset with defined correlation lengths. However, one could argue that the power spectrum of \textbf{TEM} instabilities is not Gaussian.
 
-    \subsection{Power Spectrum of the Turbulences}
+    \subsection{Power Spectrum for the Turbulences}
 
-    Indeed, the power spectrum of the turbulences provides a more realistic approach to the turbulence profile, with handling of the non separibility of $k_x \, k_y$. We can then introduce the following formula of the power spectrum \cite{Unseparable_Turbulence_Spectra}, and the different parameters used:
+    Indeed, the power spectrum of the turbulences provides a more realistic approach to the turbulence profile, with handling of the non separibility of $k_x \, k_y$. We can then introduce the following formula for the wave vector spectrum \cite{Unseparable_Turbulence_Spectra}, and the different parameters used:
     $$
         \langle\delta n^2 \rangle = \frac{1}{1 + \left| \frac{k_x}{W_x} \right|^\gamma + \left| \frac{k_y - k_y^*}{W_y} \right|^\beta}
     $$
@@ -968,7 +968,7 @@
     \begin{figure}[H]
         \centering
         \hspace*{-1.4cm}\includegraphics[scale = 1]{./figures/Mean_delay.pdf}
-        \caption{Here we plots the linear and the 1d, 2d model prediction for $\tau_0$ over the $\delta n_{\text{true}}$ the analytic model prediction corresonds to the $\langle \tau \rangle$ value. The plot bellow ist the evolution of the residuals between the predicted $\tau_0$ and the real one over the amplitudes of the turbulences. On the left plot the cumulative function of the residuals. This verification has been done on 2 dimensional dataset with a curvature $\frac{1}{R} = 4$, this allows us to see the difference of efficiency between the 1D and 2D model}
+        \caption{Here we plots the linear and the 1d, 2d model prediction for $\tau_0$ over the $\delta n_{\text{true}}$ the analytic model prediction corresonds to the $\langle \tau \rangle$ value. The plot bellow is the evolution of the residuals between the predicted $\tau_0$ and the real one over the amplitudes of the turbulences. On the left plot the cumulative function of the residuals. This verification has been done on 2 dimensional dataset with a curvature $\frac{1}{R} = 4$, this allows us to see the difference of efficiency between the 1D and 2D model}
         \label{fig:mean_delay}
     \end{figure}
 
@@ -997,7 +997,7 @@
 
     As explained with \ref{fig:std_delay}, the RMS of the delay distribution should decrease at high amplitude from \(\delta n_{c_1}\). This decrease is not well addressed by the linear model (the next order of the step model development needs to be studied), or at least not correctly (see the third-order development of the linear model). The previous model should present better results considering the residuals of the predictions.
 
-    As we saw in the fig \ref{fig:std_delay}, the linear model is not able to predict the saturation of the delay distribution, and predict a linear dependancy of $\sigma_{\tau_d}$ over the turbulences amplitudes. As highlighted in the next figure \ref{fig:std_delay2}the 1D and 2D model are able to predict the saturation of the delay distribution, with a wider range of amplitude for the last one. However one can note that in linear regime both model struggle to tackle the linear dependancy over the amplitude of the turbulences. A good solution might be to adapt the model after a first prediction of the amplitude by the 2d model, if the predicted amplitude is in the linear regime range, then you should switch to use linear model for a better prediction.
+    As we saw in the fig \ref{fig:std_delay}, the linear model is not able to predict the saturation of the delay distribution, and predict a linear dependancy of $\sigma_{\tau_d}$ over the turbulences amplitudes. As highlighted in the next figure \ref{fig:std_delay2}the 1D and 2D model are able to predict the saturation of the delay distribution, with a wider range of amplitudes for the last one. However one can note that in linear regime both models struggle to tackle the linear dependancy over the amplitude of the turbulences. A good solution might be to adapt the model after a first prediction of the amplitude by the 2d model, if the predicted amplitude is in the linear regime range, then you should switch to use linear model for a better prediction.
 
     \begin{figure}[H]
         \centering

@@ -1,0 +1,56 @@
+\documentclass[numbering=fraction]{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage{blindtext}
+\usepackage{cmbright}
+\usepackage{multicol}
+\usepackage{array}
+
+\usetheme{Luebeck}
+
+\setbeamertemplate{navigation symbols}{}
+\useinnertheme{rectangles}
+\setbeamertemplate{footline}{}
+
+%Define colors
+\definecolor{background}{RGB}{197,112,93}
+%Adding logo to title page
+
+%Adjust color theme
+\setbeamercolor{title separator}{fg=background, bg=background}
+\setbeamercolor{footline}{fg=gray}
+\setbeamercolor{headline}{bg=background}
+\setbeamercolor{palette primary}{bg = background}
+\setbeamercolor{palette quaternary}{bg = background!30, fg = background}
+\setbeamercolor{item}{fg = background}
+%Adding footer
+
+\setbeamerfont{tiny structure}{size = \small, shape = \scshape, series = \bfseries}
+%Set parameters for title page
+\usefonttheme{default}
+
+\title{Shallow water equations \& Poincaré waves}\author{Andrea Combette}
+\institute{ENS ULM}
+\date{\today{}}
+
+\begin{document}
+
+\begin{frame}
+  \begin{tabular}{m{.25\linewidth} m{.25\linewidth}  m{.15\linewidth} m{.2\linewidth}}
+    % Creative Commons logo in the left column
+
+    \includegraphics[height=.7cm]{./figures/fusenet.png} & \includegraphics[height=.7cm]{./figures/epfl.png} & \includegraphics[height=2cm]{./figures/ens.png} &
+    % Text in the right column
+    \raggedleft\small\sffamily\bfseries{Master Thesis report
+      M1 ICFP, ENS Paris}
+  \end{tabular}  \titlepage
+\end{frame}
+
+\section{Introduction}
+\begin{frame}{sdad}
+  \begin{itemize}
+    \item The shallow water equations are a set of hyperbolic partial differential equations that describe the flow below a pressure surface in a fluid (sometimes, but not necessarily, a free surface).
+    \item  The shallow water equations can also be written in terms of the vorticity vector, which is the curl of the velocity field.
+  \end{itemize}
+\end{frame}
+\end{document}
